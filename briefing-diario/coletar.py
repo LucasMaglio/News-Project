@@ -91,6 +91,25 @@ def ler_data(valor):
         return None
 
 
+ESQUEMAS_ACEITOS = ("http://", "https://")
+
+
+def link_seguro(url):
+    """
+    So aceita http e https.
+
+    Feeds sao conteudo de terceiros. Um endereco 'javascript:' ou 'data:'
+    vindo de um feed comprometido viraria execucao de codigo na pagina,
+    entao esses itens sao descartados ainda na coleta.
+    """
+    if not url:
+        return None
+    url = url.strip().replace("\n", "").replace("\r", "").replace("\t", "")
+    if url.lower().startswith(ESQUEMAS_ACEITOS):
+        return url
+    return None
+
+
 def tag(elemento):
     """Nome da tag sem o namespace."""
     return elemento.tag.split("}")[-1]
@@ -122,6 +141,7 @@ def extrair_itens(xml_bruto):
             elif nome in ("pubDate", "published", "updated", "date") and not data:
                 data = (filho.text or "").strip()
 
+        link = link_seguro(link)
         if titulo and link:
             itens.append({
                 "titulo": limpar_html(titulo),
