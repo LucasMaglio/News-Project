@@ -1,0 +1,68 @@
+{
+ "_leiame": "Edite este arquivo à mão quando surgir evento novo. Datas no formato AAAA-MM-DD. Eventos passados sao escondidos automaticamente pela pagina.",
+ "eventos": [
+  {
+   "data": "2026-08-28",
+   "hora": "a confirmar",
+   "titulo": "Jackson Hole — discurso de Kevin Warsh",
+   "tipo": "Política monetária",
+   "onde": "Kansas City Fed (organizador do simpósio) e cobertura ao vivo da imprensa financeira",
+   "link": "https://www.kansascityfed.org/",
+   "oque": "Não há decisão de juros aqui. O que move o mercado é o tom: se soar preocupado com a inflação, a aposta em corte de juros é adiada."
+  },
+  {
+   "data": "2026-08-31",
+   "hora": "a confirmar",
+   "titulo": "Reunião do MDIC sobre o tarifaço americano",
+   "tipo": "Comércio exterior",
+   "onde": "Comunicados no portal gov.br e cobertura da Agência Brasil",
+   "link": "https://www.gov.br/mdic/pt-br",
+   "oque": "O ponto a olhar é a lista de produtos: ampliar as exceções alivia exportadores; manter como está preserva a margem comprimida."
+  },
+  {
+   "data": "2026-09-01",
+   "hora": "—",
+   "titulo": "John Ternus assume como CEO da Apple",
+   "tipo": "Tecnologia",
+   "onde": "Sala de imprensa da Apple",
+   "link": "https://www.apple.com/newsroom/",
+   "oque": "Primeira troca de comando em 15 anos. Tim Cook passa a presidente do conselho."
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "14:00 (Brasília)",
+   "titulo": "Evento da Apple — iPhone 18 Pro e provável dobrável",
+   "tipo": "Tecnologia",
+   "onde": "Transmissão ao vivo em apple.com/apple-events e no canal da Apple no YouTube",
+   "link": "https://www.apple.com/apple-events/",
+   "oque": "Se o dobrável for anunciado, olhe preço e data de pré-venda. É o que define se a cadeia de fornecedores aquece."
+  },
+  {
+   "data": "2026-09-16",
+   "hora": "15:00 (Brasília) — a confirmar",
+   "titulo": "Decisão de juros do Fed (FOMC)",
+   "tipo": "Política monetária",
+   "onde": "Comunicado e coletiva no site do Federal Reserve",
+   "link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "oque": "Setembro traz o dot plot, o gráfico com a projeção de juros de cada dirigente. Vale mais que a decisão em si."
+  },
+  {
+   "data": "2026-09-16",
+   "hora": "após o fechamento — a confirmar",
+   "titulo": "Decisão do Copom sobre a Selic",
+   "tipo": "Política monetária",
+   "onde": "Divulgação no site do Banco Central; a ata sai na terça seguinte",
+   "link": "https://www.bcb.gov.br/controleinflacao/datascopom",
+   "oque": "Selic em 14% após o corte de agosto. Leia o comunicado inteiro: ele sinaliza o passo seguinte."
+  },
+  {
+   "data": "2026-10-04",
+   "hora": "—",
+   "titulo": "Eleição presidencial — primeiro turno",
+   "tipo": "Política",
+   "onde": "Apuração no site do TSE",
+   "link": "https://www.tse.jus.br/",
+   "oque": "Tratado pelo mercado como evento binário. Estatais e ativos ligados ao juro longo são os mais sensíveis."
+  }
+ ]
+}

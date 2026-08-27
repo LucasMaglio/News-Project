@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing diário — mercado e tecnologia</title>
+<meta name="description" content="Resumo diário de mercado financeiro e tecnologia, atualizado automaticamente todas as manhãs.">
+<style>
+  :root{
+    --navy:#141F38;
+    --navy-2:#1E2B47;
+    --papel:#F5F2EC;
+    --rust:#B5541C;
+    --verde:#2E7D64;
+    --tinta:#22272F;
+    --suave:#6E7680;
+    --linha:#DCD6CA;
+    --branco:#fff;
+
+    --sans: ui-sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, "DejaVu Sans Mono", monospace;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--papel); color:var(--tinta);
+    font-family:var(--sans); font-size:16px; line-height:1.55;
+  }
+  a{color:inherit}
+  .env{max-width:1120px;margin:0 auto;padding:0 20px}
+
+  /* ---------- topo ---------- */
+  header{background:var(--navy);color:#fff;padding:22px 0 0}
+  .topo{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between}
+  .marca{font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:#8CA2BE;text-transform:uppercase}
+  h1{font-size:clamp(26px,4vw,38px);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin-top:6px}
+  h1 em{font-style:normal;color:#E8A33D}
+  .relogio{font-family:var(--mono);text-align:right;line-height:1.35}
+  .relogio .hora{font-size:30px;font-weight:700;letter-spacing:.02em}
+  .relogio .dia{font-size:12px;color:#8CA2BE;text-transform:uppercase;letter-spacing:.1em}
+
+  nav{margin-top:20px;display:flex;gap:2px;flex-wrap:wrap}
+  nav button{
+    font:inherit;font-size:13.5px;font-weight:600;cursor:pointer;
+    background:transparent;color:#B8C7DA;border:0;border-bottom:3px solid transparent;
+    padding:11px 15px;border-radius:4px 4px 0 0;
+  }
+  nav button:hover{color:#fff;background:rgba(255,255,255,.06)}
+  nav button[aria-selected="true"]{background:var(--papel);color:var(--navy);border-bottom-color:var(--rust)}
+  nav button:focus-visible{outline:2px solid #E8A33D;outline-offset:-2px}
+
+  /* ---------- aviso de validade ---------- */
+  .selo{display:flex;gap:12px;align-items:center;padding:11px 0;font-size:13.5px}
+  .selo .bolinha{width:9px;height:9px;border-radius:50%;flex:none}
+  .selo.ok{color:var(--verde)}
+  .selo.ok .bolinha{background:var(--verde)}
+  .selo.velho{color:var(--rust)}
+  .selo.velho .bolinha{background:var(--rust)}
+  @media (prefers-reduced-motion: no-preference){
+    .selo.ok .bolinha{animation:pulso 2.6s ease-in-out infinite}
+  }
+  @keyframes pulso{0%,100%{opacity:1}50%{opacity:.28}}
+
+  main{padding:6px 0 60px}
+  .painel[hidden]{display:none}
+
+  /* ---------- layout de duas colunas ---------- */
+  .duplo{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start;margin-top:14px}
+  @media (max-width:880px){ .duplo{grid-template-columns:1fr} }
+
+  .rotulo{
+    font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--suave);padding-bottom:8px;border-bottom:1px solid var(--linha);margin:26px 0 14px;
+    display:flex;justify-content:space-between;align-items:baseline;
+  }
+  .rotulo:first-child{margin-top:6px}
+  .rotulo b{color:var(--navy);font-weight:700}
+
+  /* ---------- notícias ---------- */
+  .noticia{padding:15px 0;border-bottom:1px solid var(--linha)}
+  .noticia:last-child{border-bottom:0}
+  .noticia h3{font-size:17px;line-height:1.32;font-weight:700;letter-spacing:-.01em}
+  .noticia h3 a{text-decoration:none}
+  .noticia h3 a:hover{color:var(--rust);text-decoration:underline}
+  .noticia p{font-size:14px;color:#454C56;margin-top:5px}
+  .meta{font-family:var(--mono);font-size:11.5px;color:var(--suave);margin-top:7px;display:flex;gap:10px;flex-wrap:wrap}
+  .meta .fonte{color:var(--navy);font-weight:700}
+
+  /* ---------- rail de contagem ---------- */
+  .rail{background:var(--navy);border-radius:6px;padding:18px 18px 8px;color:#fff;position:sticky;top:16px}
+  .rail h2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8CA2BE;margin-bottom:12px}
+  .ev{display:flex;gap:13px;padding:12px 0;border-top:1px solid #2B3A56}
+  .ev:first-of-type{border-top:0}
+  .conta{
+    font-family:var(--mono);font-size:19px;font-weight:700;line-height:1.1;
+    min-width:52px;text-align:right;color:#E8A33D;
+  }
+  .conta small{display:block;font-size:9.5px;letter-spacing:.12em;color:#7E93AE;font-weight:400}
+  .ev.hoje .conta{color:#4FD1A5}
+  .ev .txt{font-size:13.5px;line-height:1.35}
+  .ev .txt span{display:block;font-family:var(--mono);font-size:11px;color:#8CA2BE;margin-top:3px}
+
+  /* ---------- agenda ---------- */
+  .cartao{background:var(--branco);border:1px solid var(--linha);border-radius:6px;padding:20px 22px;margin-bottom:14px}
+  .cartao.destaque{border-color:var(--verde);border-left-width:4px}
+  .cartao .cab{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between}
+  .cartao h3{font-size:19px;letter-spacing:-.01em}
+  .quando{font-family:var(--mono);font-size:12.5px;color:var(--rust);font-weight:700;white-space:nowrap}
+  .tipo{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--suave);border:1px solid var(--linha);border-radius:3px;padding:2px 7px;
+  }
+  .campo{margin-top:12px;font-size:14.5px}
+  .campo b{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--suave);display:block;margin-bottom:3px}
+  .campo a{color:var(--rust);font-weight:600}
+
+  /* ---------- fontes ---------- */
+  .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:6px}
+  .grade a{
+    display:block;background:var(--branco);border:1px solid var(--linha);border-radius:6px;
+    padding:14px 16px;text-decoration:none;
+  }
+  .grade a:hover{border-color:var(--rust)}
+  .grade a b{display:block;font-size:15px;margin-bottom:2px}
+  .grade a span{font-size:13px;color:var(--suave)}
+
+  .vazio{padding:30px 0;color:var(--suave);font-size:15px}
+  code{font-family:var(--mono);font-size:13px;background:#EBE6DC;padding:1px 5px;border-radius:3px}
+  footer{border-top:1px solid var(--linha);padding:20px 0 40px;font-size:12.5px;color:var(--suave)}
+  :focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="env">
+    <div class="topo">
+      <div>
+        <div class="marca">Briefing diário</div>
+        <h1>Mercado financeiro<br>e <em>tecnologia</em></h1>
+      </div>
+      <div class="relogio">
+        <div class="hora" id="hora">--:--</div>
+        <div class="dia" id="dia">carregando</div>
+      </div>
+    </div>
+    <nav role="tablist">
+      <button role="tab" aria-selected="true" data-alvo="hoje">Hoje</button>
+      <button role="tab" aria-selected="false" data-alvo="agenda">Agenda e onde assistir</button>
+      <button role="tab" aria-selected="false" data-alvo="fontes">Fontes</button>
+    </nav>
+  </div>
+</header>
+
+<div class="env"><div id="selo" class="selo"><span class="bolinha"></span><span id="seloTexto">verificando…</span></div></div>
+
+<main class="env">
+
+  <!-- ============ HOJE ============ -->
+  <section class="painel" id="hoje">
+    <div class="duplo">
+      <div>
+        <div class="rotulo"><span>Mercado e economia</span><b id="cMercado">0</b></div>
+        <div id="listaMercado"></div>
+
+        <div class="rotulo"><span>Tecnologia</span><b id="cTecnologia">0</b></div>
+        <div id="listaTecnologia"></div>
+
+        <div class="rotulo"><span>Desenvolvimento</span><b id="cDev">0</b></div>
+        <div id="listaDev"></div>
+
+        <div class="rotulo"><span>Segurança</span><b id="cSeguranca">0</b></div>
+        <div id="listaSeguranca"></div>
+      </div>
+
+      <aside class="rail" id="rail">
+        <h2>Próximos eventos</h2>
+        <div id="listaRail"></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ AGENDA ============ -->
+  <section class="painel" id="agenda" hidden>
+    <div class="rotulo"><span>O que vem por aí</span><b id="cAgenda">0</b></div>
+    <div id="listaAgenda"></div>
+  </section>
+
+  <!-- ============ FONTES ============ -->
+  <section class="painel" id="fontes" hidden>
+    <div class="rotulo"><span>Para acompanhar direto na fonte</span></div>
+    <div class="grade">
+      <a href="https://www.infomoney.com.br/" target="_blank" rel="noopener"><b>InfoMoney</b><span>Bolsa, câmbio e balanços</span></a>
+      <a href="https://br.investing.com/economic-calendar/" target="_blank" rel="noopener"><b>Calendário econômico</b><span>Indicadores do dia, por país</span></a>
+      <a href="https://www.bcb.gov.br/controleinflacao/datascopom" target="_blank" rel="noopener"><b>Datas do Copom</b><span>Calendário oficial do Banco Central</span></a>
+      <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener"><b>Calendário do FOMC</b><span>Reuniões e comunicados do Fed</span></a>
+      <a href="https://www.ibge.gov.br/" target="_blank" rel="noopener"><b>IBGE</b><span>IPCA, PNAD e o calendário de divulgações</span></a>
+      <a href="https://spring.io/blog" target="_blank" rel="noopener"><b>Spring Blog</b><span>Releases do Spring Boot e do Framework</span></a>
+      <a href="https://www.infoq.com/br/" target="_blank" rel="noopener"><b>InfoQ Brasil</b><span>Java News Roundup, semanal</span></a>
+      <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener"><b>CISA — KEV</b><span>Vulnerabilidades sob exploração ativa</span></a>
+      <a href="https://survey.stackoverflow.co/" target="_blank" rel="noopener"><b>Stack Overflow Survey</b><span>Panorama anual de linguagens e ferramentas</span></a>
+      <a href="https://news.ycombinator.com/" target="_blank" rel="noopener"><b>Hacker News</b><span>O que a comunidade dev está discutindo</span></a>
+    </div>
+
+    <div class="rotulo" style="margin-top:34px"><span>Como esta página funciona</span></div>
+    <p style="font-size:14.5px;max-width:70ch">
+      Toda manhã, em dia útil, uma automação no GitHub lê os feeds RSS das fontes configuradas,
+      monta o arquivo <code>dados.json</code> e publica aqui. A agenda fica em <code>agenda.json</code>
+      e é editada à mão. Os contadores de dias são calculados no seu navegador, então continuam
+      corretos mesmo que a coleta falhe.
+    </p>
+    <p style="font-size:14.5px;max-width:70ch;margin-top:10px" id="erroFontes"></p>
+  </section>
+
+</main>
+
+<footer class="env">
+  Gerado automaticamente a partir de feeds públicos. Os textos e links pertencem aos veículos de origem.
+  <span id="rodapeGerado"></span>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // Conteúdo de reserva: mantém a página utilizável se o dados.json não carregar
+  // (por exemplo, ao abrir o arquivo direto do computador, sem servidor).
+  var RESERVA = {
+    gerado_em: null,
+    itens: [],
+    fontes_com_erro: []
+  };
+
+  var CATS = [
+    {chave:"mercado",    lista:"listaMercado",    contador:"cMercado"},
+    {chave:"tecnologia", lista:"listaTecnologia", contador:"cTecnologia"},
+    {chave:"dev",        lista:"listaDev",        contador:"cDev"},
+    {chave:"seguranca",  lista:"listaSeguranca",  contador:"cSeguranca"}
+  ];
+
+  var $ = function(id){ return document.getElementById(id); };
+
+  function esc(t){
+    return String(t == null ? "" : t)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;");
+  }
+
+  // ---------- data e hora ----------
+  var DIAS = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
+  var MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+
+  function hojeISO(){
+    var d = new Date();
+    return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+  }
+
+  function diasAte(iso){
+    var p = iso.split("-");
+    var alvo = new Date(+p[0], +p[1]-1, +p[2]);
+    var hoje = new Date();
+    hoje.setHours(0,0,0,0);
+    return Math.round((alvo - hoje) / 86400000);
+  }
+
+  function porExtenso(iso){
+    var p = iso.split("-");
+    var d = new Date(+p[0], +p[1]-1, +p[2]);
+    return DIAS[d.getDay()] + ", " + d.getDate() + " de " + MESES[d.getMonth()];
+  }
+
+  function relogio(){
+    var d = new Date();
+    $("hora").textContent = String(d.getHours()).padStart(2,"0") + ":" + String(d.getMinutes()).padStart(2,"0");
+    $("dia").textContent = DIAS[d.getDay()] + " · " + String(d.getDate()).padStart(2,"0") + "/" + String(d.getMonth()+1).padStart(2,"0");
+  }
+
+  // ---------- abas ----------
+  var botoes = document.querySelectorAll('nav button');
+  Array.prototype.forEach.call(botoes, function(b){
+    b.addEventListener("click", function(){
+      Array.prototype.forEach.call(botoes, function(o){
+        o.setAttribute("aria-selected", o === b ? "true" : "false");
+      });
+      ["hoje","agenda","fontes"].forEach(function(id){
+        $(id).hidden = (id !== b.dataset.alvo);
+      });
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  });
+
+  // ---------- notícias ----------
+  function horaDoItem(iso){
+    if(!iso) return "";
+    var d = new Date(iso);
+    if(isNaN(d)) return "";
+    return String(d.getHours()).padStart(2,"0") + "h" + String(d.getMinutes()).padStart(2,"0");
+  }
+
+  function renderNoticias(dados){
+    CATS.forEach(function(cat){
+      var itens = (dados.itens || []).filter(function(i){ return i.categoria === cat.chave; });
+      $(cat.contador).textContent = itens.length;
+
+      if(!itens.length){
+        $(cat.lista).innerHTML = '<p class="vazio">Nada novo nesta categoria na última coleta.</p>';
+        return;
+      }
+
+      $(cat.lista).innerHTML = itens.map(function(i){
+        var h = horaDoItem(i.data);
+        return '<article class="noticia">' +
+          '<h3><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.titulo) + '</a></h3>' +
+          (i.resumo ? '<p>' + esc(i.resumo) + '</p>' : '') +
+          '<div class="meta"><span class="fonte">' + esc(i.fonte) + '</span>' +
+          (h ? '<span>' + h + '</span>' : '') + '</div>' +
+        '</article>';
+      }).join("");
+    });
+
+    var erros = dados.fontes_com_erro || [];
+    $("erroFontes").innerHTML = erros.length
+      ? 'Na última coleta, estas fontes não responderam: <b>' +
+        erros.map(function(e){ return esc(e.fonte); }).join(", ") +
+        '</b>. Se o problema se repetir, troque a URL do feed em <code>coletar.py</code>.'
+      : "";
+  }
+
+  function renderSelo(dados){
+    var selo = $("selo"), txt = $("seloTexto");
+    if(!dados.gerado_em){
+      selo.className = "selo velho";
+      txt.textContent = "Ainda não há coleta publicada. Rode o fluxo Atualizar briefing no GitHub.";
+      return;
+    }
+    var g = new Date(dados.gerado_em);
+    var mesmoDia = g.toDateString() === new Date().toDateString();
+    var hora = String(g.getHours()).padStart(2,"0") + "h" + String(g.getMinutes()).padStart(2,"0");
+    if(mesmoDia){
+      selo.className = "selo ok";
+      txt.textContent = "Atualizado hoje às " + hora + " · " + porExtenso(hojeISO());
+    }else{
+      selo.className = "selo velho";
+      var d = Math.abs(diasAte(g.toISOString().slice(0,10)));
+      txt.textContent = "Última coleta foi há " + d + (d === 1 ? " dia" : " dias") +
+        ". A automação pode ter falhado — confira a aba Actions do repositório.";
+    }
+    $("rodapeGerado").textContent = " Última coleta: " + g.toLocaleString("pt-BR") + ".";
+  }
+
+  // ---------- agenda ----------
+  function renderAgenda(agenda){
+    var eventos = (agenda.eventos || [])
+      .map(function(e){ e._d = diasAte(e.data); return e; })
+      .filter(function(e){ return e._d >= 0; })
+      .sort(function(a,b){ return a._d - b._d; });
+
+    $("cAgenda").textContent = eventos.length;
+
+    if(!eventos.length){
+      $("listaAgenda").innerHTML = '<p class="vazio">Nenhum evento futuro cadastrado. Edite <code>agenda.json</code> para incluir.</p>';
+      $("listaRail").innerHTML = '<p style="font-size:13px;color:#8CA2BE;padding:8px 0 14px">Sem eventos futuros.</p>';
+      return;
+    }
+
+    $("listaRail").innerHTML = eventos.slice(0,6).map(function(e){
+      var n, u;
+      if(e._d === 0){ n = "HOJE"; u = ""; }
+      else if(e._d === 1){ n = "1"; u = "dia"; }
+      else { n = String(e._d); u = "dias"; }
+      return '<div class="ev' + (e._d === 0 ? " hoje" : "") + '">' +
+        '<div class="conta">' + n + (u ? '<small>' + u + '</small>' : '') + '</div>' +
+        '<div class="txt">' + esc(e.titulo.split("—")[0].trim()) +
+        '<span>' + e.data.split("-").reverse().slice(0,2).join("/") + ' · ' + esc(e.hora) + '</span></div>' +
+      '</div>';
+    }).join("");
+
+    $("listaAgenda").innerHTML = eventos.map(function(e){
+      var quando = e._d === 0 ? "É HOJE" : (e._d === 1 ? "AMANHÃ" : "EM " + e._d + " DIAS");
+      return '<article class="cartao' + (e._d <= 1 ? " destaque" : "") + '">' +
+        '<div class="cab"><h3>' + esc(e.titulo) + '</h3>' +
+        '<span class="quando">' + quando + '</span></div>' +
+        '<div class="meta" style="margin-top:8px">' +
+          '<span class="tipo">' + esc(e.tipo) + '</span>' +
+          '<span>' + porExtenso(e.data) + '</span>' +
+          '<span>' + esc(e.hora) + '</span>' +
+        '</div>' +
+        '<div class="campo"><b>Onde assistir</b>' + esc(e.onde) +
+          (e.link ? ' — <a href="' + esc(e.link) + '" target="_blank" rel="noopener">abrir</a>' : '') + '</div>' +
+        '<div class="campo"><b>O que observar</b>' + esc(e.oque) + '</div>' +
+      '</article>';
+    }).join("");
+  }
+
+  // ---------- carregamento ----------
+  function pegar(arquivo, reserva){
+    return fetch(arquivo, {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(function(){ return reserva; });
+  }
+
+  relogio();
+  setInterval(relogio, 20000);
+
+  Promise.all([
+    pegar("dados.json", RESERVA),
+    pegar("agenda.json", {eventos:[]})
+  ]).then(function(res){
+    renderSelo(res[0]);
+    renderNoticias(res[0]);
+    renderAgenda(res[1]);
+  });
+})();
+</script>
+</body>
+</html>

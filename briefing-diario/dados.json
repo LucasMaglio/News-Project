@@ -1,0 +1,64 @@
+{
+ "gerado_em": "2026-08-27T09:00:00-03:00",
+ "janela_horas": 36,
+ "itens": [
+  {
+   "titulo": "Nvidia dobra a receita e projeta crescimento acima do consenso",
+   "resumo": "Receita de US$ 96,2 bilhões no trimestre, alta de 106% em um ano, com lucro líquido de US$ 59,7 bilhões. A projeção para o ano fiscal de 2028 ficou muito acima do que os analistas esperavam.",
+   "link": "https://www.infomoney.com.br/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-08-27T08:00:00-03:00"
+  },
+  {
+   "titulo": "IPCA-15 tem deflação de 0,40% em agosto",
+   "resumo": "Prévia da inflação recuou mais do que o mercado projetava. Em 12 meses, a taxa caiu para 4,24%, puxada por energia elétrica e transportes.",
+   "link": "https://www.ibge.gov.br/",
+   "fonte": "IBGE",
+   "categoria": "mercado",
+   "data": "2026-08-27T09:00:00-03:00"
+  },
+  {
+   "titulo": "Desemprego cai para 5,3% no trimestre encerrado em julho",
+   "resumo": "Recuo de 0,5 ponto percentual frente ao trimestre anterior, no menor patamar já medido pela série.",
+   "link": "https://www.ibge.gov.br/",
+   "fonte": "IBGE",
+   "categoria": "mercado",
+   "data": "2026-08-27T09:00:00-03:00"
+  },
+  {
+   "titulo": "Apple confirma evento para 9 de setembro",
+   "resumo": "Apresentação no Teatro Steve Jobs, às 14h de Brasília, com expectativa de iPhone 18 Pro e do primeiro dobrável da marca.",
+   "link": "https://www.apple.com/apple-events/",
+   "fonte": "Apple",
+   "categoria": "tecnologia",
+   "data": "2026-08-27T07:00:00-03:00"
+  },
+  {
+   "titulo": "OpenAI diz que seu chip próprio supera o Blackwell em eficiência",
+   "resumo": "A empresa afirma que o primeiro chip customizado de inferência entregou mais desempenho de IA por watt em testes de benchmark.",
+   "link": "https://techstartups.com/",
+   "fonte": "Tech Startups",
+   "categoria": "tecnologia",
+   "data": "2026-08-27T06:00:00-03:00"
+  },
+  {
+   "titulo": "Spring Boot 4.1 é a geração estável atual",
+   "resumo": "Construído sobre o Spring Framework 7, exige Java 17 no mínimo e é compatível até o Java 26. O Spring Boot 3.5 encerrou o suporte open-source em 30 de junho.",
+   "link": "https://spring.io/blog",
+   "fonte": "Spring Blog",
+   "categoria": "dev",
+   "data": "2026-08-27T06:00:00-03:00"
+  },
+  {
+   "titulo": "Falha crítica no Gitea sob exploração ativa",
+   "resumo": "A CVE-2026-60004 permite executar comandos arbitrários no servidor. Correção disponível na versão 1.27.1; o problema já está no catálogo de vulnerabilidades exploradas da CISA.",
+   "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "fonte": "CISA",
+   "categoria": "seguranca",
+   "data": "2026-08-27T07:00:00-03:00"
+  }
+ ],
+ "fontes_com_erro": [],
+ "total": 7
+}
