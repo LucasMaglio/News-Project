@@ -2,235 +2,267 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>Briefing diário — mercado e tecnologia</title>
 <meta name="description" content="Resumo diário de mercado financeiro e tecnologia, atualizado automaticamente todas as manhãs.">
 <style>
   :root{
-    --navy:#141F38;
-    --navy-2:#1E2B47;
-    --papel:#F5F2EC;
-    --rust:#B5541C;
-    --verde:#2E7D64;
-    --tinta:#22272F;
-    --suave:#6E7680;
-    --linha:#DCD6CA;
-    --branco:#fff;
+    --tinta:#0A0A0A;
+    --papel:#FFFFFF;
+    --regua:#E4E4E4;
+    --regua-forte:#0A0A0A;
+    --apagado:#6B6B6B;
+    --vermelho:#D6001C;
+    --vermelho-fundo:#FFF1F2;
 
     --sans: ui-sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, "DejaVu Sans Mono", monospace;
+
+    --gutter: clamp(16px, 4vw, 40px);
   }
 
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
   body{
     background:var(--papel); color:var(--tinta);
-    font-family:var(--sans); font-size:16px; line-height:1.55;
+    font-family:var(--sans); font-size:16px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
   }
   a{color:inherit}
-  .env{max-width:1120px;margin:0 auto;padding:0 20px}
+  .env{max-width:1180px;margin:0 auto;padding:0 var(--gutter)}
 
-  /* ---------- topo ---------- */
-  header{background:var(--navy);color:#fff;padding:22px 0 0}
-  .topo{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between}
-  .marca{font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:#8CA2BE;text-transform:uppercase}
-  h1{font-size:clamp(26px,4vw,38px);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin-top:6px}
-  h1 em{font-style:normal;color:#E8A33D}
-  .relogio{font-family:var(--mono);text-align:right;line-height:1.35}
-  .relogio .hora{font-size:30px;font-weight:700;letter-spacing:.02em}
-  .relogio .dia{font-size:12px;color:#8CA2BE;text-transform:uppercase;letter-spacing:.1em}
+  /* ---------- barra superior ---------- */
+  .barra{background:var(--tinta);color:#fff}
+  .barra .env{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    height:44px;font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  }
+  .barra .quadro{display:inline-block;width:8px;height:8px;background:var(--vermelho);margin-right:10px;vertical-align:1px}
+  .barra .rel{color:#fff;letter-spacing:.1em}
+  .barra .rel b{font-size:14px;letter-spacing:.04em}
+  .barra .rel span{color:#9A9A9A;margin-left:10px}
 
-  nav{margin-top:20px;display:flex;gap:2px;flex-wrap:wrap}
+  /* ---------- cabeçalho ---------- */
+  .capa{padding:clamp(30px,6vw,58px) 0 0}
+  h1{
+    font-size:clamp(32px,6.5vw,60px);line-height:.98;font-weight:800;letter-spacing:-.035em;
+    text-wrap:balance;max-width:16ch;
+  }
+  h1 i{
+    font-style:normal;display:inline-block;width:.42em;height:.42em;
+    background:var(--vermelho);margin-left:.12em;vertical-align:.02em;
+  }
+  .linhafina{
+    margin-top:18px;font-size:14.5px;color:var(--apagado);max-width:56ch;
+  }
+
+  nav{
+    margin-top:clamp(24px,4vw,38px);
+    display:flex;gap:26px;flex-wrap:wrap;
+    border-bottom:2px solid var(--regua-forte);
+  }
   nav button{
-    font:inherit;font-size:13.5px;font-weight:600;cursor:pointer;
-    background:transparent;color:#B8C7DA;border:0;border-bottom:3px solid transparent;
-    padding:11px 15px;border-radius:4px 4px 0 0;
+    font:inherit;font-size:14px;font-weight:600;cursor:pointer;letter-spacing:-.01em;
+    background:none;color:var(--apagado);border:0;
+    padding:0 0 12px;margin-bottom:-2px;border-bottom:2px solid transparent;
   }
-  nav button:hover{color:#fff;background:rgba(255,255,255,.06)}
-  nav button[aria-selected="true"]{background:var(--papel);color:var(--navy);border-bottom-color:var(--rust)}
-  nav button:focus-visible{outline:2px solid #E8A33D;outline-offset:-2px}
+  nav button:hover{color:var(--tinta)}
+  nav button[aria-selected="true"]{color:var(--tinta);border-bottom-color:var(--vermelho)}
+  nav button:focus-visible{outline:2px solid var(--vermelho);outline-offset:3px}
 
-  /* ---------- aviso de validade ---------- */
-  .selo{display:flex;gap:12px;align-items:center;padding:11px 0;font-size:13.5px}
-  .selo .bolinha{width:9px;height:9px;border-radius:50%;flex:none}
-  .selo.ok{color:var(--verde)}
-  .selo.ok .bolinha{background:var(--verde)}
-  .selo.velho{color:var(--rust)}
-  .selo.velho .bolinha{background:var(--rust)}
+  /* ---------- selo de validade ---------- */
+  .selo{
+    display:flex;gap:10px;align-items:center;padding:16px 0 4px;
+    font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+  }
+  .selo .ponto{width:7px;height:7px;flex:none;border-radius:50%}
+  .selo.ok{color:var(--apagado)}
+  .selo.ok .ponto{background:var(--vermelho)}
+  .selo.velho{color:var(--vermelho);font-weight:700}
+  .selo.velho .ponto{background:var(--vermelho)}
   @media (prefers-reduced-motion: no-preference){
-    .selo.ok .bolinha{animation:pulso 2.6s ease-in-out infinite}
+    .selo.ok .ponto{animation:bater 2.4s ease-in-out infinite}
   }
-  @keyframes pulso{0%,100%{opacity:1}50%{opacity:.28}}
+  @keyframes bater{0%,100%{opacity:1}50%{opacity:.2}}
 
-  main{padding:6px 0 60px}
+  main{padding:8px 0 80px}
   .painel[hidden]{display:none}
 
-  /* ---------- layout de duas colunas ---------- */
-  .duplo{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start;margin-top:14px}
-  @media (max-width:880px){ .duplo{grid-template-columns:1fr} }
+  .duplo{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(28px,5vw,56px);align-items:start;margin-top:20px}
+  @media (max-width:900px){ .duplo{grid-template-columns:1fr} }
 
+  /* ---------- rotulos de secao ---------- */
   .rotulo{
-    font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
-    color:var(--suave);padding-bottom:8px;border-bottom:1px solid var(--linha);margin:26px 0 14px;
-    display:flex;justify-content:space-between;align-items:baseline;
+    display:flex;align-items:center;gap:12px;
+    margin:38px 0 0;padding-bottom:10px;border-bottom:2px solid var(--regua-forte);
+    font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
   }
-  .rotulo:first-child{margin-top:6px}
-  .rotulo b{color:var(--navy);font-weight:700}
+  .rotulo:first-child{margin-top:10px}
+  .rotulo .mk{width:8px;height:8px;background:var(--vermelho);flex:none}
+  .rotulo .nome{flex:1}
+  .rotulo .qtd{color:var(--apagado);font-variant-numeric:tabular-nums}
 
-  /* ---------- notícias ---------- */
-  .noticia{padding:15px 0;border-bottom:1px solid var(--linha)}
-  .noticia:last-child{border-bottom:0}
-  .noticia h3{font-size:17px;line-height:1.32;font-weight:700;letter-spacing:-.01em}
-  .noticia h3 a{text-decoration:none}
-  .noticia h3 a:hover{color:var(--rust);text-decoration:underline}
-  .noticia p{font-size:14px;color:#454C56;margin-top:5px}
-  .meta{font-family:var(--mono);font-size:11.5px;color:var(--suave);margin-top:7px;display:flex;gap:10px;flex-wrap:wrap}
-  .meta .fonte{color:var(--navy);font-weight:700}
+  /* ---------- noticias ---------- */
+  .noticia{padding:20px 0;border-bottom:1px solid var(--regua)}
+  .noticia h3{font-size:clamp(17px,2vw,20px);line-height:1.25;font-weight:700;letter-spacing:-.02em;text-wrap:balance}
+  .noticia h3 a{text-decoration:none;background-image:linear-gradient(var(--vermelho),var(--vermelho));background-size:0 2px;background-position:0 100%;background-repeat:no-repeat;transition:background-size .18s ease}
+  .noticia h3 a:hover{background-size:100% 2px}
+  .noticia h3 a:focus-visible{outline:2px solid var(--vermelho);outline-offset:3px}
+  .noticia p{font-size:14.5px;color:#3A3A3A;margin-top:7px;max-width:68ch}
+  .assin{
+    font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--apagado);margin-top:11px;display:flex;gap:14px;flex-wrap:wrap;
+  }
+  .assin .veiculo{color:var(--tinta);font-weight:700}
+  .semlink{font-weight:400;color:var(--apagado);font-size:13px}
+  @media (prefers-reduced-motion: reduce){ .noticia h3 a{transition:none} }
 
-  /* ---------- rail de contagem ---------- */
-  .rail{background:var(--navy);border-radius:6px;padding:18px 18px 8px;color:#fff;position:sticky;top:16px}
-  .rail h2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8CA2BE;margin-bottom:12px}
-  .ev{display:flex;gap:13px;padding:12px 0;border-top:1px solid #2B3A56}
-  .ev:first-of-type{border-top:0}
+  /* ---------- contagem regressiva ---------- */
+  .rail{background:var(--tinta);color:#fff;padding:22px 20px 8px;position:sticky;top:20px}
+  .rail h2{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
+    color:#9A9A9A;padding-bottom:14px;border-bottom:1px solid #2A2A2A;
+  }
+  .ev{display:flex;gap:16px;padding:15px 0;border-bottom:1px solid #1E1E1E}
+  .ev:last-child{border-bottom:0}
   .conta{
-    font-family:var(--mono);font-size:19px;font-weight:700;line-height:1.1;
-    min-width:52px;text-align:right;color:#E8A33D;
+    font-family:var(--mono);font-size:26px;font-weight:700;line-height:.9;
+    min-width:46px;text-align:right;font-variant-numeric:tabular-nums;
   }
-  .conta small{display:block;font-size:9.5px;letter-spacing:.12em;color:#7E93AE;font-weight:400}
-  .ev.hoje .conta{color:#4FD1A5}
-  .ev .txt{font-size:13.5px;line-height:1.35}
-  .ev .txt span{display:block;font-family:var(--mono);font-size:11px;color:#8CA2BE;margin-top:3px}
+  .conta u{display:block;text-decoration:none;font-size:9px;letter-spacing:.14em;color:#7A7A7A;font-weight:400;margin-top:5px}
+  .ev.hoje .conta{color:var(--vermelho);font-size:15px;letter-spacing:.06em}
+  .ev .desc{font-size:13.5px;line-height:1.3}
+  .ev .desc u{display:block;text-decoration:none;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:#8A8A8A;margin-top:6px}
 
   /* ---------- agenda ---------- */
-  .cartao{background:var(--branco);border:1px solid var(--linha);border-radius:6px;padding:20px 22px;margin-bottom:14px}
-  .cartao.destaque{border-color:var(--verde);border-left-width:4px}
-  .cartao .cab{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between}
-  .cartao h3{font-size:19px;letter-spacing:-.01em}
-  .quando{font-family:var(--mono);font-size:12.5px;color:var(--rust);font-weight:700;white-space:nowrap}
-  .tipo{
-    font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
-    color:var(--suave);border:1px solid var(--linha);border-radius:3px;padding:2px 7px;
+  .item{padding:26px 0;border-bottom:1px solid var(--regua)}
+  .item.perto{background:var(--vermelho-fundo);border-bottom-color:#F3D3D7;padding-left:20px;padding-right:20px;margin:0 -20px;border-left:3px solid var(--vermelho)}
+  .item .topo{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between}
+  .item h3{font-size:clamp(19px,2.4vw,24px);letter-spacing:-.025em;line-height:1.15;text-wrap:balance}
+  .prazo{
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--vermelho);font-weight:700;white-space:nowrap;
   }
-  .campo{margin-top:12px;font-size:14.5px}
-  .campo b{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--suave);display:block;margin-bottom:3px}
-  .campo a{color:var(--rust);font-weight:600}
+  .selos{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--apagado)}
+  .selos .cat{border:1px solid var(--tinta);color:var(--tinta);padding:2px 8px}
+  .bloco{margin-top:16px;display:grid;grid-template-columns:104px 1fr;gap:14px;font-size:14.5px;align-items:start}
+  @media (max-width:600px){ .bloco{grid-template-columns:1fr;gap:4px} }
+  .bloco dt{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--apagado);padding-top:4px}
+  .bloco a{color:var(--vermelho);font-weight:600}
 
   /* ---------- fontes ---------- */
-  .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:6px}
+  .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:0;margin-top:20px;border-top:1px solid var(--regua)}
   .grade a{
-    display:block;background:var(--branco);border:1px solid var(--linha);border-radius:6px;
-    padding:14px 16px;text-decoration:none;
+    display:block;padding:18px 20px 18px 0;text-decoration:none;
+    border-bottom:1px solid var(--regua);
   }
-  .grade a:hover{border-color:var(--rust)}
-  .grade a b{display:block;font-size:15px;margin-bottom:2px}
-  .grade a span{font-size:13px;color:var(--suave)}
+  .grade a:hover b{color:var(--vermelho)}
+  .grade a:focus-visible{outline:2px solid var(--vermelho);outline-offset:-2px}
+  .grade a b{display:block;font-size:15.5px;letter-spacing:-.01em;margin-bottom:3px}
+  .grade a span{font-size:13px;color:var(--apagado)}
 
-  .vazio{padding:30px 0;color:var(--suave);font-size:15px}
-  code{font-family:var(--mono);font-size:13px;background:#EBE6DC;padding:1px 5px;border-radius:3px}
-  footer{border-top:1px solid var(--linha);padding:20px 0 40px;font-size:12.5px;color:var(--suave)}
-  :focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+  .prosa{font-size:14.5px;max-width:70ch;color:#3A3A3A;margin-top:14px}
+  .prosa + .prosa{margin-top:10px}
+  .alerta{color:var(--vermelho)}
+  .vazio{padding:26px 0;color:var(--apagado);font-size:14.5px;border-bottom:1px solid var(--regua)}
+  code{font-family:var(--mono);font-size:13px;background:#F2F2F2;padding:1px 5px}
+  footer{border-top:2px solid var(--regua-forte);padding:22px 0 50px;font-size:12px;color:var(--apagado);font-family:var(--mono);letter-spacing:.04em}
+  :focus-visible{outline:2px solid var(--vermelho);outline-offset:2px}
 </style>
 </head>
 <body>
 
-<header>
+<div class="barra">
   <div class="env">
-    <div class="topo">
-      <div>
-        <div class="marca">Briefing diário</div>
-        <h1>Mercado financeiro<br>e <em>tecnologia</em></h1>
-      </div>
-      <div class="relogio">
-        <div class="hora" id="hora">--:--</div>
-        <div class="dia" id="dia">carregando</div>
-      </div>
-    </div>
-    <nav role="tablist">
-      <button role="tab" aria-selected="true" data-alvo="hoje">Hoje</button>
-      <button role="tab" aria-selected="false" data-alvo="agenda">Agenda e onde assistir</button>
-      <button role="tab" aria-selected="false" data-alvo="fontes">Fontes</button>
-    </nav>
+    <span><span class="quadro"></span>Briefing diário</span>
+    <span class="rel"><b id="hora">--:--</b><span id="dia">carregando</span></span>
   </div>
+</div>
+
+<header class="capa env">
+  <h1>Mercado financeiro e tecnologia<i></i></h1>
+  <p class="linhafina">Coleta automática todas as manhãs, em dia útil. As contagens de dias são calculadas no seu navegador.</p>
+  <nav role="tablist" aria-label="Seções">
+    <button role="tab" aria-selected="true" data-alvo="hoje">Hoje</button>
+    <button role="tab" aria-selected="false" data-alvo="agenda">Agenda e onde assistir</button>
+    <button role="tab" aria-selected="false" data-alvo="fontes">Fontes</button>
+  </nav>
 </header>
 
-<div class="env"><div id="selo" class="selo"><span class="bolinha"></span><span id="seloTexto">verificando…</span></div></div>
+<div class="env"><div id="selo" class="selo"><span class="ponto"></span><span id="seloTexto">verificando</span></div></div>
 
 <main class="env">
 
-  <!-- ============ HOJE ============ -->
   <section class="painel" id="hoje">
     <div class="duplo">
       <div>
-        <div class="rotulo"><span>Mercado e economia</span><b id="cMercado">0</b></div>
+        <div class="rotulo"><span class="mk"></span><span class="nome">Mercado e economia</span><span class="qtd" id="cMercado">0</span></div>
         <div id="listaMercado"></div>
 
-        <div class="rotulo"><span>Tecnologia</span><b id="cTecnologia">0</b></div>
+        <div class="rotulo"><span class="mk"></span><span class="nome">Tecnologia</span><span class="qtd" id="cTecnologia">0</span></div>
         <div id="listaTecnologia"></div>
 
-        <div class="rotulo"><span>Desenvolvimento</span><b id="cDev">0</b></div>
+        <div class="rotulo"><span class="mk"></span><span class="nome">Desenvolvimento</span><span class="qtd" id="cDev">0</span></div>
         <div id="listaDev"></div>
 
-        <div class="rotulo"><span>Segurança</span><b id="cSeguranca">0</b></div>
+        <div class="rotulo"><span class="mk"></span><span class="nome">Segurança</span><span class="qtd" id="cSeguranca">0</span></div>
         <div id="listaSeguranca"></div>
       </div>
 
-      <aside class="rail" id="rail">
-        <h2>Próximos eventos</h2>
+      <aside class="rail">
+        <h2>Contagem regressiva</h2>
         <div id="listaRail"></div>
       </aside>
     </div>
   </section>
 
-  <!-- ============ AGENDA ============ -->
   <section class="painel" id="agenda" hidden>
-    <div class="rotulo"><span>O que vem por aí</span><b id="cAgenda">0</b></div>
+    <div class="rotulo"><span class="mk"></span><span class="nome">O que vem por aí</span><span class="qtd" id="cAgenda">0</span></div>
     <div id="listaAgenda"></div>
   </section>
 
-  <!-- ============ FONTES ============ -->
   <section class="painel" id="fontes" hidden>
-    <div class="rotulo"><span>Para acompanhar direto na fonte</span></div>
+    <div class="rotulo"><span class="mk"></span><span class="nome">Direto na fonte</span></div>
     <div class="grade">
-      <a href="https://www.infomoney.com.br/" target="_blank" rel="noopener"><b>InfoMoney</b><span>Bolsa, câmbio e balanços</span></a>
-      <a href="https://br.investing.com/economic-calendar/" target="_blank" rel="noopener"><b>Calendário econômico</b><span>Indicadores do dia, por país</span></a>
-      <a href="https://www.bcb.gov.br/controleinflacao/datascopom" target="_blank" rel="noopener"><b>Datas do Copom</b><span>Calendário oficial do Banco Central</span></a>
-      <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener"><b>Calendário do FOMC</b><span>Reuniões e comunicados do Fed</span></a>
-      <a href="https://www.ibge.gov.br/" target="_blank" rel="noopener"><b>IBGE</b><span>IPCA, PNAD e o calendário de divulgações</span></a>
-      <a href="https://spring.io/blog" target="_blank" rel="noopener"><b>Spring Blog</b><span>Releases do Spring Boot e do Framework</span></a>
-      <a href="https://www.infoq.com/br/" target="_blank" rel="noopener"><b>InfoQ Brasil</b><span>Java News Roundup, semanal</span></a>
-      <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener"><b>CISA — KEV</b><span>Vulnerabilidades sob exploração ativa</span></a>
-      <a href="https://survey.stackoverflow.co/" target="_blank" rel="noopener"><b>Stack Overflow Survey</b><span>Panorama anual de linguagens e ferramentas</span></a>
-      <a href="https://news.ycombinator.com/" target="_blank" rel="noopener"><b>Hacker News</b><span>O que a comunidade dev está discutindo</span></a>
+      <a href="https://www.infomoney.com.br/" target="_blank" rel="noopener noreferrer"><b>InfoMoney</b><span>Bolsa, câmbio e balanços</span></a>
+      <a href="https://br.investing.com/economic-calendar/" target="_blank" rel="noopener noreferrer"><b>Calendário econômico</b><span>Indicadores do dia, por país</span></a>
+      <a href="https://www.bcb.gov.br/controleinflacao/datascopom" target="_blank" rel="noopener noreferrer"><b>Datas do Copom</b><span>Calendário do Banco Central</span></a>
+      <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer"><b>Calendário do FOMC</b><span>Reuniões e comunicados do Fed</span></a>
+      <a href="https://www.ibge.gov.br/" target="_blank" rel="noopener noreferrer"><b>IBGE</b><span>IPCA, PNAD e divulgações</span></a>
+      <a href="https://spring.io/blog" target="_blank" rel="noopener noreferrer"><b>Spring Blog</b><span>Releases do Spring Boot</span></a>
+      <a href="https://www.infoq.com/br/" target="_blank" rel="noopener noreferrer"><b>InfoQ Brasil</b><span>Java News Roundup, semanal</span></a>
+      <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer"><b>CISA — KEV</b><span>Vulnerabilidades sob exploração</span></a>
+      <a href="https://survey.stackoverflow.co/" target="_blank" rel="noopener noreferrer"><b>Stack Overflow Survey</b><span>Panorama anual do setor</span></a>
+      <a href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer"><b>Hacker News</b><span>O que a comunidade discute</span></a>
     </div>
 
-    <div class="rotulo" style="margin-top:34px"><span>Como esta página funciona</span></div>
-    <p style="font-size:14.5px;max-width:70ch">
-      Toda manhã, em dia útil, uma automação no GitHub lê os feeds RSS das fontes configuradas,
-      monta o arquivo <code>dados.json</code> e publica aqui. A agenda fica em <code>agenda.json</code>
-      e é editada à mão. Os contadores de dias são calculados no seu navegador, então continuam
-      corretos mesmo que a coleta falhe.
+    <div class="rotulo"><span class="mk"></span><span class="nome">Como esta página funciona</span></div>
+    <p class="prosa">
+      Toda manhã, em dia útil, uma automação no GitHub lê os feeds RSS das fontes acima,
+      monta o arquivo <code>dados.json</code> e publica aqui. A agenda fica em
+      <code>agenda.json</code> e é editada à mão.
     </p>
-    <p style="font-size:14.5px;max-width:70ch;margin-top:10px" id="erroFontes"></p>
+    <p class="prosa">
+      Feed é conteúdo de terceiro, então nada que vem dele é tratado como confiável: os textos
+      entram na página como texto puro, nunca como HTML, e só endereços http e https viram link.
+    </p>
+    <p class="prosa alerta" id="erroFontes"></p>
   </section>
 
 </main>
 
 <footer class="env">
-  Gerado automaticamente a partir de feeds públicos. Os textos e links pertencem aos veículos de origem.
-  <span id="rodapeGerado"></span>
+  Feeds públicos · textos e links pertencem aos veículos de origem<span id="rodapeGerado"></span>
 </footer>
 
 <script>
 (function(){
   "use strict";
 
-  // Conteúdo de reserva: mantém a página utilizável se o dados.json não carregar
-  // (por exemplo, ao abrir o arquivo direto do computador, sem servidor).
-  var RESERVA = {
-    gerado_em: null,
-    itens: [],
-    fontes_com_erro: []
-  };
+  var RESERVA = { gerado_em:null, itens:[], fontes_com_erro:[] };
 
   var CATS = [
     {chave:"mercado",    lista:"listaMercado",    contador:"cMercado"},
@@ -241,31 +273,56 @@
 
   var $ = function(id){ return document.getElementById(id); };
 
-  function esc(t){
-    return String(t == null ? "" : t)
-      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
-      .replace(/"/g,"&quot;");
+  /* ----------------------------------------------------------------
+     Construcao do DOM
+
+     Nada vindo do feed e concatenado em string de HTML. Todo texto
+     entra por textContent, entao o navegador nunca interpreta o
+     conteudo como marcacao. Isso elimina a injecao na origem, em vez
+     de depender de escapar caractere por caractere.
+  ---------------------------------------------------------------- */
+  function el(tag, classe, texto){
+    var n = document.createElement(tag);
+    if(classe) n.className = classe;
+    if(texto != null) n.textContent = String(texto);
+    return n;
   }
 
-  // Segunda barreira: mesmo que algo escape da coleta, a pagina so
-  // renderiza links http/https. Feed e conteudo de terceiro.
+  function limpar(no){
+    while(no.firstChild) no.removeChild(no.firstChild);
+  }
+
+  /* So http e https viram link. Segunda barreira: o coletor ja
+     descarta os demais esquemas antes de gravar o dados.json. */
   function linkSeguro(url){
     if(!url) return null;
     var limpo = String(url).trim().replace(/[\s\u0000-\u001F]/g, "");
     return /^https?:\/\//i.test(limpo) ? limpo : null;
   }
 
+  function externo(url, texto){
+    var a = el("a", null, texto);
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.referrerPolicy = "no-referrer";
+    return a;
+  }
+
   // ---------- data e hora ----------
   var DIAS = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
+  var CURTO = ["dom","seg","ter","qua","qui","sex","sáb"];
   var MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+
+  function dois(n){ return String(n).padStart(2,"0"); }
 
   function hojeISO(){
     var d = new Date();
-    return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+    return d.getFullYear() + "-" + dois(d.getMonth()+1) + "-" + dois(d.getDate());
   }
 
   function diasAte(iso){
-    var p = iso.split("-");
+    var p = String(iso).split("-");
     var alvo = new Date(+p[0], +p[1]-1, +p[2]);
     var hoje = new Date();
     hoje.setHours(0,0,0,0);
@@ -273,19 +330,19 @@
   }
 
   function porExtenso(iso){
-    var p = iso.split("-");
+    var p = String(iso).split("-");
     var d = new Date(+p[0], +p[1]-1, +p[2]);
     return DIAS[d.getDay()] + ", " + d.getDate() + " de " + MESES[d.getMonth()];
   }
 
   function relogio(){
     var d = new Date();
-    $("hora").textContent = String(d.getHours()).padStart(2,"0") + ":" + String(d.getMinutes()).padStart(2,"0");
-    $("dia").textContent = DIAS[d.getDay()] + " · " + String(d.getDate()).padStart(2,"0") + "/" + String(d.getMonth()+1).padStart(2,"0");
+    $("hora").textContent = dois(d.getHours()) + ":" + dois(d.getMinutes());
+    $("dia").textContent = CURTO[d.getDay()] + " " + dois(d.getDate()) + "/" + dois(d.getMonth()+1);
   }
 
   // ---------- abas ----------
-  var botoes = document.querySelectorAll('nav button');
+  var botoes = document.querySelectorAll("nav button");
   Array.prototype.forEach.call(botoes, function(b){
     b.addEventListener("click", function(){
       Array.prototype.forEach.call(botoes, function(o){
@@ -298,111 +355,156 @@
     });
   });
 
-  // ---------- notícias ----------
+  // ---------- noticias ----------
   function horaDoItem(iso){
     if(!iso) return "";
     var d = new Date(iso);
     if(isNaN(d)) return "";
-    return String(d.getHours()).padStart(2,"0") + "h" + String(d.getMinutes()).padStart(2,"0");
+    return dois(d.getHours()) + "h" + dois(d.getMinutes());
+  }
+
+  function montaNoticia(i){
+    var art = el("article", "noticia");
+
+    var h3 = el("h3");
+    var url = linkSeguro(i.link);
+    if(url){
+      h3.appendChild(externo(url, i.titulo));
+    }else{
+      h3.appendChild(document.createTextNode(String(i.titulo == null ? "" : i.titulo)));
+      h3.appendChild(el("span", "semlink", " (link descartado)"));
+    }
+    art.appendChild(h3);
+
+    if(i.resumo) art.appendChild(el("p", null, i.resumo));
+
+    var assin = el("div", "assin");
+    assin.appendChild(el("span", "veiculo", i.fonte));
+    var h = horaDoItem(i.data);
+    if(h) assin.appendChild(el("span", null, h));
+    art.appendChild(assin);
+
+    return art;
   }
 
   function renderNoticias(dados){
+    var itensTodos = Array.isArray(dados.itens) ? dados.itens : [];
+
     CATS.forEach(function(cat){
-      var itens = (dados.itens || []).filter(function(i){ return i.categoria === cat.chave; });
-      $(cat.contador).textContent = itens.length;
+      var alvo = $(cat.lista);
+      limpar(alvo);
+
+      var itens = itensTodos.filter(function(i){ return i && i.categoria === cat.chave; });
+      $(cat.contador).textContent = dois(itens.length);
 
       if(!itens.length){
-        $(cat.lista).innerHTML = '<p class="vazio">Nada novo nesta categoria na última coleta.</p>';
+        alvo.appendChild(el("p", "vazio", "Nada novo nesta categoria na última coleta."));
         return;
       }
-
-      $(cat.lista).innerHTML = itens.map(function(i){
-        var h = horaDoItem(i.data);
-        var url = linkSeguro(i.link);
-        var titulo = url
-          ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(i.titulo) + '</a>'
-          : esc(i.titulo) + ' <span style="font-weight:400;color:#6E7680;font-size:13px">(link descartado)</span>';
-        return '<article class="noticia">' +
-          '<h3>' + titulo + '</h3>' +
-          (i.resumo ? '<p>' + esc(i.resumo) + '</p>' : '') +
-          '<div class="meta"><span class="fonte">' + esc(i.fonte) + '</span>' +
-          (h ? '<span>' + h + '</span>' : '') + '</div>' +
-        '</article>';
-      }).join("");
+      itens.forEach(function(i){ alvo.appendChild(montaNoticia(i)); });
     });
 
-    var erros = dados.fontes_com_erro || [];
-    $("erroFontes").innerHTML = erros.length
-      ? 'Na última coleta, estas fontes não responderam: <b>' +
-        erros.map(function(e){ return esc(e.fonte); }).join(", ") +
-        '</b>. Se o problema se repetir, troque a URL do feed em <code>coletar.py</code>.'
-      : "";
+    var erros = Array.isArray(dados.fontes_com_erro) ? dados.fontes_com_erro : [];
+    var aviso = $("erroFontes");
+    limpar(aviso);
+    if(erros.length){
+      var nomes = erros.map(function(e){ return e && e.fonte ? String(e.fonte) : "?"; }).join(", ");
+      aviso.textContent = "Na última coleta estas fontes não responderam: " + nomes +
+        ". Se o problema se repetir, troque a URL do feed em coletar.py.";
+    }
   }
 
   function renderSelo(dados){
     var selo = $("selo"), txt = $("seloTexto");
     if(!dados.gerado_em){
       selo.className = "selo velho";
-      txt.textContent = "Ainda não há coleta publicada. Rode o fluxo Atualizar briefing no GitHub.";
+      txt.textContent = "sem coleta publicada — rode o fluxo no GitHub";
       return;
     }
     var g = new Date(dados.gerado_em);
-    var mesmoDia = g.toDateString() === new Date().toDateString();
-    var hora = String(g.getHours()).padStart(2,"0") + "h" + String(g.getMinutes()).padStart(2,"0");
-    if(mesmoDia){
+    var hora = dois(g.getHours()) + "h" + dois(g.getMinutes());
+    if(g.toDateString() === new Date().toDateString()){
       selo.className = "selo ok";
-      txt.textContent = "Atualizado hoje às " + hora + " · " + porExtenso(hojeISO());
+      txt.textContent = "atualizado hoje às " + hora + " · " + porExtenso(hojeISO());
     }else{
       selo.className = "selo velho";
       var d = Math.abs(diasAte(g.toISOString().slice(0,10)));
-      txt.textContent = "Última coleta foi há " + d + (d === 1 ? " dia" : " dias") +
-        ". A automação pode ter falhado — confira a aba Actions do repositório.";
+      txt.textContent = "última coleta há " + d + (d === 1 ? " dia" : " dias") + " — confira a aba Actions";
     }
-    $("rodapeGerado").textContent = " Última coleta: " + g.toLocaleString("pt-BR") + ".";
+    $("rodapeGerado").textContent = " · última coleta " + g.toLocaleString("pt-BR");
   }
 
   // ---------- agenda ----------
+  function montaRail(e){
+    var linha = el("div", "ev" + (e._d === 0 ? " hoje" : ""));
+
+    var conta = el("div", "conta");
+    if(e._d === 0){
+      conta.textContent = "HOJE";
+    }else{
+      conta.appendChild(document.createTextNode(String(e._d)));
+      conta.appendChild(el("u", null, e._d === 1 ? "dia" : "dias"));
+    }
+    linha.appendChild(conta);
+
+    var desc = el("div", "desc", String(e.titulo || "").split("—")[0].trim());
+    desc.appendChild(el("u", null, String(e.data).split("-").reverse().slice(0,2).join("/") + " · " + (e.hora || "")));
+    linha.appendChild(desc);
+
+    return linha;
+  }
+
+  function montaItemAgenda(e){
+    var art = el("article", "item" + (e._d <= 1 ? " perto" : ""));
+
+    var topo = el("div", "topo");
+    topo.appendChild(el("h3", null, e.titulo));
+    topo.appendChild(el("span", "prazo",
+      e._d === 0 ? "é hoje" : (e._d === 1 ? "amanhã" : "em " + e._d + " dias")));
+    art.appendChild(topo);
+
+    var selos = el("div", "selos");
+    selos.appendChild(el("span", "cat", e.tipo));
+    selos.appendChild(el("span", null, porExtenso(e.data)));
+    if(e.hora) selos.appendChild(el("span", null, e.hora));
+    art.appendChild(selos);
+
+    var dl = el("dl", "bloco");
+    dl.appendChild(el("dt", null, "Onde assistir"));
+    var dd = el("dd", null, e.onde);
+    var url = linkSeguro(e.link);
+    if(url){
+      dd.appendChild(document.createTextNode(" — "));
+      dd.appendChild(externo(url, "abrir"));
+    }
+    dl.appendChild(dd);
+    dl.appendChild(el("dt", null, "O que observar"));
+    dl.appendChild(el("dd", null, e.oque));
+    art.appendChild(dl);
+
+    return art;
+  }
+
   function renderAgenda(agenda){
-    var eventos = (agenda.eventos || [])
+    var lista = $("listaAgenda"), rail = $("listaRail");
+    limpar(lista); limpar(rail);
+
+    var eventos = (Array.isArray(agenda.eventos) ? agenda.eventos : [])
+      .filter(function(e){ return e && e.data; })
       .map(function(e){ e._d = diasAte(e.data); return e; })
       .filter(function(e){ return e._d >= 0; })
       .sort(function(a,b){ return a._d - b._d; });
 
-    $("cAgenda").textContent = eventos.length;
+    $("cAgenda").textContent = dois(eventos.length);
 
     if(!eventos.length){
-      $("listaAgenda").innerHTML = '<p class="vazio">Nenhum evento futuro cadastrado. Edite <code>agenda.json</code> para incluir.</p>';
-      $("listaRail").innerHTML = '<p style="font-size:13px;color:#8CA2BE;padding:8px 0 14px">Sem eventos futuros.</p>';
+      lista.appendChild(el("p", "vazio", "Nenhum evento futuro cadastrado. Edite agenda.json para incluir."));
+      rail.appendChild(el("p", "desc", "Sem eventos futuros."));
       return;
     }
 
-    $("listaRail").innerHTML = eventos.slice(0,6).map(function(e){
-      var n, u;
-      if(e._d === 0){ n = "HOJE"; u = ""; }
-      else if(e._d === 1){ n = "1"; u = "dia"; }
-      else { n = String(e._d); u = "dias"; }
-      return '<div class="ev' + (e._d === 0 ? " hoje" : "") + '">' +
-        '<div class="conta">' + n + (u ? '<small>' + u + '</small>' : '') + '</div>' +
-        '<div class="txt">' + esc(e.titulo.split("—")[0].trim()) +
-        '<span>' + e.data.split("-").reverse().slice(0,2).join("/") + ' · ' + esc(e.hora) + '</span></div>' +
-      '</div>';
-    }).join("");
-
-    $("listaAgenda").innerHTML = eventos.map(function(e){
-      var quando = e._d === 0 ? "É HOJE" : (e._d === 1 ? "AMANHÃ" : "EM " + e._d + " DIAS");
-      return '<article class="cartao' + (e._d <= 1 ? " destaque" : "") + '">' +
-        '<div class="cab"><h3>' + esc(e.titulo) + '</h3>' +
-        '<span class="quando">' + quando + '</span></div>' +
-        '<div class="meta" style="margin-top:8px">' +
-          '<span class="tipo">' + esc(e.tipo) + '</span>' +
-          '<span>' + porExtenso(e.data) + '</span>' +
-          '<span>' + esc(e.hora) + '</span>' +
-        '</div>' +
-        '<div class="campo"><b>Onde assistir</b>' + esc(e.onde) +
-          (linkSeguro(e.link) ? ' — <a href="' + esc(linkSeguro(e.link)) + '" target="_blank" rel="noopener noreferrer">abrir</a>' : '') + '</div>' +
-        '<div class="campo"><b>O que observar</b>' + esc(e.oque) + '</div>' +
-      '</article>';
-    }).join("");
+    eventos.slice(0,6).forEach(function(e){ rail.appendChild(montaRail(e)); });
+    eventos.forEach(function(e){ lista.appendChild(montaItemAgenda(e)); });
   }
 
   // ---------- carregamento ----------
