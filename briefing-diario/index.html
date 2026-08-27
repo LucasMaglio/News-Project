@@ -247,6 +247,14 @@
       .replace(/"/g,"&quot;");
   }
 
+  // Segunda barreira: mesmo que algo escape da coleta, a pagina so
+  // renderiza links http/https. Feed e conteudo de terceiro.
+  function linkSeguro(url){
+    if(!url) return null;
+    var limpo = String(url).trim().replace(/[\s\u0000-\u001F]/g, "");
+    return /^https?:\/\//i.test(limpo) ? limpo : null;
+  }
+
   // ---------- data e hora ----------
   var DIAS = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
   var MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -310,8 +318,12 @@
 
       $(cat.lista).innerHTML = itens.map(function(i){
         var h = horaDoItem(i.data);
+        var url = linkSeguro(i.link);
+        var titulo = url
+          ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(i.titulo) + '</a>'
+          : esc(i.titulo) + ' <span style="font-weight:400;color:#6E7680;font-size:13px">(link descartado)</span>';
         return '<article class="noticia">' +
-          '<h3><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.titulo) + '</a></h3>' +
+          '<h3>' + titulo + '</h3>' +
           (i.resumo ? '<p>' + esc(i.resumo) + '</p>' : '') +
           '<div class="meta"><span class="fonte">' + esc(i.fonte) + '</span>' +
           (h ? '<span>' + h + '</span>' : '') + '</div>' +
@@ -387,7 +399,7 @@
           '<span>' + esc(e.hora) + '</span>' +
         '</div>' +
         '<div class="campo"><b>Onde assistir</b>' + esc(e.onde) +
-          (e.link ? ' — <a href="' + esc(e.link) + '" target="_blank" rel="noopener">abrir</a>' : '') + '</div>' +
+          (linkSeguro(e.link) ? ' — <a href="' + esc(linkSeguro(e.link)) + '" target="_blank" rel="noopener noreferrer">abrir</a>' : '') + '</div>' +
         '<div class="campo"><b>O que observar</b>' + esc(e.oque) + '</div>' +
       '</article>';
     }).join("");
