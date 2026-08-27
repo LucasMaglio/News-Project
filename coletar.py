@@ -23,24 +23,44 @@ from html import unescape
 BRT = timezone(timedelta(hours=-3))
 
 # Quantas horas para tras considerar "novidade"
-JANELA_HORAS = 36
+JANELA_HORAS = 48
 
-# Maximo de itens por fonte
-MAX_POR_FONTE = 4
+# Teto por fonte, para nenhum veiculo dominar a categoria
+MAX_POR_FONTE = 8
+
+# Teto por categoria, para a pagina nao virar uma lista infinita
+MAX_POR_CATEGORIA = 14
 
 # ---------------------------------------------------------------
 # Fontes. Para trocar uma fonte, basta editar esta lista.
 # Se alguma URL sair do ar, o script avisa em vez de quebrar.
 # ---------------------------------------------------------------
 FONTES = [
-    {"nome": "InfoMoney",      "url": "https://www.infomoney.com.br/feed/",        "categoria": "mercado"},
-    {"nome": "Money Times",    "url": "https://www.moneytimes.com.br/feed/",       "categoria": "mercado"},
-    {"nome": "Tecnoblog",      "url": "https://tecnoblog.net/feed/",               "categoria": "tecnologia"},
-    {"nome": "Canaltech",      "url": "https://canaltech.com.br/rss/",             "categoria": "tecnologia"},
-    {"nome": "InfoQ Brasil",   "url": "https://feed.infoq.com/br/",                "categoria": "dev"},
-    {"nome": "Spring Blog",    "url": "https://spring.io/blog.atom",               "categoria": "dev"},
-    {"nome": "Hacker News",    "url": "https://hnrss.org/frontpage?points=200",    "categoria": "dev"},
-    {"nome": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "categoria": "seguranca"},
+    # ---- mercado e economia ----
+    {"nome": "InfoMoney",        "url": "https://www.infomoney.com.br/feed/",            "categoria": "mercado"},
+    {"nome": "Money Times",      "url": "https://www.moneytimes.com.br/feed/",           "categoria": "mercado"},
+    {"nome": "Seu Dinheiro",     "url": "https://www.seudinheiro.com/feed/",             "categoria": "mercado"},
+    {"nome": "Exame",            "url": "https://exame.com/feed/",                       "categoria": "mercado"},
+
+    # ---- tecnologia ----
+    {"nome": "Tecnoblog",        "url": "https://tecnoblog.net/feed/",                   "categoria": "tecnologia"},
+    {"nome": "Canaltech",        "url": "https://canaltech.com.br/rss/",                 "categoria": "tecnologia"},
+    {"nome": "Olhar Digital",    "url": "https://olhardigital.com.br/feed/",             "categoria": "tecnologia"},
+    {"nome": "The Verge",        "url": "https://www.theverge.com/rss/index.xml",        "categoria": "tecnologia"},
+    {"nome": "TechCrunch",       "url": "https://techcrunch.com/feed/",                  "categoria": "tecnologia"},
+
+    # ---- desenvolvimento ----
+    {"nome": "InfoQ Brasil",     "url": "https://feed.infoq.com/br/",                    "categoria": "dev"},
+    {"nome": "Spring Blog",      "url": "https://spring.io/blog.atom",                   "categoria": "dev"},
+    {"nome": "GitHub Blog",      "url": "https://github.blog/feed/",                     "categoria": "dev"},
+    {"nome": "dev.to",           "url": "https://dev.to/feed",                           "categoria": "dev"},
+    {"nome": "Hacker News",      "url": "https://hnrss.org/frontpage?points=150",        "categoria": "dev"},
+
+    # ---- seguranca ----
+    {"nome": "The Hacker News",  "url": "https://feeds.feedburner.com/TheHackersNews",   "categoria": "seguranca"},
+    {"nome": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/",        "categoria": "seguranca"},
+    {"nome": "Krebs on Security","url": "https://krebsonsecurity.com/feed/",             "categoria": "seguranca"},
+    {"nome": "CISA",             "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "categoria": "seguranca"},
 ]
 
 CABECALHOS = {
@@ -153,11 +173,19 @@ def extrair_itens(xml_bruto):
     return itens
 
 
+# Teto do download por feed. Evita que um feed gigante ou corrompido
+# consuma toda a memoria do runner.
+LIMITE_BYTES = 5 * 1024 * 1024
+
+
 def buscar(fonte):
     contexto = ssl.create_default_context()
     req = urllib.request.Request(fonte["url"], headers=CABECALHOS)
     with urllib.request.urlopen(req, timeout=25, context=contexto) as resp:
-        return resp.read()
+        bruto = resp.read(LIMITE_BYTES + 1)
+    if len(bruto) > LIMITE_BYTES:
+        raise ValueError("feed acima do limite de %d bytes" % LIMITE_BYTES)
+    return bruto
 
 
 def coletar():
@@ -167,6 +195,7 @@ def coletar():
     coletados = []
     erros = []
     vistos = set()
+    por_categoria = {}
 
     for fonte in FONTES:
         try:
@@ -184,8 +213,12 @@ def coletar():
         recentes = [i for i in itens if i["data"] is None or i["data"] >= corte]
         recentes.sort(key=lambda i: i["data"] or corte, reverse=True)
 
+        cat = fonte["categoria"]
         contador = 0
         for item in recentes:
+            if por_categoria.get(cat, 0) >= MAX_POR_CATEGORIA:
+                break
+
             chave = re.sub(r"[^a-z0-9]", "", item["titulo"].lower())[:60]
             if chave in vistos:
                 continue
@@ -200,10 +233,12 @@ def coletar():
                 "data": (item["data"].astimezone(BRT).isoformat() if item["data"] else None),
             })
             contador += 1
+            por_categoria[cat] = por_categoria.get(cat, 0) + 1
             if contador >= MAX_POR_FONTE:
                 break
 
-        print("  ok: %s (%d itens)" % (fonte["nome"], contador))
+        print("  ok: %-18s %2d itens  (%s: %d)"
+              % (fonte["nome"], contador, cat, por_categoria.get(cat, 0)))
 
     coletados.sort(key=lambda i: i["data"] or "", reverse=True)
 
@@ -211,6 +246,7 @@ def coletar():
         "gerado_em": agora.isoformat(),
         "janela_horas": JANELA_HORAS,
         "total": len(coletados),
+        "por_categoria": por_categoria,
         "itens": coletados,
         "fontes_com_erro": erros,
     }
@@ -221,5 +257,6 @@ if __name__ == "__main__":
     dados = coletar()
     with open("dados.json", "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=1)
-    print("dados.json gravado: %d itens, %d fonte(s) com erro."
-          % (dados["total"], len(dados["fontes_com_erro"])))
+    resumo = ", ".join("%s %d" % (k, v) for k, v in sorted(dados["por_categoria"].items()))
+    print("dados.json gravado: %d itens (%s), %d fonte(s) com erro."
+          % (dados["total"], resumo or "vazio", len(dados["fontes_com_erro"])))
