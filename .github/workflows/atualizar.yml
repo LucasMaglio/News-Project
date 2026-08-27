@@ -1,0 +1,41 @@
+name: Atualizar briefing
+
+on:
+  schedule:
+    # 12:00 UTC = 09:00 em Brasília. Segunda a sexta.
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar as notícias
+        run: python coletar.py
+
+      - name: Publicar se algo mudou
+        run: |
+          git config user.name  "briefing-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet dados.json; then
+            echo "Nada mudou desde a última coleta."
+          else
+            git add dados.json
+            git commit -m "briefing: coleta de $(date -u +'%d/%m/%Y %H:%M UTC')"
+            git push
+          fi
