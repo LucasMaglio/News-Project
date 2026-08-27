@@ -94,6 +94,33 @@
   .duplo{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(28px,5vw,56px);align-items:start;margin-top:20px}
   @media (max-width:900px){ .duplo{grid-template-columns:1fr} }
 
+  /* ---------- busca ---------- */
+  .busca{
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    margin-top:22px;padding-bottom:14px;border-bottom:1px solid var(--regua);
+  }
+  .busca .campo{position:relative;flex:1 1 340px;min-width:0}
+  .busca input{
+    font:inherit;font-size:15px;width:100%;
+    background:none;border:0;border-bottom:2px solid var(--regua-forte);
+    padding:8px 30px 8px 0;color:var(--tinta);
+  }
+  .busca input::placeholder{color:#A6A6A6}
+  .busca input:focus{outline:0;border-bottom-color:var(--vermelho)}
+  .busca input::-webkit-search-cancel-button{-webkit-appearance:none}
+  .busca .limpar{
+    position:absolute;right:0;top:50%;transform:translateY(-50%);
+    background:none;border:0;cursor:pointer;color:var(--apagado);
+    font-family:var(--mono);font-size:16px;line-height:1;padding:4px 2px;
+  }
+  .busca .limpar:hover{color:var(--vermelho)}
+  .busca .placar{
+    font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--apagado);white-space:nowrap;
+  }
+  .busca .placar b{color:var(--vermelho)}
+  mark{background:#FFE8EA;color:inherit;padding:0 1px;box-decoration-break:clone}
+
   /* ---------- rotulos de secao ---------- */
   .rotulo{
     display:flex;align-items:center;gap:12px;
@@ -197,6 +224,17 @@
 <main class="env">
 
   <section class="painel" id="hoje">
+
+    <div class="busca">
+      <div class="campo">
+        <input id="busca" type="search" autocomplete="off" spellcheck="false"
+               aria-label="Buscar nas notícias do dia"
+               placeholder="buscar por palavra, empresa ou tecnologia">
+        <button type="button" class="limpar" id="limparBusca" aria-label="Limpar busca" hidden>&times;</button>
+      </div>
+      <span class="placar" id="placar" aria-live="polite"></span>
+    </div>
+
     <div class="duplo">
       <div>
         <div class="rotulo"><span class="mk"></span><span class="nome">Mercado e economia</span><span class="qtd" id="cMercado">0</span></div>
@@ -300,6 +338,34 @@
     return /^https?:\/\//i.test(limpo) ? limpo : null;
   }
 
+  /* Texto sem acento e em minusculas, para a busca casar
+     "Nvidia" com "nvídia" e "seguranca" com "segurança". */
+  function normalizar(t){
+    return String(t == null ? "" : t)
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+
+  /* Destaca o termo dentro de um texto. Continua sem HTML:
+     cada pedaco vira um no de texto e o trecho casado vira <mark>. */
+  function comDestaque(texto, termo){
+    var frag = document.createDocumentFragment();
+    var puro = String(texto == null ? "" : texto);
+    if(!termo){
+      frag.appendChild(document.createTextNode(puro));
+      return frag;
+    }
+    var alvo = normalizar(puro), busca = normalizar(termo), pos = 0;
+    while(true){
+      var achou = alvo.indexOf(busca, pos);
+      if(achou === -1) break;
+      if(achou > pos) frag.appendChild(document.createTextNode(puro.slice(pos, achou)));
+      frag.appendChild(el("mark", null, puro.slice(achou, achou + busca.length)));
+      pos = achou + busca.length;
+    }
+    frag.appendChild(document.createTextNode(puro.slice(pos)));
+    return frag;
+  }
+
   function externo(url, texto){
     var a = el("a", null, texto);
     a.href = url;
@@ -363,20 +429,26 @@
     return dois(d.getHours()) + "h" + dois(d.getMinutes());
   }
 
-  function montaNoticia(i){
+  function montaNoticia(i, termo){
     var art = el("article", "noticia");
 
     var h3 = el("h3");
     var url = linkSeguro(i.link);
     if(url){
-      h3.appendChild(externo(url, i.titulo));
+      var a = externo(url, "");
+      a.appendChild(comDestaque(i.titulo, termo));
+      h3.appendChild(a);
     }else{
-      h3.appendChild(document.createTextNode(String(i.titulo == null ? "" : i.titulo)));
+      h3.appendChild(comDestaque(i.titulo, termo));
       h3.appendChild(el("span", "semlink", " (link descartado)"));
     }
     art.appendChild(h3);
 
-    if(i.resumo) art.appendChild(el("p", null, i.resumo));
+    if(i.resumo){
+      var p = el("p");
+      p.appendChild(comDestaque(i.resumo, termo));
+      art.appendChild(p);
+    }
 
     var assin = el("div", "assin");
     assin.appendChild(el("span", "veiculo", i.fonte));
@@ -387,22 +459,54 @@
     return art;
   }
 
+  var DADOS = RESERVA;
+
+  function combina(i, termo){
+    if(!termo) return true;
+    return normalizar(i.titulo).indexOf(termo) !== -1 ||
+           normalizar(i.resumo).indexOf(termo) !== -1 ||
+           normalizar(i.fonte).indexOf(termo) !== -1;
+  }
+
   function renderNoticias(dados){
     var itensTodos = Array.isArray(dados.itens) ? dados.itens : [];
+    var cru = $("busca") ? $("busca").value.trim() : "";
+    var termo = normalizar(cru);
+    var achados = 0;
 
     CATS.forEach(function(cat){
       var alvo = $(cat.lista);
       limpar(alvo);
 
-      var itens = itensTodos.filter(function(i){ return i && i.categoria === cat.chave; });
+      var itens = itensTodos.filter(function(i){
+        return i && i.categoria === cat.chave && combina(i, termo);
+      });
+      achados += itens.length;
       $(cat.contador).textContent = dois(itens.length);
 
       if(!itens.length){
-        alvo.appendChild(el("p", "vazio", "Nada novo nesta categoria na última coleta."));
+        alvo.appendChild(el("p", "vazio", termo
+          ? "Nenhuma notícia desta categoria com esse termo."
+          : "Nada novo nesta categoria na última coleta."));
         return;
       }
-      itens.forEach(function(i){ alvo.appendChild(montaNoticia(i)); });
+      itens.forEach(function(i){ alvo.appendChild(montaNoticia(i, cru)); });
     });
+
+    var placar = $("placar");
+    if(placar){
+      limpar(placar);
+      if(termo){
+        placar.appendChild(el("b", null, achados));
+        placar.appendChild(document.createTextNode(
+          (achados === 1 ? " resultado de " : " resultados de ") + itensTodos.length));
+      }else{
+        placar.textContent = itensTodos.length +
+          (itensTodos.length === 1 ? " notícia na última coleta" : " notícias na última coleta");
+      }
+    }
+    var bt = $("limparBusca");
+    if(bt) bt.hidden = !cru;
 
     var erros = Array.isArray(dados.fontes_com_erro) ? dados.fontes_com_erro : [];
     var aviso = $("erroFontes");
@@ -514,6 +618,27 @@
       .catch(function(){ return reserva; });
   }
 
+  // ---------- busca ----------
+  (function(){
+    var campo = $("busca"), bt = $("limparBusca"), t = null;
+    if(!campo) return;
+
+    function aplicar(){ renderNoticias(DADOS); }
+
+    campo.addEventListener("input", function(){
+      clearTimeout(t);
+      t = setTimeout(aplicar, 120);   // espera a digitacao parar
+    });
+    campo.addEventListener("keydown", function(e){
+      if(e.key === "Escape"){ campo.value = ""; aplicar(); }
+    });
+    bt.addEventListener("click", function(){
+      campo.value = "";
+      aplicar();
+      campo.focus();
+    });
+  })();
+
   relogio();
   setInterval(relogio, 20000);
 
@@ -521,8 +646,9 @@
     pegar("dados.json", RESERVA),
     pegar("agenda.json", {eventos:[]})
   ]).then(function(res){
-    renderSelo(res[0]);
-    renderNoticias(res[0]);
+    DADOS = res[0];
+    renderSelo(DADOS);
+    renderNoticias(DADOS);
     renderAgenda(res[1]);
   });
 })();
