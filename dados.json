@@ -1,461 +1,453 @@
 {
- "gerado_em": "2026-09-18T13:12:02.710236-03:00",
+ "gerado_em": "2026-09-21T15:06:25.499958-03:00",
  "janela_horas": 48,
- "total": 56,
+ "total": 55,
  "por_categoria": {
   "mercado": 14,
   "tecnologia": 14,
   "dev": 14,
-  "seguranca": 14
+  "seguranca": 13
  },
  "itens": [
   {
-   "titulo": "Building an Adaptive Chess Trainer with Typelevel Scala and Tyrian",
-   "resumo": "A web application with heavy domain logic involves a surprisingly high amount of state to manage. In a chess puzzle trainer, you have the state of the board itself, legal move validation, sequences of puzzles to load, and engine evaluation syncing. In...",
-   "link": "https://dev.to/mrdimosthenis/building-an-adaptive-chess-trainer-with-typelevel-scala-and-tyrian-1p3d",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:10:46-03:00"
-  },
-  {
-   "titulo": "kagent v1.0 Can Run Claude Code as a Managed Kubernetes Agent",
-   "resumo": "Originally published at webofmike.com on 2026-09-18. The demo repo and every command in it were run before publishing. kagent shipped v1.0.0-alpha1 this morning, its first 1.0 line after nine months on 0.x. The tag says alpha; GitHub's own release flag says...",
-   "link": "https://dev.to/webofmike/kagent-v10-can-run-claude-code-as-a-managed-kubernetes-agent-3p50",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:10:21-03:00"
-  },
-  {
-   "titulo": "Two agentgateway CEL Gotchas: One Fails Open, One Fails Closed",
-   "resumo": "Originally published at webofmike.com on 2026-09-18. The demo repo and every command in it were run before publishing. I was writing a CEL authorization policy for an LLM route in Solo Enterprise for agentgateway : restrict which models a caller may reach,...",
-   "link": "https://dev.to/webofmike/two-agentgateway-cel-gotchas-one-fails-open-one-fails-closed-17eg",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:09:49-03:00"
-  },
-  {
-   "titulo": "The AI Race Has a Missing Question: Can We Explain What Our Agents Already Did?",
-   "resumo": "The public conversation around advanced AI often collapses into two positions. One side says we should slow down. The other says progress is inevitable, so we should accelerate and compete. Both arguments matter. But teams deploying AI agents today face a...",
-   "link": "https://dev.to/sirinivask/the-ai-race-has-a-missing-question-can-we-explain-what-our-agents-already-did-4l03",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:08:34-03:00"
-  },
-  {
-   "titulo": "Context engineering: what fits and what gets dropped",
-   "resumo": "Originally published on Loop & Retry — field notes on building LLM agents that survive production. \"Context engineering\" showed up this year as the term for something teams were already doing badly: deciding what goes into the model's input on a given call....",
-   "link": "https://dev.to/loopandretry/context-engineering-what-fits-and-what-gets-dropped-34ki",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:05:49-03:00"
-  },
-  {
-   "titulo": "Give Your AI Agent WhatsApp Superpowers with MCP (Official Business API)",
-   "resumo": "What if your AI assistant could check your store's WhatsApp inbox, look up an order, and send the customer a reply — by itself? That's what the Model Context Protocol (MCP) makes possible. MCP is now supported across the LLM ecosystem — claude.ai, ChatGPT,...",
-   "link": "https://dev.to/rustam335/give-your-ai-agent-whatsapp-superpowers-with-mcp-official-business-api-3f9l",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:05:26-03:00"
-  },
-  {
-   "titulo": "Letting an LLM write alerting rules, but never letting it flip the switch",
-   "resumo": "This is the platform behind taabi Nexus , which Taabi Mobility launched this week. The launch video has three real calls it made into trucks. This is the engineering side. Last Wednesday a truck driver heard his dashcam intercom tell him, in Hindi, that his...",
-   "link": "https://dev.to/sarit_chauhan/letting-an-llm-write-alerting-rules-but-never-letting-it-flip-the-switch-pjk",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:05:14-03:00"
-  },
-  {
-   "titulo": "Your CI Runs Tests in Parallel. Your Test Data Doesn't Know That.",
-   "resumo": "There's a specific kind of test failure that survives every fix you throw at it. It passes locally. It passes when you re-run the single spec in CI. It passes when you retry the job. Then it fails again two days later in a different spec entirely, one nobody...",
-   "link": "https://dev.to/ankitpatel_qa/your-ci-runs-tests-in-parallel-your-test-data-doesnt-know-that-2oh",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-09-18T13:04:13-03:00"
-  },
-  {
-   "titulo": "Dólar hoje sobe com aperto monetário global e cautela eleitoral",
-   "resumo": "Cenário externo se soma à cautela com o ambiente eleitoral e as preocupações fiscai The post Dólar hoje sobe com aperto monetário global e cautela eleitoral appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-18092026/",
+   "titulo": "Coordenadora do plano econômico de Flávio nega que plano de privatização da Caixa",
+   "resumo": "Ex-presidente da Caixa, Daniella Marques reforçou que o candidato do PL pretende cortar apenas \"cabideiros de emprego\" The post Coordenadora do plano econômico de Flávio nega que plano de privatização da Caixa appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/politica/coordenadora-do-plano-economico-de-flavio-nega-que-plano-de-privatizacao-da-caixa/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-09-18T13:03:11-03:00"
+   "data": "2026-09-21T15:05:10-03:00"
   },
   {
-   "titulo": "Gyazo server flaw exploited to steal 23.6 million user records",
-   "resumo": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T13:00:38-03:00"
-  },
-  {
-   "titulo": "Levantamento revela a peça mais difícil de achar para carros chineses no Brasil",
-   "resumo": "Já se perguntou qual é a peça mais difícil de repor nos carros, principalmente se forem chineses ? Para descobrir, a Autoglass fez um levantamento que revelou os três grupos de carros com maior escassez de peças de reposição — quem dirige chineses...",
-   "link": "https://canaltech.com.br/carros/levantamento-revela-a-peca-mais-dificil-de-achar-para-carros-chineses-no-brasil/",
+   "titulo": "NVIDIA declara guerra ao “discurso do apocalipse” de IA: “0% de chance”",
+   "resumo": "Jensen Huang, CEO da NVIDIA, rejeitou os alertas de que a inteligência artificial poderia provocar o fim da humanidade até 2030. Segundo o executivo, existe “0% de chance” de isso acontecer e previsões desse tipo fazem parte de um “discurso do apocalipse” que...",
+   "link": "https://canaltech.com.br/inteligencia-artificial/nvidia-declara-guerra-ao-discurso-do-apocalipse-de-ia-0-de-chance/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-09-18T13:00:03-03:00"
+   "data": "2026-09-21T15:04:00-03:00"
   },
   {
-   "titulo": "Por que jovens trabalhadores terão de poupar mais cedo para a aposentadoria",
-   "resumo": "Com déficit estrutural e menos contribuintes no INSS, especialistas defendem a formação de reservas na previdência privada desde o início da vida profissional The post Por que jovens trabalhadores terão de poupar mais cedo para a aposentadoria appeared first...",
-   "link": "https://www.infomoney.com.br/minhas-financas/por-que-jovens-trabalhadores-terao-de-poupar-mais-cedo-para-a-aposentadoria/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T13:00:00-03:00"
-  },
-  {
-   "titulo": "XP lança novo Alerta de Golpe interativo e quer ampliar segurança dos clientes",
-   "resumo": "Nova funcionalidade utiliza inteligência preditiva, personalização e recursos sensoriais para ajudar investidores a identificar possíveis golpes antes da conclusão de transações The post XP lança novo Alerta de Golpe interativo e quer ampliar segurança dos...",
-   "link": "https://www.infomoney.com.br/consumo/xp-lanca-novo-alerta-de-golpe-interativo-e-quer-ampliar-seguranca-dos-clientes/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:54:59-03:00"
-  },
-  {
-   "titulo": "Ações da Nestlé caem após governo da Rússia assumir controle de subsidiária",
-   "resumo": "A determinação, publicada por decreto presidencial, também colocou sob gestão estatal temporária as operações no país das varejistas francesas Auchan e Leroy Merlin The post Ações da Nestlé caem após governo da Rússia assumir controle de subsidiária appeared...",
-   "link": "https://www.infomoney.com.br/mercados/acoes-da-nestle-caem-apos-governo-da-russia-assumir-controle-de-subsidiaria/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:53:41-03:00"
-  },
-  {
-   "titulo": "Aumentar o Bolsa Família em R$ 91 é desrespeitar a inteligência do povo, diz Caiado",
-   "resumo": "Ronaldo Caiado também voltou defender que, se eleito, fará um ajuste fiscal para controlar os gastos públicos The post Aumentar o Bolsa Família em R$ 91 é desrespeitar a inteligência do povo, diz Caiado appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/politica/aumentar-o-bolsa-familia-em-r-91-e-desrespeitar-a-inteligencia-do-povo-diz-caiado/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:53:20-03:00"
-  },
-  {
-   "titulo": "FII SNEL11 investe R$ 565 mi em 28 usinas solares e expande presença para 10 estados",
-   "resumo": "A operação amplia a presença geográfica do SNEL11, com a entrada em novos estados e concessionárias The post FII SNEL11 investe R$ 565 mi em 28 usinas solares e expande presença para 10 estados appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/onde-investir/fii-snel11-investe-r-565-mi-em-28-usinas-solares-e-expande-presenca-para-10-estados/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:50:08-03:00"
-  },
-  {
-   "titulo": "STF tem cinco ministros ligados direta ou indiretamente com o Master, diz Lula",
-   "resumo": "Para o presidente, a crise no STF \"contamina tudo\" no processo eleitoral The post STF tem cinco ministros ligados direta ou indiretamente com o Master, diz Lula appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/politica/stf-tem-cinco-ministros-ligados-direta-ou-indiretamente-com-o-master-diz-lula/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:48:12-03:00"
-  },
-  {
-   "titulo": "Comportamento não compatível com o cargo de ministro do STF, diz Caiado sobre Moraes",
-   "resumo": "Ronaldo Caiado também destacou que a condução do inquérito das fake news foi \"um erro\" e voltou a criticar a sessão do STF sobre Moraes The post Comportamento não compatível com o cargo de ministro do STF, diz Caiado sobre Moraes appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/politica/comportamento-nao-compativel-com-o-cargo-de-ministro-do-stf-diz-caiado-sobre-moraes/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:47:18-03:00"
-  },
-  {
-   "titulo": "Lula diz que governo terá PAC 4 e reserva de royalties do petróleo para investir em educação",
-   "resumo": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta sexta-feira (18) que o governo já prepara um novo Programa de Aceleração do Crescimento, o PAC 4, para definir novas obras de infraestrutura para investimento federal no país. Em entrevista à Rádio...",
-   "link": "https://www.moneytimes.com.br/lula-diz-que-governo-tera-pac-4-e-reserva-de-royalties-do-petroleo-para-investir-em-educacao-gaep/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:37:06-03:00"
-  },
-  {
-   "titulo": "Lula elogia governador interino do Rio de Janeiro e diz que ‘família Bolsonaro é metida com milicianos’",
-   "resumo": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta sexta-feira (18) que o governador interino do Rio de Janeiro, desembargador Ricardo Couto, “está fazendo um trabalho extraordinário” e “mostrando a seriedade que todos os governantes merecem mostrar”....",
-   "link": "https://www.moneytimes.com.br/lula-elogia-governador-interino-do-rj-e-diz-que-familia-bolsonaro-e-metida-com-milicianos-gaep/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-09-18T12:24:48-03:00"
-  },
-  {
-   "titulo": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-   "resumo": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve...",
-   "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T12:24:16-03:00"
-  },
-  {
-   "titulo": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-   "resumo": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T12:19:06-03:00"
-  },
-  {
-   "titulo": "Xiaomi lança purificador que renova o ar da casa em alta velocidade",
-   "resumo": "A Xiaomi adicionou um novo purificador de ar ao seu portfólio de produtos. Voltado à circulação e à limpeza rápida de ambientes domésticos, o Mijia Air Purifier 6C aposta em um alto volume de fluxo para melhorar a qualidade do ar dentro de casa. Segundo...",
-   "link": "https://canaltech.com.br/eletro/xiaomi-lanca-purificador-que-renova-o-ar-da-casa-em-alta-velocidade/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T12:08:17-03:00"
-  },
-  {
-   "titulo": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-   "resumo": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
-   "link": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-   "fonte": "GitHub Blog",
+   "titulo": "Beyond Green Checks: Designing Intent-Level Tests to Stop AI from Shipping Confidently Broken Code",
+   "resumo": "Originally published on tamiz.pro . Modern Large Language Models (LLMs) are remarkably proficient at generating code that looks syntactically correct and passes standard unit tests. However, this creates a dangerous blind spot: an AI agent can easily produce...",
+   "link": "https://dev.to/tamizuddin/beyond-green-checks-designing-intent-level-tests-to-stop-ai-from-shipping-confidently-broken-code-lc1",
+   "fonte": "dev.to",
    "categoria": "dev",
-   "data": "2026-09-18T12:00:00-03:00"
+   "data": "2026-09-21T15:01:16-03:00"
   },
   {
-   "titulo": "Kepler Weber (KEPL3): curto prazo segue fraco, mas déficit de armazenagem sustenta crescimento no longo prazo, diz Itaú BBA",
-   "resumo": "O cenário de curto prazo para a Kepler Weber (KEPL3) segue pressionado pelas margens apertadas dos produtores rurais e pelo endividamento elevado do setor. Para o Itaú BBA, porém, o déficit estrutural de armazenagem de grãos no Brasil continua sendo o...",
-   "link": "https://www.moneytimes.com.br/kepler-weber-kepl3-curto-prazo-segue-fraco-mas-deficit-de-armazenagem-sustenta-crescimento-no-longo-prazo-diz-itau-bba-pads/",
-   "fonte": "Money Times",
+   "titulo": "SP: Tarcísio não vai a debate alegando que encontros viraram ‘mais do mesmo’",
+   "resumo": "Com a ausência de Tarcísio, o encontro foi convertido em uma entrevista com o candidato de oposição Fernando Haddad The post SP: Tarcísio não vai a debate alegando que encontros viraram ‘mais do mesmo’ appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/politica/sp-tarcisio-nao-vai-a-debate-alegando-que-encontros-viraram-mais-do-mesmo/",
+   "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-09-18T11:59:19-03:00"
+   "data": "2026-09-21T15:00:59-03:00"
   },
   {
-   "titulo": "Entenda por que clubes e entidades do futebol brasileiro são contra a proposta que proibiria bets no Brasil",
-   "resumo": "O governo federal estuda uma Medida Provisória para proibir a atuação de cassinos online. A MP está prevista para ser publicada antes mesmo do primeiro turno das eleições. Com isso, os principais clubes de futebol do Brasil publicaram um manifesto contra a...",
-   "link": "https://www.moneytimes.com.br/por-que-clubes-entidades-do-futebol-brasileiro-sao-contra-a-proposta-que-proibiria-bets-no-brasil-mlem/",
-   "fonte": "Money Times",
+   "titulo": "Googlebook Preorders Open at $899 as Google Launches a Gemini-Driven Laptop Category",
+   "resumo": "Google has opened preorders for Googlebook , a new laptop category built around Gemini Intelligence and closer integration with Android. The base model starts at $899 , with devices scheduled to reach shelves on October 4 in the United States and October 5 in...",
+   "link": "https://dev.to/alifar/googlebook-preorders-open-at-899-as-google-launches-a-gemini-driven-laptop-category-42oe",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T15:00:30-03:00"
+  },
+  {
+   "titulo": "IBM Guardium Data Protection 12.2: Patching CVE-2026-81657 and Its Siblings",
+   "resumo": "IBM Guardium Data Protection 12.2: Patching CVE-2026-81657 and Its Siblings IBM Guardium Data Protection version 12.2 is affected by a group of vulnerabilities disclosed together in September 2026. CVE-2026-81657, rated 9.8, is one of them. This piece focuses...",
+   "link": "https://dev.to/jeffreyciend/ibm-guardium-data-protection-122-patching-cve-2026-81657-and-its-siblings-g73",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T15:00:06-03:00"
+  },
+  {
+   "titulo": "SVN Investimentos libera Gestor de Ações 360° gratuito",
+   "resumo": "Ferramenta reúne consulta de indicadores, comparação entre empresas e calculadora para estimar a rentabilidade da carteira de ações The post SVN Investimentos libera Gestor de Ações 360° gratuito appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/onde-investir/svn-investimentos-libera-gestor-de-acoes-360-gratuito/",
+   "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-09-18T11:53:41-03:00"
+   "data": "2026-09-21T15:00:00-03:00"
   },
   {
-   "titulo": "Eztec (EZTC3) sobe forte na bolsa após ‘cheque gordo’ do Itaú (ITUB4); analistas estimam dividendo de até 25% para o papel",
-   "resumo": "As ações da construtora e incorporadora Eztec (EZTC3) operam em forte alta nesta sexta-feira (18), um dia após o anúncio de que o Itaú Unibanco (ITUB4) fechou um contrato de locação para ocupar a integralidade do empreendimento Esther Towers, desenvolvido...",
-   "link": "https://www.moneytimes.com.br/eztec-eztc3-dispara-na-bolsa-apos-cheque-gordo-do-itau-itub4-analistas-estimam-dividendo-de-ate-25-para-o-papel-igdl/",
-   "fonte": "Money Times",
+   "titulo": "Tarifas? “Sell America” explica maior parte da queda do dólar desde 2025, aponta Itaú",
+   "resumo": "Estudo do Itaú conclui que a desvalorização recente da moeda americana está mais ligada ao aumento da aversão institucional aos Estados Unidos do que a tarifas ou fundamentos econômicos, enquanto inteligência artificial e prêmio de risco ajudam a explicar o...",
+   "link": "https://www.infomoney.com.br/mercados/tarifas-sell-america-explica-maior-parte-da-queda-do-dolar-desde-2025-aponta-itau/",
+   "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-09-18T11:52:34-03:00"
+   "data": "2026-09-21T15:00:00-03:00"
   },
   {
-   "titulo": "Pré-venda do Nintendo Switch 2 versão 40 anos de Zelda começa e itens esgotam em minutos — de novo",
-   "resumo": "Em comemoração aos 40 anos de The Legend of Zelda, a Nintendo não só fez um remake do jogo The Legend of Zelda: Ocarina of Time como preparou uma edição especial do Nintendo Switch 2 e de outros itens. A pré-venda começou nesta quinta-feira (18) e, em poucos...",
-   "link": "https://www.moneytimes.com.br/pre-venda-do-nintendo-switch-2-versao-40-anos-de-zelda-ocarina-esgota-em-minutos-mlem/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-09-18T11:52:09-03:00"
+   "titulo": "Django vs Flask vs FastAPI in 2026 - Which to Choose",
+   "resumo": "Search interest in \"python web framework\" has grown 190% in the UK over the past three months, making it one of the fastest-rising technical queries of 2026. The reason is straightforward: Python has become the dominant language for AI integration, data...",
+   "link": "https://dev.to/mecanik-dev/django-vs-flask-vs-fastapi-in-2026-which-to-choose-3bhg",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T15:00:00-03:00"
   },
   {
-   "titulo": "Onde a inteligência artificial realmente está mudando o varejo",
-   "resumo": "* Por Flávia Zeni Nos últimos anos, as discussões sobre inteligência artificial no varejo foram dominadas por anúncios chamativos e demonstrações conceituais. No entanto, por trás dos holofotes do marketing, a verdadeira revolução tecnológica está acontecendo...",
-   "link": "https://canaltech.com.br/mercado/onde-a-inteligencia-artificial-realmente-esta-mudando-o-varejo/",
+   "titulo": "Google anuncia novos Googlebooks com promessa de 10 anos de duração; conheça",
+   "resumo": "A Google anunciou oficialmente nesta segunda-feira (21) os Googlebooks, seus notebooks que terão uma forte interação com o ecossistema Android. As pré-vendas começaram de imediato e são oferecidos hardwares a partir de US$ 899 — com lançamento previsto para o...",
+   "link": "https://canaltech.com.br/notebook/google-anuncia-novos-googlebooks-com-promessa-de-10-anos-de-duracao-conheca/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-09-18T11:46:56-03:00"
+   "data": "2026-09-21T14:59:00-03:00"
   },
   {
-   "titulo": "Vivo libera 5G mais potente em 10 cidades",
-   "resumo": "Rede 5G Advanced promete velocidade de até 2 Gb/s. Brasilienses contam com a tecnologia desde 2025. Vivo libera 5G mais potente em 10 cidades",
-   "link": "https://tecnoblog.net/noticias/vivo-ativa-o-5g-potente-em-mais-10-cidades/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T11:46:29-03:00"
+   "titulo": "Lula se reúne com presidente do Uruguai e prefeito de NY antes da Assembleia da ONU",
+   "resumo": "Em sua conta no X, Lula disse que os dois conversaram sobre \"a integração latino-americana e caribenha\" The post Lula se reúne com presidente do Uruguai e prefeito de NY antes da Assembleia da ONU appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/politica/lula-se-reune-com-presidente-do-uruguai-e-prefeito-de-ny-antes-da-assembleia-da-onu/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:56:10-03:00"
   },
   {
-   "titulo": "União com a Geely: Renault confirma dois novos SUVs híbridos nacionais",
-   "resumo": "A Renault trouxe “spoilers” dos planos para seu portfólio no próximo ano. A francesa confirmou a fabricação de dois novos SUVs híbridos no Brasil em 2027 , no Complexo Industrial Ayrton Senna em São José dos Pinhais (PR), viabilizados por um investimento de...",
-   "link": "https://canaltech.com.br/carros/sucessor-do-duster-ou-boreal-renault-confirma-dois-novos-suvs-hibridos-nacionais/",
+   "titulo": "Microsoft to retire Microsoft 365 Companion apps in December",
+   "resumo": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-21T14:54:49-03:00"
+  },
+  {
+   "titulo": "SQL Joins Explained: A Beekeeping Co-op in Six Queries",
+   "resumo": "A join is not a special SQL feature reserved for experts. It is the answer to a problem every relational database creates on purpose: your data lives in more than one table, and a single query rarely cares about table boundaries. To see how each join behaves,...",
+   "link": "https://dev.to/david_mwandairo_777f888b4/sql-joins-explained-a-beekeeping-co-op-in-six-queries-3j1j",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T14:54:35-03:00"
+  },
+  {
+   "titulo": "Motorola se une à Bang & Olufsen para turbinar áudio dos próximos celulares",
+   "resumo": "A Motorola anunciou uma parceria global de longo prazo com a Bang & Olufsen para aprimorar a experiência de áudio dos seus próximos celulares premium. O acordo levará a assinatura “Audio by Bang & Olufsen” aos futuros smartphones topo de linha da fabricante....",
+   "link": "https://canaltech.com.br/smartphone/motorola-se-une-a-bang-olufsen-para-turbinar-audio-dos-proximos-celulares/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-09-18T11:41:19-03:00"
+   "data": "2026-09-21T14:54:32-03:00"
   },
   {
-   "titulo": "Motorola Razr 60 Ultra (1 TB) com tela de 165 Hz volta a ter desconto",
-   "resumo": "Razr 60 Ultra (1 TB) com tela POLED flexível de 165 Hz e câmeras do Razr 70 Ultra sai 42% mais barato no Pix, com cupom do Mercado Livre que acaba hoje Motorola Razr 60 Ultra (1 TB) com tela de 165 Hz volta a ter desconto",
-   "link": "https://tecnoblog.net/achados/motorola-razr-60-ultra-1-tb-com-tela-de-165-hz-volta-a-ter-desconto/",
+   "titulo": "Haddad critica ausência de Tarcísio em debate: “propostas dele não convencem”",
+   "resumo": "Ex-ministro também lamentou a ausência de seu adversário na disputa, afirmando que ambos juntos tem 90% dos votos válidos The post Haddad critica ausência de Tarcísio em debate: “propostas dele não convencem” appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/politica/haddad-critica-ausencia-de-tarcisio-em-debate-propostas-dele-nao-convencem/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:54:23-03:00"
+  },
+  {
+   "titulo": "Lula diz que Uruguai cedeu ao Brasil parte da cota de exportação de carne bovina à China",
+   "resumo": "O presidente Luiz Inácio Lula da Silva afirmou nesta segunda-feira (21) que o Uruguai autorizou o Brasil a utilizar parte do excedente de sua cota de exportação de carne bovina para a China, em um momento em que os frigoríficos brasileiros já atingiram o...",
+   "link": "https://www.moneytimes.com.br/lula-diz-que-uruguai-cedeu-ao-brasil-parte-da-cota-de-exportacao-de-carne-bovina-a-china-pads/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:51:16-03:00"
+  },
+  {
+   "titulo": "Find the AWS Resources Nobody Is Using, and What They Cost You",
+   "resumo": "This article provides a step by step guide to auditing an AWS account for resources nothing is using, pricing each finding from the AWS Price List API, and cleaning up the ones you choose. A suite of Python checks is built to cover storage, compute,...",
+   "link": "https://dev.to/aws-builders/find-the-aws-resources-nobody-is-using-and-what-they-cost-you-35bj",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T14:50:07-03:00"
+  },
+  {
+   "titulo": "Fundos imobiliários de shoppings: 6 são compra para o BTG; veja recomendações e retorno de dividendos",
+   "resumo": "O BTG Pactual recomenda postura seletiva entre os fundos imobiliários de shopping centers, com preferência por veículos que tenham portfólios dominantes, valuation atrativo e maior sustentação dos dividendos pelo resultado recorrente, segundo relatório sobre...",
+   "link": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-de-shoppings-seis-sao-compra-para-o-btg-veja-recomendacoes-igdl/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:49:48-03:00"
+  },
+  {
+   "titulo": "CSS-Only Custom Elements",
+   "resumo": "There's a quiet trend picking up steam in the web components world: developers using custom-element-shaped markup that never calls customElements.define() . No class, no lifecycle callbacks, no component JavaScript at all. Just a tag name and a stylesheet. At...",
+   "link": "https://dev.to/stuffbreaker/css-only-custom-elements-go6",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T14:48:12-03:00"
+  },
+  {
+   "titulo": "IBGE: motoristas de aplicativo trabalham 5 horas a mais por semana para ganhar o mesmo que outros trabalhadores",
+   "resumo": "Quase 2 milhões de brasileiros trabalhavam por meio de plataformas digitais de serviços em 2025, segundo dados do Instituto Brasileiro de Geografia e Estatística (IBGE). Apesar de terem rendimento mensal praticamente igual ao dos demais trabalhadores do setor...",
+   "link": "https://www.moneytimes.com.br/ibge-trabalhadores-motoristas-aplicativo-rsgp/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:47:44-03:00"
+  },
+  {
+   "titulo": "Itaú BBA vê combinação rara de crescimento e retorno ao acionista nesta small cap",
+   "resumo": "O Itaú BBA enxerga uma combinação rara na Bemobi (BMOB3) após os resultados da companhia no primeiro semestre de 2026 e considera que a ação oferece proteção contra a volatilidade macroeconômica. Com isso, o banco elevou o preço-alvo da small cap para R$ 36...",
+   "link": "https://www.moneytimes.com.br/itau-bba-ve-combinacao-rara-de-crescimento-e-retorno-ao-acionista-nesta-small-cap/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:46:42-03:00"
+  },
+  {
+   "titulo": "Building an AWS + Snowflake with Terraform: Lessons from My CI/CD Review",
+   "resumo": "Every analytics platform has an unglamorous foundation: the raw/landing tier where source data first lands before anything clever happens to it. It's easy to click that together by hand once. It's much harder to make it reproducible across dev, UAT, and prod...",
+   "link": "https://dev.to/kiran_gunturu_022085015ec/building-an-aws-snowflake-landing-zone-with-terraform-lessons-from-my-cicd-review-1nia",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-09-21T14:46:40-03:00"
+  },
+  {
+   "titulo": "Etanol ou gasolina? Biocombustível compensa mais em 11 estados e no DF; veja onde",
+   "resumo": "Os preços médios do etanol hidratado subiram em 10 Estados e no Distrito Federal (DF), caíram em 9 e ficaram estáveis em 6 outros na semana de 13 a 19 de setembro. No Amapá (AP) não houve cotação. Os dados são da Agência Nacional do Petróleo, Gás Natural e...",
+   "link": "https://www.moneytimes.com.br/etanol-ou-gasolina-biocombustivel-compensa-mais-em-11-estados-e-no-df-veja-onde-pads/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:45:09-03:00"
+  },
+  {
+   "titulo": "Morre João Jacob Vontobel, fundador da Vonpar, aos 97 anos",
+   "resumo": "Considerado o bilionário mais velho do Brasil, empresário gaúcho tinha fortuna estimada em R$ 3 bilhões The post Morre João Jacob Vontobel, fundador da Vonpar, aos 97 anos appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/brasil/joao-jacob-vontobel-bilionario-mais-velho-brasil/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:45:00-03:00"
+  },
+  {
+   "titulo": "Coordenadora do plano econômico de Flávio Bolsonaro volta a negar que candidato queira privatizar a Caixa",
+   "resumo": "A coordenadora do plano econômico do candidato à Presidência Flávio Bolsonaro (PL), Daniella Marques, volto a negar nesta segunda-feira (21), que o senador tenha a intenção de privatizar a Caixa Econômica Federal, caso seja eleito presidente. “Queremos ir em...",
+   "link": "https://www.moneytimes.com.br/coordenadora-do-plano-economico-de-flavio-nega-que-candidato-queira-privatizar-a-caixa-gaep/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:44:41-03:00"
+  },
+  {
+   "titulo": "Operadores enfrentam automação em mercado de câmbio de US$ 4 trilhões por dia",
+   "resumo": "Há um novo impulso para tornar mais desse mercado eletrônico, de acordo com um encontro do setor em Amsterdã The post Operadores enfrentam automação em mercado de câmbio de US$ 4 trilhões por dia appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/operadores-enfrentam-automacao-em-mercado-de-cambio-de-us-4-trilhoes-por-dia/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-09-21T14:39:56-03:00"
+  },
+  {
+   "titulo": "Como saber a senha do Wi-Fi que estou conectado? Saiba ver a senha pelo celular ou PC",
+   "resumo": "É possível ver a senha do Wi-Fi que você já está conectado acessando o menu de redes do celular ou as propriedades de conexão no PC Como saber a senha do Wi-Fi que estou conectado? Saiba ver a senha pelo celular ou PC",
+   "link": "https://tecnoblog.net/responde/como-descobrir-a-senha-do-wifi-que-estou-conectado/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-09-18T11:19:29-03:00"
+   "data": "2026-09-21T14:33:46-03:00"
   },
   {
-   "titulo": "iPhone pode ficar ainda mais caro após reajuste da Samsung",
-   "resumo": "Apple aceitou pagar até 40% mais pelos chips DRAM e NAND da Samsung a partir de 2027. iPhone pode ficar ainda mais caro após reajuste da Samsung",
-   "link": "https://tecnoblog.net/noticias/iphone-pode-ficar-ainda-mais-caro-apos-reajuste-da-samsung/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T11:14:00-03:00"
-  },
-  {
-   "titulo": "Xiaomi vai vender dois novos smartphones no Brasil",
-   "resumo": "Redmi Note 17 Pro e Poco X8 receberam certificação da Anatel, com especificações similares e bateria grande. Xiaomi vai vender dois novos smartphones no Brasil",
-   "link": "https://tecnoblog.net/noticias/xiaomi-vai-vender-dois-novos-smartphones-no-brasil/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T11:14:00-03:00"
-  },
-  {
-   "titulo": "Secure enterprise sharing with access reviews for Microsoft 365",
-   "resumo": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access governance and...",
-   "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T11:00:10-03:00"
-  },
-  {
-   "titulo": "Chuveiro elétrico vs. Ar-condicionado: quem é o verdadeiro vilão da sua conta de luz?",
-   "resumo": "Chuveiro elétrico e ar-condicionado costumam entrar na lista de suspeitos quando a conta de luz vem mais alta do que o normal . Mas aí entra a pergunta de milhões: o que pesa mais no bolso, quatro banhos de 15 minutos na potência máxima ou um ar-condicionado...",
-   "link": "https://canaltech.com.br/eletro/chuveiro-eletrico-vs-ar-condicionado-quem-e-o-verdadeiro-vilao-da-sua-conta-de-luz/",
+   "titulo": "GM tenta liberar importação para trazer SUVs gigantes da Chevrolet ao Brasil",
+   "resumo": "A General Motors está em busca de alterar as regras de homologação veicular no Brasil . O movimento da montadora vem em uma tentativa de viabilizar a importação direta de veículos fabricados nos Estados Unidos — e, para isso, a fabricante atua junto aos...",
+   "link": "https://canaltech.com.br/carros/gm-tenta-liberar-importacao-para-trazer-suvs-gigantes-da-chevrolet-ao-brasil/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-09-18T11:00:00-03:00"
+   "data": "2026-09-21T14:30:00-03:00"
   },
   {
-   "titulo": "Microsoft Teams will let admins block custom file extensions",
-   "resumo": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T10:58:40-03:00"
-  },
-  {
-   "titulo": "Galaxy Watch 8 LTE tem 62% OFF para quem quer correr sem celular",
-   "resumo": "Galaxy Watch 8 (44 mm) com conectividade 4G/LTE e treinador personalizado atinge um dos menores preços que já vimos, com desconto no Pix de 62% na Amazon Galaxy Watch 8 LTE tem 62% OFF para quem quer correr sem celular",
-   "link": "https://tecnoblog.net/achados/galaxy-watch-8-lte-tem-62-off-para-quem-quer-correr-sem-celular/",
+   "titulo": "GPT-6 Astra decifra mensagem do exército alemão após 108 anos",
+   "resumo": "Modelo de IA pode ter decifrado mensagem que relatava chegada de navio britânico a Sebastopol, na Crimeia. GPT-6 Astra decifra mensagem do exército alemão após 108 anos",
+   "link": "https://tecnoblog.net/noticias/gpt-6-astra-decifra-mensagem-do-exercito-alemao-apos-108-anos/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-09-18T10:57:39-03:00"
+   "data": "2026-09-21T14:22:21-03:00"
   },
   {
-   "titulo": "Filme de ação violenta com Ben Affleck e Jon Bernthal bomba no streaming",
-   "resumo": "Quase uma década depois de O Contador (2016) fazer sucesso nas telonas, Ben Affleck retornou ao universo do thriller para continuar a jornada do contador Christian Wolff em uma sequência que está bombando no streaming atualmente. Dividindo os holofotes com...",
-   "link": "https://canaltech.com.br/entretenimento/filme-de-acao-violenta-com-ben-affleck-e-jon-bernthal-bomba-no-streaming/",
+   "titulo": "Bug do YouTube no Android bloqueia barra de avançar há cinco meses",
+   "resumo": "Um erro persistente na interface do YouTube para Android impede alguns usuários de acessar a barra de progresso e consultar o tempo de reprodução dos vídeos. O problema aparece principalmente quando o aplicativo está em tela cheia na horizontal , com a área...",
+   "link": "https://canaltech.com.br/apps/bug-do-youtube-no-android-bloqueia-barra-de-avancar-ha-cinco-meses/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-09-18T10:32:00-03:00"
+   "data": "2026-09-21T14:07:00-03:00"
   },
   {
-   "titulo": "Como criar ou editar destaques com stories no Instagram",
-   "resumo": "Destaques do Instagram são as fotos e vídeos publicados via Stories que ficam fixados em uma faixa exclusiva, no perfil da rede social Como criar ou editar destaques com stories no Instagram",
-   "link": "https://tecnoblog.net/responde/como-colocar-stories-em-destaque-no-instagram/",
+   "titulo": "O novo rei da HBO Max: David Harbour lidera filmes e séries ao mesmo tempo no streaming",
+   "resumo": "David Harbour passou anos fazendo sucesso no streaming com sua performance como Jim Hopper em Stranger Things , mas o fim da série da Netflix veio como uma oportunidade para o público se aventurar por outros projetos do ator. Na HBO Max, por exemplo, o astro...",
+   "link": "https://canaltech.com.br/entretenimento/o-novo-rei-da-hbo-max-david-harbour-lidera-filmes-e-series-ao-mesmo-tempo-no-streaming/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T14:03:00-03:00"
+  },
+  {
+   "titulo": "É oficial: Google lança os primeiros Googlebooks",
+   "resumo": "Google iniciou pré-venda dos laptops da categoria Googlebook. Eles são produzidos por marcas como Acer, Asus, Dell, HP e Lenovo. É oficial: Google lança os primeiros Googlebooks",
+   "link": "https://tecnoblog.net/noticias/e-oficial-google-lanca-os-primeiros-googlebooks/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-09-18T10:30:29-03:00"
+   "data": "2026-09-21T13:48:22-03:00"
   },
   {
-   "titulo": "Motorola Edge 70 (512 GB) com 12 GB de RAM sai 54% mais barato no Mercado Livre",
-   "resumo": "Motorola Edge 70 (512 GB) tem 12 GB de RAM e chip Snapdragon; 2.ª melhor oferta de 2026 traz celular da Motorola com desconto de 54% sobre o preço original Motorola Edge 70 (512 GB) com 12 GB de RAM sai 54% mais barato no Mercado Livre",
-   "link": "https://tecnoblog.net/achados/motorola-edge-70-512-gb-com-12-gb-de-ram-sai-54-mais-barato-no-mercado-livre/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T10:25:10-03:00"
-  },
-  {
-   "titulo": "Webinar: Which Google Workspace security controls actually matter?",
-   "resumo": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overrated, and where...",
-   "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T10:10:19-03:00"
-  },
-  {
-   "titulo": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-   "resumo": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. \"Missing...",
-   "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T09:47:04-03:00"
-  },
-  {
-   "titulo": "Galaxy S26 Plus volta a cair de preço com oferta no Magalu",
-   "resumo": "Galaxy S26 Plus (256 GB) tem câmera de 50 MP e tela de 120 Hz; celular premium da Samsung sai por menos da metade do preço original em oferta no Pix Galaxy S26 Plus volta a cair de preço com oferta no Magalu",
-   "link": "https://tecnoblog.net/achados/galaxy-s26-plus-volta-a-cair-de-preco-com-oferta-no-magalu/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-09-18T09:32:37-03:00"
-  },
-  {
-   "titulo": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-   "resumo": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-09-18T09:16:32-03:00"
-  },
-  {
-   "titulo": "I don't like passkeys",
-   "resumo": "Article URL: https://hawksley.dev/blog/i-dont-like-passkeys Comments URL: https://news.ycombinator.com/item?id=49753211 Points: 429 # Comments: 404",
-   "link": "https://hawksley.dev/blog/i-dont-like-passkeys",
+   "titulo": "Grok 4.7",
+   "resumo": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 223 # Comments: 180",
+   "link": "https://x.ai/news/grok-4-7",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-09-18T09:06:50-03:00"
+   "data": "2026-09-21T12:50:15-03:00"
   },
   {
-   "titulo": "Bend 2 and the Vibe-Coding Trap",
-   "resumo": "Article URL: https://blog.liampwll.com/posts/bend_vibe_coding/ Comments URL: https://news.ycombinator.com/item?id=49753179 Points: 274 # Comments: 196",
-   "link": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+   "titulo": "Google fined €403 million over location data privacy violations",
+   "resumo": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-21T12:41:22-03:00"
+  },
+  {
+   "titulo": "Galaxy S25 com chip Snapdragon 8 Elite tem 54% OFF no Mercado Livre",
+   "resumo": "Galaxy S25 (256 GB) traz chip Snapdragon 8 Elite e câmera de 50 MP; celular da Samsung sai por menos da metade do preço original no Pix com cupom Galaxy S25 com chip Snapdragon 8 Elite tem 54% OFF no Mercado Livre",
+   "link": "https://tecnoblog.net/achados/galaxy-s25-com-chip-snapdragon-8-elite-tem-54-off-no-mercado-livre/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T12:40:50-03:00"
+  },
+  {
+   "titulo": "Sua chance: Motorola Edge 60 Pro (256 GB) registra menor preço do ano",
+   "resumo": "Edge 60 Pro (256 GB) tem câmeras de 50 MP e tela de 120 Hz; celular da Motorola atinge o menor preço de 2026, com desconto de 57% no Pix com cupom no Mercado Livre Sua chance: Motorola Edge 60 Pro (256 GB) registra menor preço do ano",
+   "link": "https://tecnoblog.net/achados/sua-chance-motorola-edge-60-pro-256-gb-registra-menor-preco-do-ano/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T12:24:19-03:00"
+  },
+  {
+   "titulo": "Google leva multa de 403 milhões de euros por coletar dados de localização",
+   "resumo": "Órgão de proteção de dados da Irlanda concluiu que configurações violaram as regras europeias de privacidade entre 2018 e 2020. Google leva multa de 403 milhões de euros por coletar dados de localização",
+   "link": "https://tecnoblog.net/noticias/google-leva-multa-de-403-milhoes-de-euros-por-coletar-dados-de-localizacao/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T12:09:50-03:00"
+  },
+  {
+   "titulo": "Os primeiros celulares do Brasil com a Samsung One UI 9",
+   "resumo": "Linha do Galaxy S26 recebe atualização de sistema nesta semana. Tecnoblog apurou o cronograma para o país. Os primeiros celulares do Brasil com a Samsung One UI 9",
+   "link": "https://tecnoblog.net/noticias/os-primeiros-celulares-do-brasil-com-a-one-ui-9/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T12:05:42-03:00"
+  },
+  {
+   "titulo": "Luz no fim do túnel: CEO da Acer prevê queda nos preços de PCs em 2027",
+   "resumo": "Jason Chen prevê mais aumento nos preços de computadores até o fim de 2026. Mas a tendência deve se inverter no segundo semestre de 2027. Luz no fim do túnel: CEO da Acer prevê queda nos preços de PCs em 2027",
+   "link": "https://tecnoblog.net/noticias/luz-no-fim-do-tunel-ceo-da-acer-preve-queda-nos-precos-de-pcs-em-2027/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-09-21T11:56:02-03:00"
+  },
+  {
+   "titulo": "Microsoft fixes broken Excel copy and paste for all Office users",
+   "resumo": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-21T11:42:37-03:00"
+  },
+  {
+   "titulo": "Attention is all you have",
+   "resumo": "Article URL: https://alicegg.tech/2026/09/21/attention Comments URL: https://news.ycombinator.com/item?id=49787726 Points: 224 # Comments: 59",
+   "link": "https://alicegg.tech/2026/09/21/attention",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-09-18T09:03:55-03:00"
+   "data": "2026-09-21T11:26:56-03:00"
   },
   {
-   "titulo": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
-   "resumo": "Article URL: https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html Comments URL: https://news.ycombinator.com/item?id=49752614 Points: 196 # Comments: 129",
-   "link": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
+   "titulo": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+   "resumo": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake...",
+   "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-09-21T11:24:13-03:00"
+  },
+  {
+   "titulo": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+   "resumo": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents,...",
+   "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-09-21T11:15:40-03:00"
+  },
+  {
+   "titulo": "What Sun got wrong",
+   "resumo": "Article URL: https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/ Comments URL: https://news.ycombinator.com/item?id=49787436 Points: 297 # Comments: 166",
+   "link": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-09-18T08:01:44-03:00"
+   "data": "2026-09-21T11:03:18-03:00"
   },
   {
-   "titulo": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-   "resumo": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites,...",
-   "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-   "fonte": "The Hacker News",
+   "titulo": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+   "resumo": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and...",
+   "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+   "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-09-18T08:01:16-03:00"
+   "data": "2026-09-21T11:02:12-03:00"
   },
   {
-   "titulo": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-   "resumo": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air Security said on...",
-   "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T08:01:01-03:00"
-  },
-  {
-   "titulo": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-   "resumo": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two...",
-   "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T07:40:06-03:00"
-  },
-  {
-   "titulo": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-   "resumo": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the malware using a large language model...",
-   "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T06:18:03-03:00"
-  },
-  {
-   "titulo": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-   "resumo": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed...",
-   "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-18T03:17:25-03:00"
-  },
-  {
-   "titulo": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-   "resumo": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy...",
-   "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-09-17T15:08:28-03:00"
-  },
-  {
-   "titulo": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-   "resumo": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
-   "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-   "fonte": "GitHub Blog",
+   "titulo": "M5 Ultra Mac Studio Review",
+   "resumo": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49787313 Points: 156 # Comments: 118",
+   "link": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+   "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-09-16T21:26:43-03:00"
+   "data": "2026-09-21T10:53:27-03:00"
   },
   {
-   "titulo": "A Bootiful Podcast: Spring Tools lead Martin Lippert",
-   "resumo": "Hi, Spring fans! In this conversation, Spring Tools lead Martin Lippert joins us for a fascinating look at how developer tooling has evolved from Eclipse to VS Code and beyond. We dig into the architecture behind Spring Tools, language servers, MCP, and how...",
-   "link": "https://spring.io/blog/2026/09/17/a-bootiful-podcast-martin-lippert",
+   "titulo": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+   "resumo": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-21T10:16:20-03:00"
+  },
+  {
+   "titulo": "Microsoft: September updates break File History backup feature",
+   "resumo": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-21T08:45:54-03:00"
+  },
+  {
+   "titulo": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+   "resumo": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and...",
+   "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-09-21T05:39:38-03:00"
+  },
+  {
+   "titulo": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+   "resumo": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target...",
+   "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-09-21T03:06:44-03:00"
+  },
+  {
+   "titulo": "Spring AI and TypeSafe Jev: Fast, Cheap, Structured Decisions",
+   "resumo": "Reference documentation and GitHub repository We often need quick decision-making components in our AI applications: to pick the next step in a multi-agent system, to evaluate the inputs and outputs of a complex reasoning task, to route a request, to do input...",
+   "link": "https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment",
    "fonte": "Spring Blog",
    "categoria": "dev",
-   "data": "2026-09-16T21:00:00-03:00"
+   "data": "2026-09-20T21:00:00-03:00"
+  },
+  {
+   "titulo": "Releasing Spring for Modern Challenges",
+   "resumo": "Releasing Spring For Modern Challenges TL;DR: The Spring release train has been updated from a two week long train to a single day, the Thursday after the third Monday of the month. The next regular patch train will be on October 22nd. A milestone only train...",
+   "link": "https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges",
+   "fonte": "Spring Blog",
+   "categoria": "dev",
+   "data": "2026-09-20T21:00:00-03:00"
+  },
+  {
+   "titulo": "Malicious npm packages evade install-script defenses at runtime",
+   "resumo": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-20T11:11:21-03:00"
+  },
+  {
+   "titulo": "Researchers escape OpenAI Codex sandbox to run commands on host",
+   "resumo": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-09-20T09:00:00-03:00"
+  },
+  {
+   "titulo": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+   "resumo": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the...",
+   "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-09-19T15:36:53-03:00"
   }
  ],
  "fontes_com_erro": [
