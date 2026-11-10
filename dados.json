@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-09T19:10:18.025194-03:00",
+ "gerado_em": "2026-11-10T16:31:58.464125-03:00",
  "janela_horas": 48,
  "total": 56,
  "por_categoria": {
@@ -10,444 +10,444 @@
  },
  "itens": [
   {
-   "titulo": "SEGA newsletter data breach exposes 2.2 million email addresses",
-   "resumo": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+   "titulo": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "resumo": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-09T19:09:33-03:00"
+   "data": "2026-11-10T16:31:11-03:00"
   },
   {
-   "titulo": "Bolsas de Nova York fecham em forte alta com alívio nos temores sobre inflação; Nvidia tomba",
-   "resumo": "As ações nos EUA se valorizaram nesta segunda-feira (9), à medida que a queda nos preços do petróleo amenizou os temores de inflação e ajudou o S&P 500 a se recuperar de sua maior queda semanal desde abril de 2025. Enquanto isso, as ações do setor de...",
-   "link": "https://www.moneytimes.com.br/wall-street-sobe-a-medida-que-recuo-do-petroleo-ameniza-temores-de-inflacao-nvidia-tomba-davs/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T19:08:11-03:00"
-  },
-  {
-   "titulo": "Node.js Daily Email Scheduling: Cloud Cron and Duplicate-Safe Webhook Retries Explained",
-   "resumo": "Use a cloud cron job to trigger a Node.js email-generation endpoint once a day, then make the endpoint and its downstream consumer idempotent. Short answer: this is the right shape for a daily report because the schedule is fixed, the application code stays...",
-   "link": "https://dev.to/bartholomewvance6831/nodejs-daily-email-scheduling-cloud-cron-and-duplicate-safe-webhook-retries-explained-3342",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:07:35-03:00"
-  },
-  {
-   "titulo": "API Rate Limiting: How to Test It and How to Design It",
-   "resumo": "Rate limiting is usually discussed as an availability feature. In APIs it is also a security control — for brute force, enumeration, scraping, and cost abuse. Most implementations are weaker than the team believes. Every API has a rate limit. Some have it in...",
-   "link": "https://dev.to/greee/api-rate-limiting-how-to-test-it-and-how-to-design-it-2ml",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:07:31-03:00"
-  },
-  {
-   "titulo": "Stop scrolling agent replies",
-   "resumo": "I use coding agents all day. Claude Code in the terminal, Codex for a second opinion, Copilot in VS Code. They are good at the work. They are less good at telling me about it. A typical reply to \"the test is failing, fix it\" looks like this: Before Great...",
-   "link": "https://dev.to/paulbennetjoshua/stop-scrolling-agent-replies-1o17",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:06:41-03:00"
-  },
-  {
-   "titulo": "Would You Trust a Crypto Wallet Without Checking Its History?",
-   "resumo": "AML Fast Scan — TRC20 & USDT Address and Transaction AML Check on TRON Paste a TRON address or transaction hash and get a clear AML risk score and report. No wallet connection. aml-fastscan.vercel.app A wallet address can look completely normal. The...",
-   "link": "https://dev.to/cointelegraph_news/would-you-trust-a-crypto-wallet-without-checking-its-history-38dh",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:05:29-03:00"
-  },
-  {
-   "titulo": "Shipping a Phaser Game on Android: Notes From Building Boss Lab",
-   "resumo": "*Disclosure: I'm part of Boss Lab Studio, the independent team behind Boss Lab. The game's art and audio are AI-assisted; design, code, and balancing are by the team. Boss Lab is Android-only and needs an internet connection. Short answer: yes, you can ship a...",
-   "link": "https://dev.to/bosslabstudio/shipping-a-phaser-game-on-android-notes-from-building-boss-lab-273e",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:04:20-03:00"
-  },
-  {
-   "titulo": "Riachuelo (RIAA3) lucra R$ 85 milhões no 3T26 e CFO detalha nova fase; o que esperar da varejista?",
-   "resumo": "A Riachuelo (RIAA3) registrou lucro líquido de R$ 85 milhões no terceiro trimestre de 2026, ante R$ 73,5 milhões registrados no mesmo período em 2025, mostra relatório de resultados divulgado nesta segunda-feira (9). Apesar do avanço, a cifra ficou abaixo das...",
-   "link": "https://www.moneytimes.com.br/lucro-da-riachuelo-riaa3-cresce-61-no-3t26-e-cfo-detalhada-nova-fase-o-que-esperar-da-varejista-lmrs/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T19:04:14-03:00"
-  },
-  {
-   "titulo": "Samsung cria novo app de IA para organizar prints e links perdidos",
-   "resumo": "A Samsung está desenvolvendo um novo aplicativo de inteligência artificial chamado Memory, que promete organizar capturas de tela, links, textos e notas de voz em um único lugar. A novidade foi identificada pelo site especializado SamMobile em telas de...",
-   "link": "https://canaltech.com.br/inteligencia-artificial/samsung-cria-novo-app-de-ia-para-organizar-prints-e-links-perdidos/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T19:04:00-03:00"
-  },
-  {
-   "titulo": "Ce que l'étude sur le café m'a appris sur l'entraînement du cerveau — et sur l'amblyopie",
-   "resumo": "Ce que l'étude sur le café m'a appris sur l'entraînement du cerveau — et sur l'amblyopie Deux à trois tasses de café par jour, un risque de démence nettement plus faible : voilà le résultat d'une étude relayée par SciDaily (2026) portant sur un suivi allant...",
-   "link": "https://dev.to/ashish_624379625242c5d263/ce-que-letude-sur-le-cafe-ma-appris-sur-lentrainement-du-cerveau-et-sur-lamblyopie-2624",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:03:38-03:00"
-  },
-  {
-   "titulo": "Flightpath: a live view into your Claude Code session",
-   "resumo": "Have you ever wondered what Claude Code does behind the scenes when you give it a prompt in the terminal? What goes on inside it? What tools does it call? Which hooks are being called? That was the exact question I had a few days ago. The day the idea was...",
-   "link": "https://dev.to/dklabsdev245/flightpath-live-view-into-your-claude-code-session-248k",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:03:30-03:00"
-  },
-  {
-   "titulo": "SP: Gestão Nunes rompe contrato com ONG ligada a Dark Horse",
-   "resumo": "Contrato milionário foi rescindido após STF determinar a suspensão dos repasses da prefeitura à entidade The post SP: Gestão Nunes rompe contrato com ONG ligada a Dark Horse appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/politica/sp-gestao-nunes-rompe-contrato-com-ong-ligada-a-dark-horse/",
+   "titulo": "Filhos de FHC pedem apreensão de celular de influenciador que filmou ex-presidente",
+   "resumo": "Influenciador filmou interior do apartamento do ex-presidente e exibiu imagens do próprio mandatário, que lida com um quadro avançado de Alzheimer The post Filhos de FHC pedem apreensão de celular de influenciador que filmou ex-presidente appeared first on...",
+   "link": "https://www.infomoney.com.br/brasil/filhos-de-fhc-pedem-apreensao-de-celular-de-influenciador-que-filmou-ex-presidente/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-09T19:03:12-03:00"
+   "data": "2026-11-10T16:28:48-03:00"
   },
   {
-   "titulo": "Your AI Assistant Is Only as Private as Your Retrieval Layer",
-   "resumo": "Why retrieval-augmented generation turns access control into an inference problem, and what developers can do about it. Most teams building AI features start with a simple goal: connect a language model to the company’s data so people can ask questions in...",
-   "link": "https://dev.to/dpietro/your-ai-assistant-is-only-as-private-as-your-retrieval-layer-3fi",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-09T19:03:07-03:00"
-  },
-  {
-   "titulo": "Esqueça Ruptura: Apple TV tem joia de ficção científica que quase ninguém viu",
-   "resumo": "Não é de hoje que a Apple TV vem se destacando no universo da ficção científica com diversos programas de sucesso, como Ruptura , Silo e For All Mankind . Mas há uma série que passou despercebida por muita gente há alguns anos que pode conquistar o coração...",
-   "link": "https://canaltech.com.br/entretenimento/esqueca-ruptura-apple-tv-tem-joia-de-ficcao-cientifica-que-quase-ninguem-viu/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T19:02:00-03:00"
-  },
-  {
-   "titulo": "Magazine Luiza (MGLU3) reverte lucro e registra prejuízo de R$ 10,7 milhões no 3T26, com e-commerce ainda sob pressão",
-   "resumo": "Em um ambiente ainda marcado pelo elevado patamar das taxas de juros, que segue pressionando o consumo e os custos financeiros das empresas, o Magazine Luiza (MGLU3) reportou prejuízo líquido de R$ 10,7 milhões no terceiro trimestre de 2026, revertendo o...",
-   "link": "https://www.moneytimes.com.br/magazine-luiza-mglu3-reverte-lucro-e-registra-prejuizo-de-r-107-milhoes-no-3t26-com-e-commerce-ainda-sob-pressao-bdap/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:56:44-03:00"
-  },
-  {
-   "titulo": "CSN (CSNA3) sobe após venda de cimentos e avanço na desalavancagem",
-   "resumo": "CSN fecha acordo de R$ 12,7 bilhão para vender unidade de cimento à chinesa Huaxin The post CSN (CSNA3) sobe após venda de cimentos e avanço na desalavancagem appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/csn-csna3-sobe-5-apos-venda-de-cimentos-e-avanco-na-desalavancagem/",
+   "titulo": "Alacero alerta para avanço “predatório” da China sobre indústria latino-americana",
+   "resumo": "Presidente da entidade vê riscos para a produção e os empregos na região e defende reação diante da concorrência chinesa e do avanço das importações The post Alacero alerta para avanço “predatório” da China sobre indústria latino-americana appeared first on...",
+   "link": "https://www.infomoney.com.br/mercados/alacero-avanco-predatorio-china-industria-latino-americana/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-09T18:56:15-03:00"
+   "data": "2026-11-10T16:24:45-03:00"
   },
   {
-   "titulo": "Ibovespa sobe forte com impulso de Wall Street e alcança os 172 mil pontos",
-   "resumo": "O Ibovespa (IBOV) pegou carona com Wall Street e voltou aos 172 mil pontos. O principal índice da B3 fechou o pregão desta segunda-feira (9) em forte alta, de 2,22%, aos 172.236.05 pontos, em meio à sinalizações de avanço nas negociações para o fim à guerra...",
-   "link": "https://www.moneytimes.com.br/ibovespa-sobe-forte-com-impulso-de-wall-street-e-alcanca-os-172-mil-pontos-davs/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:55:48-03:00"
-  },
-  {
-   "titulo": "Alpargatas (ALPA4) sobe mais de 6% após balanço acima do esperado e anima analistas",
-   "resumo": "Varejista apresentou resultados acima das expectativas no terceiro trimestre de 2026, impulsionada pelo crescimento das vendas e pela melhora da rentabilidade no mercado internacional The post Alpargatas (ALPA4) sobe mais de 6% após balanço acima do esperado...",
-   "link": "https://www.infomoney.com.br/mercados/alpargatas-alpa4-sobe-mais-de-6-apos-balanco-acima-do-esperado-e-anima-analistas/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:55:25-03:00"
-  },
-  {
-   "titulo": "Galaxy Book 4 para multitarefas surge com 40% OFF em oferta Black Friday",
-   "resumo": "Modelo NP750XGJ-KG2BR apresenta processador Intel Core i5, 16 GB de RAM e SSD de 512 GB. Notebook sai mais barato no Pix em oferta Black Friday 2026 da Amazon Galaxy Book 4 para multitarefas surge com 40% OFF em oferta Black Friday",
-   "link": "https://tecnoblog.net/achados/galaxy-book-4-para-multitarefas-surge-com-40-off-em-oferta-black-friday/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T18:55:20-03:00"
-  },
-  {
-   "titulo": "Bolsas de NY fecham em forte alta com recuperação de tecnologia; Nasdaq avança 2,7%",
-   "resumo": "Já começando a sessão em alta, os índices ampliaram os ganhos durante o dia, com o Dow Jones renovando as máximas intradiárias diversas vezes durante a tarde The post Bolsas de NY fecham em forte alta com recuperação de tecnologia; Nasdaq avança 2,7% appeared...",
-   "link": "https://www.infomoney.com.br/mercados/wall-street-abre-em-alta-apos-perdas-do-setor-de-ia-na-semana-passada/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:53:53-03:00"
-  },
-  {
-   "titulo": "‘Dobramos o market share sem aumentar despesas’: Magazine Luiza (MGLU3) mostra o efeito da crise nas Casas Bahia nos resultados",
-   "resumo": "Desde que a Casas Bahia (BHIA3) entrou com pedido de recuperação judicial, o mercado voltou os olhos para o Magazine Luiza (MGLU3), apontando a rede da família Trajano como a principal beneficiada pela crise na concorrente. Nesta segunda-feira (09), a...",
-   "link": "https://www.moneytimes.com.br/dobramos-o-market-share-sem-aumentar-despesas-magazine-luiza-mglu3-mostra-o-efeito-da-crise-nas-casas-bahia-nos-resultados-bdap/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:51:29-03:00"
-  },
-  {
-   "titulo": "Por que Ibovespa subiu 2,22% nesta 2ª mesmo com queda de commodities e cautela fiscal",
-   "resumo": "Apesar da performance positiva, o Ibovespa permanece distante do patamar dos 205 mil pontos registrado na última sessão antes do resultado do segundo turno da eleição presidencial, The post Por que Ibovespa subiu 2,22% nesta 2ª mesmo com queda de commodities...",
-   "link": "https://www.infomoney.com.br/mercados/por-que-o-ibovespa-sobe-1-nesta-2a-mesmo-com-queda-de-commodities-e-cautela-fiscal/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:47:27-03:00"
-  },
-  {
-   "titulo": "Ações de petroleiras como Petrobras e PRIO caem acompanhando petróleo nesta 2ª",
-   "resumo": "No domingo, Trump afirmou que dificilmente ordenará novos ataques ao Irã enquanto as negociações para encerrar o conflito permanecerem em andamento The post Ações de petroleiras como Petrobras e PRIO caem acompanhando petróleo nesta 2ª appeared first on...",
-   "link": "https://www.infomoney.com.br/mercados/petroleiras-sao-maiores-quedas-do-ibov-nesta-2o-acompanhando-movimento-do-petroleo/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:43:07-03:00"
-  },
-  {
-   "titulo": "Gás do Povo: governo federal prorroga vigência do auxílio até 2031",
-   "resumo": "Aproximadamente, 15 milhões de famílias em todo o país são beneficiárias atualmente The post Gás do Povo: governo federal prorroga vigência do auxílio até 2031 appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/politica/gas-do-povo-governo-federal-prorroga-vigencia-do-auxilio-ate-2031/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:41:34-03:00"
-  },
-  {
-   "titulo": "JBS tem lucro 72% menor no 3T, a US$ 164 mi, mas vê melhora em carne bovina nos EUA",
-   "resumo": "O lucro antes de juros, impostos, depreciação e amortização (Ebitda) ajustado somou US$1,181 bilhão, baixa de 35,6% no mesmo comparativo The post JBS tem lucro 72% menor no 3T, a US$ 164 mi, mas vê melhora em carne bovina nos EUA appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/jbs-jbss32-resultados-terceiro-trimestre-2026/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:38:24-03:00"
-  },
-  {
-   "titulo": "JBS (JBSS32) compra dona do Minuano por R$ 2,97 bilhões e leva Canal Rural em nova reorganização do grupo",
-   "resumo": "A JBS (JBSS32) anunciou nesta segunda-feira (9) a aquisição da totalidade da Flora Produtos de Higiene e Limpeza S.A., dona de marcas como Minuano, Francis, Neutrox e OX, em uma operação avaliada em R$ 2,97 bilhões, na cotação desta segunda-feira (US$ 542...",
-   "link": "https://www.moneytimes.com.br/jbs-jbss32-compra-dona-do-minuano-por-r-297-bilhoes-e-leva-canal-rural-em-nova-reorganizacao-do-grupo-pads/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-09T18:35:00-03:00"
-  },
-  {
-   "titulo": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-   "resumo": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers...",
-   "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "titulo": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "resumo": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-09T18:26:25-03:00"
+   "data": "2026-11-10T16:07:36-03:00"
   },
   {
-   "titulo": "York University breach exposed personal information dating to 2007",
-   "resumo": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "titulo": "Malware que lê e-mails do Gmail mantém acesso mesmo após usuário desconectar conta",
+   "resumo": "Um novo malware chamado Remus Stealer consegue manter o acesso à caixa de entrada do Gmail mesmo após a vítima trocar a senha, fechar o navegador ou desconectar os dispositivos da conta. A ferramenta do tipo infostealer é comercializada por cibercriminosos...",
+   "link": "https://canaltech.com.br/apps/malware-que-le-e-mails-do-gmail-mantem-acesso-mesmo-apos-usuario-desconectar-conta/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T16:02:00-03:00"
+  },
+  {
+   "titulo": "The Death of the Prompt: Why Autonomous Agents Are the Real Paradigm Shift in Python Development",
+   "resumo": "We’ve all been there. You spend hours meticulously engineering a prompt. You add a few \"few-shot\" examples, inject some XML tags to keep the output formatted, and wrap it in a clean Python script using the OpenAI SDK. It works brilliantly for the exact test...",
+   "link": "https://dev.to/programmingcentral/the-death-of-the-prompt-why-autonomous-agents-are-the-real-paradigm-shift-in-python-development-8ng",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T16:00:00-03:00"
+  },
+  {
+   "titulo": "Front End Observability: Why Your window.onerror Reports Say \"Script error.\" (and How to Fix Them)",
+   "resumo": "A practical guide to browser error monitoring with window.onerror, covering the cross-origin blind spot, resource failures that never bubble, and error reports that die when the tab closes. Includes tests and Angular wiring. It's late on a Friday. Support...",
+   "link": "https://dev.to/codewithrajat/front-end-observability-why-your-windowonerror-reports-say-script-error-and-how-to-fix-them-43a2",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T16:00:00-03:00"
+  },
+  {
+   "titulo": "Back-of-the-Envelope Estimation for System Design, With Worked Examples",
+   "resumo": "System design estimation is a way to turn an ambiguous product description into approximate traffic, storage, bandwidth, and capacity requirements. The goal is not to predict an exact production number. It is to expose the order of magnitude, make assumptions...",
+   "link": "https://dev.to/mdazlaanzubair/back-of-the-envelope-estimation-for-system-design-with-worked-examples-2gni",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T16:00:00-03:00"
+  },
+  {
+   "titulo": "My Store Turned Into Wingdings for Exactly One Reason, and It Was 3,410 Bytes",
+   "resumo": "On 7 November 2026 I added analytics to my store and rewarded myself by breaking the entire site's text. Every word on every page rendered as garbled symbols in my browser. The build was fine. The files were fine. The words were fine, somewhere underneath...",
+   "link": "https://dev.to/aheadkit/my-store-turned-into-wingdings-for-exactly-one-reason-and-it-was-3410-bytes-570m",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T16:00:00-03:00"
+  },
+  {
+   "titulo": "Nem Thatcher, nem Kirchner: como André Esteves avalia reação do mercado a eleição de Lula",
+   "resumo": "As fortes oscilações do mercado financeiro brasileiro durante o período eleitoral não refletem, necessariamente, as perspectivas econômicas do país. A avaliação é de André Esteves, chairman e sócio sênior do BTG Pactual, que considerou exageradas tanto a...",
+   "link": "https://www.moneytimes.com.br/nem-thatcher-nem-kirchner-como-andre-esteves-avalia-reacao-do-mercado-a-eleicao-de-lula/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:56:35-03:00"
+  },
+  {
+   "titulo": "Amazon anuncia versão web da Alexa+ para usuários no Brasil",
+   "resumo": "Amazon lançou uma versão da Alexa+ acessível via navegador, sem depender de dispositivos Echo ou de aplicativos. Amazon anuncia versão web da Alexa+ para usuários no Brasil",
+   "link": "https://tecnoblog.net/noticias/amazon-anuncia-versao-web-da-alexa-para-usuarios-no-brasil/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T15:54:36-03:00"
+  },
+  {
+   "titulo": "Sony quer usar IA no DualSense para reconhecer jogadores novatos e veteranos",
+   "resumo": "A Sony Interactive Entertainment (SIE) patenteou uma tecnologia de controle que permite o uso de IA para “ranquear” jogadores. É como se o DualSense analisasse sua forma de lidar com o gameplay e criasse um perfil comportamental sobre cada usuário. O...",
+   "link": "https://canaltech.com.br/games/sony-quer-usar-ia-no-dualsense-para-reconhecer-jogadores-novatos-e-veteranos/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T15:45:00-03:00"
+  },
+  {
+   "titulo": "Ações europeias permanecem perto de máxima histórica com queda nos preços do petróleo",
+   "resumo": "Vitória dos democratas nos EUA aumentou as expectativas de uma resolução iminente do conflito no Oriente Médio The post Ações europeias permanecem perto de máxima histórica com queda nos preços do petróleo appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/acoes-europeias-permanecem-perto-de-maxima-historica-com-queda-nos-precos-do-petroleo/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:43:28-03:00"
+  },
+  {
+   "titulo": "Marca dos \"celulares indestrutíveis\" prepara aparelho com tela achatada",
+   "resumo": "A DOOGEE anunciou o Note60 W, smartphone com painel de 6,38 polegadas e proporção 16:10. O modelo tem lançamento previsto para meados de dezembro, com bateria de 6.500 mAh, taxa de atualização de 90 Hz e Android 17. Conhecida por seus celulares robustos, a...",
+   "link": "https://canaltech.com.br/smartphone/marca-dos-celulares-indestrutiveis-prepara-aparelho-com-tela-achatada/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T15:35:11-03:00"
+  },
+  {
+   "titulo": "Ibovespa Hoje Ao Vivo: Bolsa recua em linha com exterior; dólar dispara",
+   "resumo": "Bolsas dos EUA operam em baixa após CPI acima do esperado The post Ibovespa Hoje Ao Vivo: Bolsa recua em linha com exterior; dólar dispara appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10112026/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:34:54-03:00"
+  },
+  {
+   "titulo": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+   "resumo": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-09T18:22:31-03:00"
+   "data": "2026-11-10T15:33:26-03:00"
   },
   {
-   "titulo": "Alerta para devs: Claude Code vaza senhas e chaves de API em massa no GitHub",
-   "resumo": "Uma falha no Claude Code, ferramenta de inteligência artificial da Anthropic para auxiliar no desenvolvimento de software, expôs milhares de senhas, tokens de API e credenciais de servidores no GitHub. O problema está relacionado ao armazenamento de comandos...",
-   "link": "https://canaltech.com.br/seguranca/alerta-para-devs-claude-code-vaza-senhas-e-chaves-de-api-em-massa-no-github/",
+   "titulo": "HBO Max e Paramount+ terão plano conjunto com desconto em 2027",
+   "resumo": "A junção entre a HBO Max e o Paramount+, que vinha sendo aguardada desde que a Skydance Corporation venceu a disputa para adquirir a Warner Bros. Discovery, já tem data para acontecer . O anúncio foi feito em uma carta enviada aos acionistas nesta...",
+   "link": "https://canaltech.com.br/apps/hbo-max-e-paramount-terao-plano-conjunto-com-desconto-em-2027/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-11-09T18:03:00-03:00"
+   "data": "2026-11-10T15:33:00-03:00"
   },
   {
-   "titulo": "Celulares baratinho da Samsung podem ganhar baita upgrade de tela em 2027",
-   "resumo": "Quem procura um celular de entrada costuma abrir mão de algumas especificações mais avançadas para pagar menos, e a tela pode estar entre elas. Mas esse cenário pode mudar nos próximos anos, visto que fabricantes de painéis estudam produzir telas OLED com...",
-   "link": "https://canaltech.com.br/smartphone/celulares-baratinho-da-samsung-podem-ganhar-baita-upgrade-de-tela-em-2027/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T17:43:27-03:00"
-  },
-  {
-   "titulo": "Galaxy Tab S10 FE atinge 41% OFF em até 12x no mês da Black Friday",
-   "resumo": "Tablet da Samsung, que inclui caneta S Pen e capa protetora na caixa, possui um dos melhores custo-benefício. Oferta Magalu no AliExpress oferece cupom e parcelamento sem juros Galaxy Tab S10 FE atinge 41% OFF em até 12x no mês da Black Friday",
-   "link": "https://tecnoblog.net/achados/galaxy-tab-s10-fe-atinge-41-off-em-ate-12x-no-mes-da-black-friday/",
+   "titulo": "GTA 6 chegará ao Xbox Cloud Gaming no lançamento",
+   "resumo": "Streaming estreia junto com o jogo em 19 de novembro. Consumidores já podem fazer pré-download nos consoles. GTA 6 chegará ao Xbox Cloud Gaming no lançamento",
+   "link": "https://tecnoblog.net/noticias/gta-6-chegara-ao-xbox-cloud-gaming-no-lancamento/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-09T17:35:56-03:00"
+   "data": "2026-11-10T15:28:33-03:00"
   },
   {
-   "titulo": "Galaxy Tab S10 Lite com caneta fica mais barato próximo à Black 2026",
-   "resumo": "Galaxy Tab S10 Lite tem tela grande e stylus na caixa para desenhos e caligrafia; tablet da Samsung cai 26% com cupom no de R$ 200 OFF no Magalu Galaxy Tab S10 Lite com caneta fica mais barato próximo à Black 2026",
-   "link": "https://tecnoblog.net/achados/galaxy-tab-s10-lite-com-caneta-fica-mais-barato-proximo-a-black-2026/",
+   "titulo": "Banco Central diz que dinheiro esquecido no sistema financeiro ultrapassa R$ 6 bilhões",
+   "resumo": "Os brasileiros ainda não sacaram R$ 6,03 bilhões em recursos esquecidos em instituições financeiras, informou hoje o Banco Central. O valor disponível para resgate aumentou em relação ao levantamento anterior, quando havia cerca de R$ 5,8 bilhões à espera de...",
+   "link": "https://www.moneytimes.com.br/banco-central-diz-que-dinheiro-esquecido-no-sistema-financeiro-ultrapassa-r-6-bilhoes-mlem/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:12:18-03:00"
+  },
+  {
+   "titulo": "Juros nos EUA: dirigente do Fed avalia serem necessárias mais 2 altas de 0,25 p.p.",
+   "resumo": "A presidente do Federal Reserve (Fed, o banco central norte-americano) de Dallas, Lorie Logan, afirmou nesta terça-feira, 10, que o Comitê Federal de Mercado Aberto (FOMC, em inglês) precisa implementar pelo menos mais dois aumentos de 25 pontos-base (pb) na...",
+   "link": "https://www.moneytimes.com.br/fomc-precisa-implementar-pelo-menos-mais-2-altas-de-25-pb-nos-juros-diz-dirigente-do-fed/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:11:24-03:00"
+  },
+  {
+   "titulo": "Nvidia e CEO são processados por omitir caso com executiva chinesa",
+   "resumo": "Acionistas dizem que empresa não informou riscos ligados à relação de Jensen Huang com Alice Huang, ex-executiva da Megaspeed. Nvidia e CEO são processados por omitir caso com executiva chinesa",
+   "link": "https://tecnoblog.net/noticias/nvidia-e-ceo-sao-processados-por-omitir-riscos-em-caso-com-executiva-chinesa/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-09T17:31:35-03:00"
+   "data": "2026-11-10T15:10:45-03:00"
   },
   {
-   "titulo": "Apple começa a cobrar por uso extra de IA em apps profissionais",
-   "resumo": "Pacote adicional custa cerca de R$ 300 e permite continuar usando recursos de IA após o limite mensal. Apple começa a cobrar por uso extra de IA em apps profissionais",
-   "link": "https://tecnoblog.net/noticias/apple-comeca-a-cobrar-por-uso-extra-de-ia-em-apps-profissionais/",
+   "titulo": "Crise na Capcom? Resident Evil Veronica enfrenta problemas e pode ficar para 2028",
+   "resumo": "Faltando menos de dois meses para que 2026 se encerre, já podemos dizer que esse é o melhor ano da década em games. 2027 vem aí já com grandes nomes, como Metro 2039 , o reboot de Tomb Raider , além do remake de Resident Evil Code: Veronica . Na verdade, esse...",
+   "link": "https://canaltech.com.br/games/crise-na-capcom-remake-de-resident-evil-code-veronica-enfrenta-problemas-e-pode-ficar-para-2028/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T15:04:00-03:00"
+  },
+  {
+   "titulo": "Celulares Galaxy com One UI 9.5 vão gravar chamadas do WhatsApp e Telegram",
+   "resumo": "A Samsung prepara uma novidade para os celulares Galaxy que vai ampliar as opções de gravação de chamadas. Com a chegada da One UI 9.5, o aplicativo Telefone poderá gravar conversas de voz feitas pelo WhatsApp, Telegram e Google Meet . A informação foi...",
+   "link": "https://canaltech.com.br/apps/celulares-galaxy-com-one-ui-95-vao-gravar-chamadas-do-whatsapp-e-telegram/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T15:03:19-03:00"
+  },
+  {
+   "titulo": "Petrobras (PETR4) divulga balanço do 3º trimestre de 2026; acompanhe ao vivo",
+   "resumo": "Acompanhe as expectativas sobre os resultados da petroleira no terceiro trimestre The post Petrobras (PETR4) divulga balanço do 3º trimestre de 2026; acompanhe ao vivo appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/petrobras-petr4-balanco-3t26/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:01:59-03:00"
+  },
+  {
+   "titulo": "Bolsa brasileira está barata de novo, mas é oportunidade ou armadilha de valor?",
+   "resumo": "Desconto da Bolsa cresce, mas estrategistas veem risco de \"armadilha\" The post Bolsa brasileira está barata de novo, mas é oportunidade ou armadilha de valor? appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/bolsa-brasileira-esta-barata-de-novo-mas-sera-oportunidade-ou-armadilha-de-valor/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T15:00:00-03:00"
+  },
+  {
+   "titulo": "Git security vulnerabilities announced",
+   "resumo": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub...",
+   "link": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+   "fonte": "GitHub Blog",
+   "categoria": "dev",
+   "data": "2026-11-10T15:00:00-03:00"
+  },
+  {
+   "titulo": "Fixing the Front Door",
+   "resumo": "Originally posted October 30, 2026 on elijahpaul.io . TLDR Telegram onboarding has been the biggest pain since launch. We're swapping it out. Meanwhile, the people already inside are building on top of Hot Bot. The Front Door Is Broken Lots of people have...",
+   "link": "https://dev.to/elijahpaul/fixing-the-front-door-3h5n",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T15:00:00-03:00"
+  },
+  {
+   "titulo": "Your setTimeout Didn't Break — Chrome Killed It",
+   "resumo": "The log said the sync was scheduled. Two minutes later, nothing had run. No error, no rejected promise, no missed callback warning — just a line that promised future work and a database that never changed. Here is the excerpt that ended a week of blaming my...",
+   "link": "https://dev.to/dmitry_cherstvyi_0c87fabd/your-settimeout-didnt-break-chrome-killed-it-1d2l",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T15:00:00-03:00"
+  },
+  {
+   "titulo": "6 Planning Patterns for AI Agents and When Each One Fits",
+   "resumo": "TL;DR for devs Start from the task, not from a popular reasoning pattern. Use a fixed workflow for predictable steps; consider model-generated plans when tasks vary. Other patterns: plan then execute, ReAct-style tool use, routing to specialists, parallel...",
+   "link": "https://dev.to/shaheryaryousaf/6-planning-patterns-for-ai-agents-and-when-each-one-fits-3ac3",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T15:00:00-03:00"
+  },
+  {
+   "titulo": "Novo presidente do Paraguai diz que quase 95% dos poupadores do Banco Ueno já foram pagos",
+   "resumo": "O novo presidente do Paraguai, Pedro Alliana, disse que foram concluídos os pagamentos a quase 95% dos poupadores do Banco Ueno, banco digital sob intervenção. “O restante será pago até amanhã, conforme a lei do Congresso”, disse Alliana em sua conta no X,...",
+   "link": "https://www.moneytimes.com.br/novo-presidente-do-paraguai-diz-que-quase-95-dos-poupadores-do-banco-ueno-ja-foram-pagos-mlem/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T14:58:43-03:00"
+  },
+  {
+   "titulo": "MGLU3: BofA eleva Magalu para compra após melhora das vendas e ganho de mercado",
+   "resumo": "O banco manteve preço-alvo de R$ 11 para a ação, o que representa potencial de valorização de cerca de 88% sobre o fechamento da véspera The post MGLU3: BofA eleva Magalu para compra após melhora das vendas e ganho de mercado appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/mglu3-bofa-eleva-magalu-para-compra-apos-melhora-das-vendas-e-ganho-de-mercado/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T14:53:49-03:00"
+  },
+  {
+   "titulo": "Legacy encerra apostas no Brasil após vitória de Lula e vê estagflação em 2027",
+   "resumo": "Gestora encerrou principais posições em moeda, juros e ações no país e prefere aguardar sinais sobre a equipe econômica do quarto mandato antes de voltar a se expor The post Legacy encerra apostas no Brasil após vitória de Lula e vê estagflação em 2027...",
+   "link": "https://www.infomoney.com.br/onde-investir/legacy-encerra-apostas-no-brasil-apos-vitoria-de-lula-e-ve-estagflacao-em-2027/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-10T14:53:32-03:00"
+  },
+  {
+   "titulo": "São Martinho (SMTO3) derrete mais de 9% na Bolsa após corte de projeções; o que fazer com ações?",
+   "resumo": "As ações da São Martinho (SMTO3) operavam em forte queda nesta terça-feira (10), recuando 9,16%, a R$ 18,35, após a companhia divulgar resultados considerados fracos para o segundo trimestre da safra 2026/27 (2T27) e reduzir suas projeções operacionais para o...",
+   "link": "https://www.moneytimes.com.br/sao-martinho-smto3-derrete-mais-de-9-na-bolsa-apos-corte-de-guidance-o-que-fazer-com-acoes-pads/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T14:42:40-03:00"
+  },
+  {
+   "titulo": "JBS (JBSS32) decepciona no 3T26, mas analistas mantêm compra e apostam na virada dos EUA",
+   "resumo": "A JBS (JBSS32) entregou um terceiro trimestre de 2026 abaixo das expectativas do mercado, mas analistas seguem confiantes na tese de investimento da companhia, sustentada principalmente pela recuperação gradual da operação de carne bovina nos Estados Unidos....",
+   "link": "https://www.moneytimes.com.br/jbs-jbss32-decepciona-no-3t26-mas-analistas-mantem-compra-e-apostam-na-virada-dos-eua-pads/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-10T14:25:10-03:00"
+  },
+  {
+   "titulo": "Store Timestamps in UTC, Display Them Locally",
+   "resumo": "A CRM stores '10:30' beside a follow-up task. One representative reads it in Jaipur and another in London. Neither knows which timezone the value represents. Time data needs to describe either an instant or a local scheduling intention. Those are different...",
+   "link": "https://dev.to/chirag191094/store-timestamps-in-utc-display-them-locally-fec",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-10T14:00:00-03:00"
+  },
+  {
+   "titulo": "ViewFinity S7 é o novo monitor 4K de 32” da Samsung; veja preço no Brasil",
+   "resumo": "Marca sul-coreana expandiu linha de monitores voltada para a produtividade no Brasil. Além de 4K, ViewFinity S7 traz HDR10 e recursos de proteção ocular. ViewFinity S7 é o novo monitor 4K de 32” da Samsung; veja preço no Brasil",
+   "link": "https://tecnoblog.net/noticias/viewfinity-s7-e-o-novo-monitor-4k-de-32-da-samsung-veja-preco-no-brasil/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-09T17:28:43-03:00"
+   "data": "2026-11-10T13:47:05-03:00"
   },
   {
-   "titulo": "Empresa americana é acusada de roubar tecnologia da Samsung, diz jornal",
-   "resumo": "A Samsung investiga um possível vazamento de informações confidenciais de sua linha de produção de semicondutores envolvendo a Lam Research Korea, subsidiária sul-coreana da fabricante americana de equipamentos. De acordo com o jornal The Elec, o caso envolve...",
-   "link": "https://canaltech.com.br/produtos/empresa-americana-e-acusada-de-roubar-tecnologia-da-samsung-diz-jornal/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T17:10:33-03:00"
-  },
-  {
-   "titulo": "Meta vai usar IA para identificar adolescentes no Instagram mesmo com idade falsa",
-   "resumo": "A Meta está expandindo globalmente uma tecnologia de inteligência artificial que identifica adolescentes no Instagram mesmo quando eles informam uma data de nascimento falsa. O sistema já está em funcionamento na rede social e será ampliado gradualmente para...",
-   "link": "https://canaltech.com.br/inteligencia-artificial/meta-vai-usar-ia-para-identificar-adolescentes-no-instagram-mesmo-com-idade-falsa/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T17:09:00-03:00"
-  },
-  {
-   "titulo": "USPS now offers official ZIP Code boundary polygons",
-   "resumo": "Article URL: https://postalpro.usps.com/zcb Comments URL: https://news.ycombinator.com/item?id=50431058 Points: 229 # Comments: 110",
-   "link": "https://postalpro.usps.com/zcb",
+   "titulo": ".name Grandfathered",
+   "resumo": "Article URL: https://neil.fraser.name/news/2026/11/10/ Comments URL: https://news.ycombinator.com/item?id=50442736 Points: 361 # Comments: 63",
+   "link": "https://neil.fraser.name/news/2026/11/10/",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-11-09T16:58:59-03:00"
+   "data": "2026-11-10T13:37:44-03:00"
   },
   {
-   "titulo": "TV AOC é boa? Veja 5 modelos para comprar em 2026",
-   "resumo": "Encontre a melhor smart TV AOC para a sua casa ou escritório; lista reúne modelos em diferentes tamanhos com Roku TV e resolução 4K TV AOC é boa? Veja 5 modelos para comprar em 2026",
-   "link": "https://tecnoblog.net/guias/melhor-tv-aoc/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T16:45:13-03:00"
-  },
-  {
-   "titulo": "Claude Fable 5.2 and Mythos 5.2",
-   "resumo": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429906 Points: 751 # Comments: 420",
-   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-   "fonte": "Hacker News",
-   "categoria": "dev",
-   "data": "2026-11-09T15:56:29-03:00"
-  },
-  {
-   "titulo": "Google apresenta versões mais potentes de seus chips de IA",
-   "resumo": "TPU 8tx e 8i Max completam família de quatro aceleradores da 8ª geração. Google apresenta versões mais potentes de seus chips de IA",
-   "link": "https://tecnoblog.net/noticias/google-apresenta-versoes-mais-potentes-de-seus-chips-de-ia/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T15:53:38-03:00"
-  },
-  {
-   "titulo": "E-means: 10x faster k-means at equal loss",
-   "resumo": "Article URL: https://e-means.github.io/ Comments URL: https://news.ycombinator.com/item?id=50429734 Points: 162 # Comments: 11",
-   "link": "https://e-means.github.io/",
-   "fonte": "Hacker News",
-   "categoria": "dev",
-   "data": "2026-11-09T15:45:43-03:00"
-  },
-  {
-   "titulo": "France blames Iranian hackers for supermarket attacks that sparked fires",
-   "resumo": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+   "titulo": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "resumo": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-09T15:32:42-03:00"
+   "data": "2026-11-10T13:17:16-03:00"
   },
   {
-   "titulo": "Black November 2026: Nintendo Switch 2 tem promoção em até 12x sem juros",
-   "resumo": "Nintendo Switch 2 é console portátil de alto desempenho; preço fica mais acessível e pode ser parcelado em oferta com cupom no mês da Black Friday Black November 2026: Nintendo Switch 2 tem promoção em até 12x sem juros",
-   "link": "https://tecnoblog.net/achados/black-november-2026-nintendo-switch-2-tem-promocao-em-ate-12x-sem-juros/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T15:30:12-03:00"
-  },
-  {
-   "titulo": "Tem uma placa de vídeo AMD Radeon? Cuidado com o bug que sobrecarrega o SSD",
-   "resumo": "Falha faz ferramenta AMD External Events Utility gravar dados continuamente no SSD do computador. Tem uma placa de vídeo AMD Radeon? Cuidado com o bug que sobrecarrega o SSD",
-   "link": "https://tecnoblog.net/noticias/tem-uma-placa-de-video-amd-radeon-cuidado-o-bug-que-sobrecarrega-o-ssd/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-09T15:21:26-03:00"
-  },
-  {
-   "titulo": "Our Smallest, Most Efficient Model: Muse Ember",
-   "resumo": "Article URL: https://research.meta.ai/blog/muse-ember Comments URL: https://news.ycombinator.com/item?id=50429024 Points: 184 # Comments: 76",
-   "link": "https://research.meta.ai/blog/muse-ember",
+   "titulo": "Blender 5.3 released with Gaussian Splat support",
+   "resumo": "Article URL: https://www.blender.org/download/releases/5-3/ Comments URL: https://news.ycombinator.com/item?id=50442426 Points: 287 # Comments: 39",
+   "link": "https://www.blender.org/download/releases/5-3/",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-11-09T14:58:46-03:00"
+   "data": "2026-11-10T13:15:43-03:00"
   },
   {
-   "titulo": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-   "resumo": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses...",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "titulo": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "resumo": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the exploitation of a chain comprising...",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
    "fonte": "The Hacker News",
    "categoria": "seguranca",
-   "data": "2026-11-09T14:51:21-03:00"
+   "data": "2026-11-10T13:00:55-03:00"
   },
   {
-   "titulo": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-   "resumo": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+   "titulo": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "resumo": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-09T14:50:32-03:00"
+   "data": "2026-11-10T12:59:19-03:00"
   },
   {
-   "titulo": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
-   "resumo": "Article URL: https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/ Comments URL: https://news.ycombinator.com/item?id=50428801 Points: 237 # Comments: 198",
-   "link": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
-   "fonte": "Hacker News",
+   "titulo": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "resumo": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and...",
+   "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T12:58:44-03:00"
+  },
+  {
+   "titulo": "TIM Brasil não está à venda, diz CEO após troca de controle na Itália",
+   "resumo": "Alberto Griselli afirmou que não há negociações em curso. Estatal Poste Italiane assumiu a Telecom Italia em setembro. TIM Brasil não está à venda, diz CEO após troca de controle na Itália",
+   "link": "https://tecnoblog.net/noticias/tim-brasil-nao-esta-a-venda-garante-ceo-apos-mudanca-de-controle-na-italia/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T12:45:32-03:00"
+  },
+  {
+   "titulo": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "resumo": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited...",
+   "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T12:33:59-03:00"
+  },
+  {
+   "titulo": "Motorola deixa escapar nome de novo dobrável “passaporte”",
+   "resumo": "Flex aparece em página de suporte da fabricante com referência a 2027, mas ainda não foi anunciado oficialmente. Motorola deixa escapar nome de novo dobrável “passaporte”",
+   "link": "https://tecnoblog.net/noticias/motorola-deixa-escapar-nome-de-novo-dobravel-passaporte/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T12:02:14-03:00"
+  },
+  {
+   "titulo": "Ransomware recovery is now a client retention metric",
+   "resumo": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows...",
+   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-11-10T12:01:11-03:00"
+  },
+  {
+   "titulo": "Aproveite: PlayStation 5 Slim cai de preço em até 12x antes da Black Friday",
+   "resumo": "PS5 Slim Edição Digital traz controle DualSense e suporta ray-tracing; console da Sony sai 19% mais em conta no prazo com cupom em oferta do Magalu no AliExpress Aproveite: PlayStation 5 Slim cai de preço em até 12x antes da Black Friday",
+   "link": "https://tecnoblog.net/achados/aproveite-playstation-5-slim-cai-de-preco-em-ate-12x-antes-da-black-friday/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T11:26:46-03:00"
+  },
+  {
+   "titulo": "Galaxy S25 Plus (512 GB) cai para metade do preço no mês da Black na Amazon",
+   "resumo": "Galaxy S25 Plus tem tela AMOLED de 120 Hz e chip Snapdragon; celular premium da Samsung recebe desconto de 52% no Pix em oferta da Black November 2026 Galaxy S25 Plus (512 GB) cai para metade do preço no mês da Black na Amazon",
+   "link": "https://tecnoblog.net/achados/galaxy-s25-plus-512-gb-cai-para-metade-do-preco-no-mes-da-black-na-amazon/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-10T11:05:26-03:00"
+  },
+  {
+   "titulo": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+   "resumo": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26...",
+   "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T09:15:31-03:00"
+  },
+  {
+   "titulo": "Beyond the Alert: The Case for Rich Network Data",
+   "resumo": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an...",
+   "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T08:38:13-03:00"
+  },
+  {
+   "titulo": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+   "resumo": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before...",
+   "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T07:16:51-03:00"
+  },
+  {
+   "titulo": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "resumo": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails....",
+   "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T07:07:29-03:00"
+  },
+  {
+   "titulo": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "resumo": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on,...",
+   "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-10T07:02:40-03:00"
+  },
+  {
+   "titulo": "Announcing a New Home for Spring for Apache Pulsar",
+   "resumo": "We are excited to announce an important transition for the Spring for Apache Pulsar project! To foster even deeper integration and collaboration with the broader Pulsar community, the project is moving to a new official home as a subproject within the Apache...",
+   "link": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+   "fonte": "Spring Blog",
    "categoria": "dev",
-   "data": "2026-11-09T14:42:55-03:00"
+   "data": "2026-11-09T21:00:00-03:00"
   },
   {
-   "titulo": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-   "resumo": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the...",
-   "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T14:36:28-03:00"
-  },
-  {
-   "titulo": "Binance denies data breach after alleged ShinyHunters claims",
-   "resumo": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-11-09T13:12:39-03:00"
-  },
-  {
-   "titulo": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-   "resumo": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has...",
-   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T11:31:29-03:00"
-  },
-  {
-   "titulo": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-   "resumo": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack....",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T10:28:25-03:00"
-  },
-  {
-   "titulo": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-   "resumo": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed...",
-   "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T08:27:53-03:00"
-  },
-  {
-   "titulo": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-   "resumo": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the...",
-   "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T07:56:25-03:00"
-  },
-  {
-   "titulo": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-   "resumo": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they...",
-   "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T07:01:21-03:00"
-  },
-  {
-   "titulo": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-   "resumo": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018,...",
-   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-09T06:01:50-03:00"
+   "titulo": "This Week in Spring - November 10th, 2026",
+   "resumo": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring! I'm writing this from St. Louis, where the weather is suuprisingly pleasant! Isn't this supposed to be November? We're doing a SpringOne Tour event here! not related to...",
+   "link": "https://spring.io/blog/2026/11/10/this-week-in-spring-november-10th-2026",
+   "fonte": "Spring Blog",
+   "categoria": "dev",
+   "data": "2026-11-09T21:00:00-03:00"
   },
   {
    "titulo": "Spring AI 2.1.0-RC2 Available Now",
