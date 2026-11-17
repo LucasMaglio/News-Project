@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-16T18:51:17.573384-03:00",
+ "gerado_em": "2026-11-17T17:42:00.969025-03:00",
  "janela_horas": 48,
  "total": 56,
  "por_categoria": {
@@ -10,458 +10,453 @@
  },
  "itens": [
   {
-   "titulo": "Nvidia’s Security Questions Reach Beyond Cyberattacks",
-   "resumo": "Quick take Saša Zdjelar succeeded David Reber as Nvidia’s chief security officer and head of product security. TechCrunch reported that Nvidia has not answered what its corporate security function knew or could have done. Senators Elizabeth Warren and Chris...",
-   "link": "https://dev.to/spaisee/nvidias-security-questions-reach-beyond-cyberattacks-mpb",
+   "titulo": "You Don't Need to Code to Build Amazing Things with AI — Start Today!",
+   "resumo": "You Don't Need to Be a Programmer to Build Something Amazing with AI — [Start Here! ] https://asiafilm.org/4/673140f2a628c273bbca8a3a391ffef9 What if I told you that you could start building websites, creating content, and solving everyday [read more]...",
+   "link": "https://dev.to/atiqur_islam_60f9e7ccfd41/you-dont-need-to-code-to-build-amazing-things-with-ai-start-today-ida",
    "fonte": "dev.to",
    "categoria": "dev",
-   "data": "2026-11-16T18:43:01-03:00"
+   "data": "2026-11-17T17:42:00-03:00"
   },
   {
-   "titulo": "How do you calculate share of voice in AI search answers?",
-   "resumo": "Share of voice in AI search is the number of answers that name a brand divided by the same count summed over every brand you track, in the same answers: SOV = answers naming the brand / Σ answers naming each tracked brand. Report it next to the mention rate...",
-   "link": "https://dev.to/cloro/how-do-you-calculate-share-of-voice-in-ai-search-answers-2on6",
+   "titulo": "The leaf CRL check that never runs in GoAhead",
+   "resumo": "The leaf CRL check that never runs in GoAhead Vulnerability overview CVE-2026-115881 is a precise certificate-state failure in GoAhead's OpenSSL implementation. The server loads a CRL but does not set the OpenSSL verification flag that makes the list...",
+   "link": "https://dev.to/johnettagaweraks/the-leaf-crl-check-that-never-runs-in-goahead-4dgk",
    "fonte": "dev.to",
    "categoria": "dev",
-   "data": "2026-11-16T18:43:00-03:00"
+   "data": "2026-11-17T17:41:33-03:00"
   },
   {
-   "titulo": "Wall Street cai com preocupação sobre IA, antes de dados da Nvidia e IPO da Anthropic",
-   "resumo": "O clima de aversão ao risco ganhou força à medida que o pregão avançava, com os três principais índices acionários dos EUA perdendo terreno The post Wall Street cai com preocupação sobre IA, antes de dados da Nvidia e IPO da Anthropic appeared first on...",
-   "link": "https://www.infomoney.com.br/mercados/wall-street-cai-com-preocupacao-sobre-ia-antes-de-dados-da-nvidia-e-ipo-da-anthropic/",
+   "titulo": "Get SEC insider trades (Form 4) for a stock as JSON",
+   "resumo": "When a director, officer or 10% owner of a US-listed company buys or sells its stock, they file a Form 4 with the SEC within two business days. The filings are public, but each one is an XML document somewhere in EDGAR, and a single filing can hold several...",
+   "link": "https://dev.to/boscolabs/get-sec-insider-trades-form-4-for-a-stock-as-json-5ag4",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-17T17:41:14-03:00"
+  },
+  {
+   "titulo": "IT Support Is More Than Fixing Computers: 5 Skills Every IT Support Specialist Needs",
+   "resumo": "When people hear the term IT Support Specialist, the first thing that often comes to mind is someone who fixes computers, installs software or helps when the internet stops working. While these are important parts of the job, IT support goes far beyond fixing...",
+   "link": "https://dev.to/cibiebele/it-support-is-more-than-fixing-computers-5-skills-every-it-support-specialist-needs-569",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-17T17:40:20-03:00"
+  },
+  {
+   "titulo": "OpenAI Launches ChatGPT Images 2.5 With Faster Generation and Richer Detail",
+   "resumo": "OpenAI has rolled out ChatGPT Images 2.5 , an upgrade to its image-generation capabilities that focuses on more detailed output, improved editing fidelity, and faster generation. The release spans ChatGPT, ChatGPT Work, and Codex, while developers get two new...",
+   "link": "https://dev.to/alifar/openai-launches-chatgpt-images-25-with-faster-generation-and-richer-detail-9bp",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-17T17:40:10-03:00"
+  },
+  {
+   "titulo": "Build a blog in Clojure",
+   "resumo": "This is part five, the last one, of a series teaching Clojure to people with little or no programming experience. In Part 4 you built a page that responds to what a visitor types. In this part we'll create a simple blog. The plan To build the blog we need to:...",
+   "link": "https://dev.to/thiagooak/build-a-blog-in-clojure-16ej",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-17T17:39:11-03:00"
+  },
+  {
+   "titulo": "Why Frostpunk Bet on Liquid Engine Then Unreal Engine 5: The Cold Tech Behind 5 Million Copies",
+   "resumo": "Frostpunk was built on 11 Bit Studios' own Liquid Engine, then the studio moved to Unreal Engine 5 for Frostpunk 2 and the upcoming Frostpunk 1886 remake. That switch is the whole story: a small proprietary engine that made cold feel personal, replaced by...",
+   "link": "https://dev.to/wlz/why-frostpunk-bet-on-liquid-engine-then-unreal-engine-5-the-cold-tech-behind-5-million-copies-26j0",
+   "fonte": "dev.to",
+   "categoria": "dev",
+   "data": "2026-11-17T17:39:09-03:00"
+  },
+  {
+   "titulo": "Dólar hoje sobe 0,08%, a R$ 5,78, à espera de votação de destaques de ajuste fiscal",
+   "resumo": "Senado vai votar quatro destaques que podem alterar o desenho do texto-base, aprovado na semana passada The post Dólar hoje sobe 0,08%, a R$ 5,78, à espera de votação de destaques de ajuste fiscal appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-17112026/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:42:56-03:00"
+   "data": "2026-11-17T17:38:56-03:00"
   },
   {
-   "titulo": "Which API returns LLM answers as markdown with inline citation positions?",
-   "resumo": "Three APIs return citation positions as offsets into the answer text: OpenAI's Responses API with web search, xAI's Responses API, and the Gemini API with Google Search grounding. OpenAI returns url_citation annotations with start_index and end_index . xAI...",
-   "link": "https://dev.to/cloro/which-api-returns-llm-answers-as-markdown-with-inline-citation-positions-4bpi",
+   "titulo": "Footings: the offline-first Flutter starter kit I extracted from my own app",
+   "resumo": "Every offline app I start rebuilds the same plumbing: a local database, a way to seed it with starter content, search, favorites, and eventually backup. I got tired of rewriting it, so I extracted the working stack from my own app — a magic index app I've...",
+   "link": "https://dev.to/majician13/footings-the-offline-first-flutter-starter-kit-i-extracted-from-my-own-app-5611",
    "fonte": "dev.to",
    "categoria": "dev",
-   "data": "2026-11-16T18:42:18-03:00"
+   "data": "2026-11-17T17:38:48-03:00"
   },
   {
-   "titulo": "Build a React reporting filter with controlled dates: Presets & Validation",
-   "resumo": "Let's talk about date-range picker - it's just one part of a reporting filter. Seems easy, right? But the app still needs to decide when a selection takes effect, what “Last 7 days” includes, and what happens when someone requests a range the report cannot...",
-   "link": "https://dev.to/kumakint/build-a-react-reporting-filter-with-controlled-dates-presets-validation-1fba",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-16T18:42:14-03:00"
-  },
-  {
-   "titulo": "How quickly do AI search answers change for the same question?",
-   "resumo": "AI search answers change every day for the same question: in our monitoring of five AI engines, a brand named in today's answer was named again in tomorrow's answer only 67% of the time at the median, and the two days' brand lists had a median Jaccard overlap...",
-   "link": "https://dev.to/cloro/how-quickly-do-ai-search-answers-change-for-the-same-question-hgf",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-16T18:41:56-03:00"
-  },
-  {
-   "titulo": "How to make a wallet that works on Ethereum and Solana",
-   "resumo": "Ethereum and Solana use different kinds of keys. Ethereum uses secp256k1 keys and addresses that start with 0x. Solana uses ed25519 keys and base58 addresses. So a wallet that works on both chains holds two keys, or one secret that both keys are made from. On...",
-   "link": "https://dev.to/litprotocol/how-to-make-a-wallet-that-works-on-ethereum-and-solana-1lpl",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-16T18:41:42-03:00"
-  },
-  {
-   "titulo": "How do you sample AI answers often enough to separate signal from noise?",
-   "resumo": "Treat every AI answer as one yes-or-no draw and size the sample from the binomial formula: a brand mention rate near 50% needs 97 answers for a 95% interval of ±10 points and 385 for ±5 points, and a rate near 10% needs 35 and 139. In our monitoring of four...",
-   "link": "https://dev.to/cloro/how-do-you-sample-ai-answers-often-enough-to-separate-signal-from-noise-o3o",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-16T18:41:36-03:00"
-  },
-  {
-   "titulo": "How do I build a dataset of ChatGPT answers for research?",
-   "resumo": "Freeze a prompt set and a list of countries, collect every prompt several times in each country from ChatGPT's web interface, and store the raw JSON, the rendered HTML, the timestamp and the model ChatGPT used with every answer. A single answer per prompt is...",
-   "link": "https://dev.to/cloro/how-do-i-build-a-dataset-of-chatgpt-answers-for-research-5c47",
-   "fonte": "dev.to",
-   "categoria": "dev",
-   "data": "2026-11-16T18:41:15-03:00"
-  },
-  {
-   "titulo": "Cinco países europeus anunciam centro em Ruanda para deportados",
-   "resumo": "Áustria, Dinamarca, Alemanha, Grécia e Holanda defendem que medida ajudará a conter a imigração irregular; organizações de direitos humanos criticam a iniciativa The post Cinco países europeus anunciam centro em Ruanda para deportados appeared first on...",
-   "link": "https://www.infomoney.com.br/mundo/cinco-paises-europeus-anunciam-centro-em-ruanda-para-deportados/",
+   "titulo": "Bancos fecham no feriado da Consciência Negra; veja o que funciona",
+   "resumo": "Agências não terão atendimento presencial em 20 de novembro; Pix e canais digitais seguem disponíveis, enquanto operações como TED e cheque ficam para o próximo dia útil The post Bancos fecham no feriado da Consciência Negra; veja o que funciona appeared...",
+   "link": "https://www.infomoney.com.br/consumo/bancos-fecham-no-feriado-da-consciencia-negra-veja-o-que-funciona/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:38:59-03:00"
+   "data": "2026-11-17T17:36:39-03:00"
   },
   {
-   "titulo": "Ibovespa cai cerca de 2% e fica abaixo dos 170 mil pontos: o que explica forte queda?",
-   "resumo": "Cenário fiscal e aversão a risco também nos EUA implicam em queda dos ativos nacionais The post Ibovespa cai cerca de 2% e fica abaixo dos 170 mil pontos: o que explica forte queda? appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/ibovespa-cai-15-e-fica-abaixo-dos-170-mil-pontos-o-que-explica-queda-nesta-2a/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-16T18:38:54-03:00"
-  },
-  {
-   "titulo": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-   "resumo": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-11-16T18:31:44-03:00"
-  },
-  {
-   "titulo": "Moedas Globais: força do dólar segue e DXY sobe a maior nível desde Dia da Libertação",
-   "resumo": "A divisa norte-americana também apresentou alta ante o dólar canadense com as negociações comerciais ainda empacadas entre os dois países The post Moedas Globais: força do dólar segue e DXY sobe a maior nível desde Dia da Libertação appeared first on...",
-   "link": "https://www.infomoney.com.br/mercados/moedas-globais-forca-do-dolar-segue-e-dxy-sobe-a-maior-nivel-desde-dia-da-libertacao/",
-   "fonte": "InfoMoney",
-   "categoria": "mercado",
-   "data": "2026-11-16T18:30:21-03:00"
-  },
-  {
-   "titulo": "Ibovespa fecha no vermelho com incertezas fiscais e queda do petróleo",
-   "resumo": "A aversão ao risco dominou os mercados nesta segunda-feira (16), e o Ibovespa (IBOV) não escapou do mau humor dos investidores. O principal índice da B3 passou todo o pregão no vermelho e recuou abaixo dos 169 mil pontos. A bolsa brasileira foi pressionada...",
-   "link": "https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-com-incertezas-fiscais-e-queda-do-petroleo-davs/",
+   "titulo": "Petróleo fecha em alta com ataques crescentes a embarcações no Estreito de Ormuz",
+   "resumo": "O petróleo fechou em alta nesta terça-feira, 17, recuperando parte da queda recente, enquanto os riscos ao transporte marítimo no Oriente Médio impulsionam o frete e elevam o preço da commodity, em meio às expectativas de retomada de um excedente global....",
+   "link": "https://www.moneytimes.com.br/petroleo-fecha-em-alta-com-ataques-crescentes-a-embarcacoes-no-estreito-de-ormuz/",
    "fonte": "Money Times",
    "categoria": "mercado",
-   "data": "2026-11-16T18:29:26-03:00"
+   "data": "2026-11-17T17:35:38-03:00"
   },
   {
-   "titulo": "XP tem lucro líquido ajustado de R$ 1,38 bi no 3T26 e dará agrado bilionário para acionista",
-   "resumo": "A XP Inc. (XP) teve lucro líquido ajustado de R$1,38 bilhão no terceiro trimestre, alta de 4% em relação ao mesmo período do ano passado, de acordo com o balanço publicado nesta segunda-feira, que mostrou expansão de receita e na base de clientes. O resultado...",
-   "link": "https://www.moneytimes.com.br/xp-tem-lucro-liquido-ajustado-de-r-138-bi-no-3t26-e-dara-agrado-bilionario-para-acionista/",
+   "titulo": "Nem a IA salvará as contas dos EUA? Ex-Fed vê trajetória fiscal insustentável",
+   "resumo": "Nem mesmo o avanço da inteligência artificial (IA) e seus possíveis efeitos positivos sobre a economia serão suficientes para resolver o problema fiscal dos Estados Unidos. Essa é a avaliação de Richard Clarida, ex-vice-presidente do Federal Reserve e atual...",
+   "link": "https://www.moneytimes.com.br/nem-a-ia-salvara-as-contas-dos-eua-ex-fed-ve-trajetoria-fiscal-insustentavel-jcav/",
    "fonte": "Money Times",
    "categoria": "mercado",
-   "data": "2026-11-16T18:28:34-03:00"
+   "data": "2026-11-17T17:33:44-03:00"
   },
   {
-   "titulo": "Vale (VALE3): ações caem 4% com minério na mínima em 16 meses",
-   "resumo": "A referência de minério de ferro de dezembro na Bolsa de Cingapura perdia 2,71%, a US$88 por tonelada, atingindo o nível mais baixo desde setembro de 2024 The post Vale (VALE3): ações caem 4% com minério na mínima em 16 meses appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/vale-vale3-acoes-caem-mais-de-3-com-minerio-na-minima-em-16-meses/",
+   "titulo": "Nikolas Ferreira ameaça sair do PL se partido apoiar reeleição de Motta na Câmara",
+   "resumo": "O deputado federal Nikolas Ferreira (PL-MG) ameaçou sair do Partido Liberal caso a legenda declare apoio à reeleição de Hugo Motta (Republicanos-PB) para a presidência da Câmara dos Deputados. A declaração foi feita em entrevista à rádio mineira 98 News, na...",
+   "link": "https://www.moneytimes.com.br/nikolas-ferreira-ameaca-sair-do-pl-se-partido-apoiar-reeleicao-de-motta-na-camara/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-17T17:32:49-03:00"
+  },
+  {
+   "titulo": "Ouro fecha em leve alta em meio às expectativas de juros dos EUA e ao dólar forte",
+   "resumo": "O ouro encerrou a sessão desta terça-feira (17) em leve alta, mas ainda abaixo dos US$ 3.900. A valorização do metal foi limitada diante das expectativas de aperto monetário nos Estados Unidos e em meio à alta do dólar. Na Comex, divisão de metais da bolsa de...",
+   "link": "https://www.moneytimes.com.br/ouro-fecha-em-alta-leve-limitada-pelas-expectativas-de-juros-dos-eua-e-dolar-forte-davs/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-17T17:25:36-03:00"
+  },
+  {
+   "titulo": "B3 anuncia nova metodologia com a inclusão de BDRs na Bolsa a partir de maio",
+   "resumo": "Adição será iniciada em maio de 2027; quatro empresas comprem os critérios The post B3 anuncia nova metodologia com a inclusão de BDRs na Bolsa a partir de maio appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/b3-anuncia-nova-metodologia-com-a-inclusao-de-bdrs-na-bolsa-a-partir-de-maio/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:26:12-03:00"
+   "data": "2026-11-17T17:14:38-03:00"
   },
   {
-   "titulo": "Ibovespa desaba quase 2% e dólar sobe 2,15%, com preocupações fiscais",
-   "resumo": "Índices nos EUA terminam negativos com Nvidia em foco, que solta balanço amanhã The post Ibovespa desaba quase 2% e dólar sobe 2,15%, com preocupações fiscais appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16112026/",
+   "titulo": "Como desbloquear uma pessoa no TikTok",
+   "resumo": "Se você desbloquear alguém no TikTok, a pessoa voltará a ter acesso ao seu perfil, enviar mensagens e interagir com seus vídeos Como desbloquear uma pessoa no TikTok",
+   "link": "https://tecnoblog.net/responde/como-desbloquear-uma-pessoa-no-tiktok/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T17:06:31-03:00"
+  },
+  {
+   "titulo": "Sedan elétrico chinês tem preços no chão e sai mais barato que Virtus",
+   "resumo": "Rodar com um moderno sedan elétrico pagando o mesmo preço de um intermediário a combustão já não é mais um simples sonho. Isso porque, neste mês de novembro, o GAC Aion ES está sendo oferecido por R$ 146.99 0 na modalidade de venda direta, valor que o coloca...",
+   "link": "https://canaltech.com.br/carros/sedan-eletrico-chines-tem-precos-no-chao-e-sai-mais-barato-que-virtus/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T17:03:00-03:00"
+  },
+  {
+   "titulo": "A Odisseia, de Christopher Nolan, chega às lojas digitais com 90 minutos de extras",
+   "resumo": "Um dos filmes mais comentados e lucrativos do ano, A Odisseia finalmente chega às plataformas digitais nesta terça-feira (17), quatro meses depois de levar multidões às salas de cinema com uma produção épica. O melhor de tudo é que o longa chega ao formato...",
+   "link": "https://canaltech.com.br/entretenimento/a-odisseia-de-christopher-nolan-chega-as-lojas-digitais-com-90-minutos-de-extras/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T17:02:00-03:00"
+  },
+  {
+   "titulo": "Ibovespa vai mudar: índice passará por segunda grande alteração em quase 60 anos",
+   "resumo": "O Ibovespa passará por sua segunda grande mudança desde a criação do índice, em 1968, com a inclusão de BDRs de empresas brasileiras listadas no exterior. A iniciativa da B3 busca incorporar ao principal indicador da bolsa companhias que têm operações...",
+   "link": "https://www.moneytimes.com.br/ibovespa-vai-mudar-indice-passara-por-segundo-grande-aletarcao-em-quase-60-anos-rnda/",
+   "fonte": "Money Times",
+   "categoria": "mercado",
+   "data": "2026-11-17T17:01:28-03:00"
+  },
+  {
+   "titulo": "Tesouro Direto hoje: prefixados recuam após disparada e IPCA+ tem movimento misto",
+   "resumo": "Senado vota destaques do pacote fiscal nesta terça-feira The post Tesouro Direto hoje: prefixados recuam após disparada e IPCA+ tem movimento misto appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/onde-investir/tesouro-direto-hoje-prefixados-recuam-apos-disparada-e-ipca-tem-movimento-misto/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:25:34-03:00"
+   "data": "2026-11-17T16:54:47-03:00"
   },
   {
-   "titulo": "Petróleo fecha em queda de 3% com aumento da oferta no Oriente Médio",
-   "resumo": "Especialistas avaliam que o mercado global caminha para um superávit crescente no próximo ano, apesar da persistência dos riscos geopolíticos no Oriente Médio The post Petróleo fecha em queda de 3% com aumento da oferta no Oriente Médio appeared first on...",
-   "link": "https://www.infomoney.com.br/mercados/petroleo-fecha-em-queda-de-3-com-aumento-da-oferta-no-oriente-medio/",
+   "titulo": "Vazamento pode ter revelado tela do iPhone comemorativo",
+   "resumo": "Vídeo atribui vidro curvado nos quatro lados e bordas quase invisíveis ao possível modelo especial de 20 anos. Vazamento pode ter revelado tela do iPhone comemorativo",
+   "link": "https://tecnoblog.net/noticias/vazamento-pode-ter-revelado-tela-de-iphone-comemorativo/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T16:50:39-03:00"
+  },
+  {
+   "titulo": "Deputado do PL apresenta “lei Richthofen” contra o lucro com histórias de crimes",
+   "resumo": "Projeto mira minar produções visuais sobre casos emblemáticos no Brasil, mas pode afetar condenados pelo 8 de janeiro The post Deputado do PL apresenta “lei Richthofen” contra o lucro com histórias de crimes appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/politica/deputado-do-pl-apresenta-lei-richthofen-contra-o-lucro-com-historias-de-crimes/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:17:22-03:00"
+   "data": "2026-11-17T16:47:36-03:00"
   },
   {
-   "titulo": "Se governo fizer série de pequenas medidas, juros caem amanhã, diz Mansueto Almeida",
-   "resumo": "A solução para parte da turbulência que vem castigando os ativos brasileiros pode ser mais simples do que parece. Na avaliação de Mansueto Almeida, economista-chefe do BTG Pactual e ex-secretário do Tesouro Nacional, uma série de medidas pontuais para conter...",
-   "link": "https://www.moneytimes.com.br/se-governo-fizer-serie-de-pequenas-medidas-juros-caem-amanha-diz-mansueto-almeida/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-16T18:16:53-03:00"
-  },
-  {
-   "titulo": "COP31: os mapas do caminho do Brasil trazem novidades ou repetem compromissos climáticos?",
-   "resumo": "O Brasil chegou à COP31, realizada em Antalya, na Turquia, com uma das principais iniciativas de sua Presidência da conferência climática de Belém, em 2025: os chamados mapas do caminho. A proposta pretende orientar os países na transição para longe dos...",
-   "link": "https://www.moneytimes.com.br/cop-31-os-mapas-do-caminho-do-brasil-trazem-novidades-ou-repetem-compromissos-climaticos-pads/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-16T18:12:00-03:00"
-  },
-  {
-   "titulo": "Onde roda GTA 6? Confira os requisitos para console",
-   "resumo": "O GTA 6 está chegando aos consoles de nova geração, como PS5 e Xbox Series X/S, mas sua versão para PC deve estrear apenas em algum momento de 2027 Onde roda GTA 6? Confira os requisitos para console",
-   "link": "https://tecnoblog.net/responde/onde-roda-gta-6-confira-os-requisitos-para-pc-e-consoles/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T18:11:50-03:00"
-  },
-  {
-   "titulo": "XP anuncia dividendos de R$ 1,3 bilhão e aprova nova recompra de ações",
-   "resumo": "Companhia pagará US$ 0,46 por ação em dividendos, cancelará 11,7 milhões de ações em tesouraria e poderá recomprar até R$ 1,5 bilhão em papéis The post XP anuncia dividendos de R$ 1,3 bilhão e aprova nova recompra de ações appeared first on InfoMoney .",
-   "link": "https://www.infomoney.com.br/mercados/xp-anuncia-dividendos-de-r-13-bilhao-e-aprova-nova-recompra-de-acoes/",
+   "titulo": "Como IPO da Anthropic pode gerar bilhões para Ashton Kutcher e empresário de Madonna",
+   "resumo": "Aposta feita pela Sound Ventures em 2023 pode multiplicar por 16 o capital investido na gigante da IA The post Como IPO da Anthropic pode gerar bilhões para Ashton Kutcher e empresário de Madonna appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/mercados/empresario-de-madonna-ashton-kutcher-ipo-anthropic/",
    "fonte": "InfoMoney",
    "categoria": "mercado",
-   "data": "2026-11-16T18:11:11-03:00"
+   "data": "2026-11-17T16:45:00-03:00"
   },
   {
-   "titulo": "TV LG QNED 65″ com Mini LED baixa 32% em até 12x no mês da Black 2026",
-   "resumo": "Linha QNED70 é lançamento da LG para 2026 com destaques para a iluminação por MiniLED e cores dinâmicas. Economize 32% na oferta do Magalu no AliExpress TV LG QNED 65″ com Mini LED baixa 32% em até 12x no mês da Black 2026",
-   "link": "https://tecnoblog.net/achados/tv-lg-qned-65-com-mini-led-baixa-32-em-ate-12x-no-mes-da-black-2026/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T18:10:17-03:00"
+   "titulo": "Lula sugeriu encontro entre Trump, Xi e Putin para discutir Ucrânia, diz Canadá",
+   "resumo": "Primeiro-ministro Mark Carney atribuiu ao brasileiro a ideia da reunião inédita entre líderes dos EUA, China e Rússia, marcada para quinta-feira (19) The post Lula sugeriu encontro entre Trump, Xi e Putin para discutir Ucrânia, diz Canadá appeared first on...",
+   "link": "https://www.infomoney.com.br/mundo/lula-sugeriu-encontro-entre-trump-xi-e-putin-para-discutir-ucrania-diz-canada/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-17T16:40:16-03:00"
   },
   {
-   "titulo": "Astro de Lanternas vai virar John Wick natalino em novo filme brutal da Netflix",
-   "resumo": "Após estrelar a série Lanternas , na HBO, o ator Aaron Pierre já tem um novo projeto à vista: o filme Fairytale in New York (Conto de Fadas em Nova York, em tradução livre). Produzido pela Netflix, o longa promete conquistar os fãs da franquia John Wick com...",
-   "link": "https://canaltech.com.br/entretenimento/astro-de-lanternas-vai-virar-john-wick-natalino-em-novo-filme-brutal-da-netflix/",
+   "titulo": "GTA 6 é o jogo mais indicado no The Game Awards 2026; veja a lista",
+   "resumo": "A organização do The Game Awards divulgou a lista de indicados para a edição de 2026 da premiação nesta terça-feira (17). GTA 6 foi o jogo com maior destaque no evento , concorrendo em oito categorias do TGA. O jogo da Rockstar foi indicado a Jogo do Ano ,...",
+   "link": "https://canaltech.com.br/games/gta-6-e-o-jogo-mais-indicado-no-the-game-awards-2026-veja-a-lista/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-11-16T18:03:00-03:00"
+   "data": "2026-11-17T16:36:58-03:00"
   },
   {
-   "titulo": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-   "resumo": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and...",
-   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "titulo": "Serviços da Apple ficam inacessíveis nesta terça-feira",
+   "resumo": "Usuários em várias partes do mundo têm dificuldades para entrar em serviços como iCloud, Apple Pay e App Store nesta terça-feira (17/11). Serviços da Apple ficam inacessíveis nesta terça-feira",
+   "link": "https://tecnoblog.net/noticias/alguns-servicos-da-apple-ficam-inacessiveis-nesta-terca-feira/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T16:35:49-03:00"
+  },
+  {
+   "titulo": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+   "resumo": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their...",
+   "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T16:34:20-03:00"
+  },
+  {
+   "titulo": "Novo relógio de titânio da Huawei vai ter bateria de 5 dias",
+   "resumo": "A Huawei prepara um novo relógio inteligente com corpo de titânio e bateria para cerca de cinco dias de uso. Segundo um novo vazamento, o suposto Huawei Watch Air também deve apostar em um design bem fino, com apenas 6,9 mm de espessura. As primeiras...",
+   "link": "https://canaltech.com.br/smartwatch/novo-relogio-de-titanio-da-huawei-vai-ter-bateria-de-5-dias/",
+   "fonte": "Canaltech",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T16:26:55-03:00"
+  },
+  {
+   "titulo": "Rua no Centro do Rio é eleita a 11ª ‘mais legal’ do mundo em 2026; veja ranking",
+   "resumo": "No ano passado, a Rua do Senado ficou no topo das mais legais do mundo em lista de revista especializada The post Rua no Centro do Rio é eleita a 11ª ‘mais legal’ do mundo em 2026; veja ranking appeared first on InfoMoney .",
+   "link": "https://www.infomoney.com.br/brasil/rua-no-centro-do-rio-e-eleita-a-11a-mais-legal-do-mundo-em-2026-veja-ranking/",
+   "fonte": "InfoMoney",
+   "categoria": "mercado",
+   "data": "2026-11-17T16:24:43-03:00"
+  },
+  {
+   "titulo": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+   "resumo": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+   "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-16T17:59:44-03:00"
+   "data": "2026-11-17T16:24:07-03:00"
   },
   {
-   "titulo": "‘Estamos nos afogando em um copo d’água’, diz André Esteves, do BTG",
-   "resumo": "Apesar da encrenca que a situação fiscal traz para o Brasil, o cenário não é tão difícil de resolver. Pelo menos na visão de André Esteves, chairman e sócio sênior do BTG Pactual (BPAC11). Em evento do Agro Fórum, nesta segunda-feira (16), o banqueiro...",
-   "link": "https://www.moneytimes.com.br/estamos-nos-afogando-em-um-copo-dagua-diz-andre-esteves-do-btg-rnda/",
+   "titulo": "Pior margem em 10 anos, mas sem crise de caixa: Itaú BBA vê usinas pressionadas em 2026/27",
+   "resumo": "As usinas de açúcar e etanol devem enfrentar em 2026/27 o ambiente mais desafiador dos últimos dez anos em termos de rentabilidade. Ainda assim, o setor deve atravessar o ciclo sem uma crise de liquidez, sustentado por níveis de caixa considerados adequados...",
+   "link": "https://www.moneytimes.com.br/pior-margem-em-10-anos-mas-sem-crise-de-caixa-itau-bba-ve-usinas-pressionadas-em-2026-27-pads/",
    "fonte": "Money Times",
    "categoria": "mercado",
-   "data": "2026-11-16T17:50:07-03:00"
+   "data": "2026-11-17T16:19:35-03:00"
   },
   {
-   "titulo": "Black November: Huawei Watch Fit 5 Pro tem oferta em até 10x sem juros",
-   "resumo": "Huawei Watch Fit 5 Pro tem caixa com liga de titânio, GPS integrado e resistência para natação; aproveite o desconto de 45% pelo relógio inteligente Black November: Huawei Watch Fit 5 Pro tem oferta em até 10x sem juros",
-   "link": "https://tecnoblog.net/achados/black-november-huawei-watch-fit-5-pro-tem-oferta-em-ate-10x-sem-juros/",
+   "titulo": "Melhor celular Xiaomi em 2026: qual modelo comprar?",
+   "resumo": "A Xiaomi vende as linhas de celulares Redmi, Poco e Xiaomi no Brasil; descubra, neste guia do Tecnoblog, qual smartphone da marca é o ideal para o seu dia a dia Melhor celular Xiaomi em 2026: qual modelo comprar?",
+   "link": "https://tecnoblog.net/guias/melhor-celular-xiaomi/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-16T17:42:18-03:00"
+   "data": "2026-11-17T16:17:11-03:00"
   },
   {
-   "titulo": "Petróleo fecha em queda de mais de 3% com aumento da oferta no Oriente Médio",
-   "resumo": "O petróleo fechou em baixa de mais de 3% nesta segunda-feira (16), em meio à recuperação dos embarques da commodity via Estreito de Ormuz em ritmo mais rápido do que o esperado pelo mercado. O movimento leva os investidores a precificarem um aumento da oferta...",
-   "link": "https://www.moneytimes.com.br/petroleo-fecha-em-queda-de-mais-de-3-com-aumento-da-oferta-no-oriente-medio-davs/",
-   "fonte": "Money Times",
-   "categoria": "mercado",
-   "data": "2026-11-16T17:32:51-03:00"
-  },
-  {
-   "titulo": "Truque da Nova Zelândia em GTA 6 pode render banimento na Twitch",
-   "resumo": "A Twitch pode banir streamers que tentarem \"viajar\" para a Nova Zelândia para transmitir gameplay de GTA 6 antes do horário local. A informação parte do criador de conteúdo alemão Rohat, que afirmou ter sido alertado por um gerente de parcerias da plataforma...",
-   "link": "https://canaltech.com.br/games/truque-da-nova-zelandia-em-gta-6-pode-render-banimento-na-twitch/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T17:30:08-03:00"
-  },
-  {
-   "titulo": "Nubank libera período de teste grátis do NuCel",
-   "resumo": "Clientes podem testar a operadora do Nubank com número provisório e sem custo. Oferta inclui até 5 GB de internet e WhatsApp ilimitado. Nubank libera período de teste grátis do NuCel",
-   "link": "https://tecnoblog.net/noticias/nubank-libera-periodo-de-teste-gratis-do-nucel/",
+   "titulo": "Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
+   "resumo": "DGX Spark HPC Developer Kit conecta quatro unidades do DGX Spark e é voltado a aplicações de IA e computação científica. Nvidia apresenta supercomputador de mesa com 512 GB de RAM",
+   "link": "https://tecnoblog.net/noticias/nvidia-apresenta-supercomputador-de-mesa-com-512-gb-de-memoria-ram/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-16T17:27:00-03:00"
+   "data": "2026-11-17T16:08:58-03:00"
   },
   {
-   "titulo": "Brasileiros perderam o preconceito com tecnologia chinesa? Veja pesquisa",
-   "resumo": "A tecnologia chinesa parece estar conquistando cada vez mais a confiança dos consumidores brasileiros. Uma pesquisa realizada pela Ipsos a pedido da Jovi revelou que 75% dos entrevistados têm uma percepção positiva sobre a tecnologia produzida na China . O...",
-   "link": "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/",
+   "titulo": "Pela primeira vez na série, GTA 6 não quer que você saia tocando o terror no mapa",
+   "resumo": "O codiretor de estúdio da Rockstar North, Rob Nelson, afirmou que GTA 6 tentará unir o caos da franquia com a empatia e as recompensas para os jogadores que forem mais comportados em Leonida. A declaração faz parte de uma entrevista do diretor ao jornal The...",
+   "link": "https://canaltech.com.br/games/pela-primeira-vez-na-serie-gta-6-nao-quer-que-voce-saia-tocando-o-terror-no-mapa/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-11-16T17:10:33-03:00"
+   "data": "2026-11-17T15:39:00-03:00"
   },
   {
-   "titulo": "Atrasada na festa, Apple leva podcasts em vídeo para a TV para tentar alcançar YouTube e Spotify",
-   "resumo": "O aplicativo Apple TV vai ganhar uma seção de podcasts em vídeo no catálogo. A novidade foi liberada em testes a partir desta segunda-feira (16) na versão Beta e deve chegar ao público nos próximos meses. A Apple confirmou ao jornal The New York Times que os...",
-   "link": "https://canaltech.com.br/apps/atrasada-na-festa-apple-leva-podcasts-em-video-para-a-tv-para-tentar-alcancar-youtube-e-spotify/",
+   "titulo": "Maintainers don’t need more AI bug reports. They need fixes.",
+   "resumo": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t...",
+   "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+   "fonte": "GitHub Blog",
+   "categoria": "dev",
+   "data": "2026-11-17T15:29:29-03:00"
+  },
+  {
+   "titulo": "Óculos inteligentes da Samsung podem te ajudar a encontrar carteira e chaves perdidas",
+   "resumo": "A Samsung registrou uma patente de um recurso para óculos inteligentes que pode ajudar o usuário a encontrar carteira, chaves e outros objetos perdidos. A tecnologia usaria a câmera e os microfones do acessório para lembrar onde cada item foi visto pela...",
+   "link": "https://canaltech.com.br/produtos/oculos-inteligentes-da-samsung-podem-te-ajudar-a-encontrar-carteira-e-chaves-perdidas/",
    "fonte": "Canaltech",
    "categoria": "tecnologia",
-   "data": "2026-11-16T17:10:02-03:00"
+   "data": "2026-11-17T15:26:22-03:00"
   },
   {
-   "titulo": "Moto G77 (256 GB) registra desconto agressivo de 40% na Black November",
-   "resumo": "Moto G77 conta com tela AMOLED de 5.000 nits, câmera principal de 108 MP e bateria prometida para até 37 horas de uso. Oferta com pagamento no Pix pelo Mercado Livre Moto G77 (256 GB) registra desconto agressivo de 40% na Black November",
-   "link": "https://tecnoblog.net/achados/moto-g77-256-gb-registra-desconto-agressivo-de-40-na-black-november/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T17:05:33-03:00"
-  },
-  {
-   "titulo": "EUA impõem restrições ao Brasil para compra de chips de IA",
-   "resumo": "Governo Trump incluiu Brasil na lista de países que precisam de licença para importar chips avançados de data centers. Medida também afeta Singapura, Malásia, Tailândia e Indonésia. EUA impõem restrições ao Brasil para compra de chips de IA",
-   "link": "https://tecnoblog.net/noticias/eua-impoem-restricoes-ao-brasil-para-compra-de-chips-de-ia/",
-   "fonte": "Tecnoblog",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T17:02:12-03:00"
-  },
-  {
-   "titulo": "Mistura de Game of Thrones com Reacher, clássico cult com ação brutal domina o streaming",
-   "resumo": "Para quem sente saudades de Game of Thrones , com suas histórias de vingança e violência, o filme O Homem do Norte , do diretor Robert Eggers (Nosferatu), que voltou a chamar a atenção no streaming recentemente, pode ser uma boa opção de play para o fim de...",
-   "link": "https://canaltech.com.br/entretenimento/mistura-de-game-of-thrones-com-reacher-classico-cult-com-acao-brutal-domina-o-streaming/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T17:02:00-03:00"
-  },
-  {
-   "titulo": "Ram derruba preços e Rampage sai mais em conta que Toyota Hilux",
-   "resumo": "Quem procura uma picape para renovar a garagem não pode perder as ofertas da Black RAM . Em novembro, a Rampage pode ser adquirida com mais de R$ 40 mil de desconto , e a picape média Dakota pode sair no precinho — e ainda com a vantagem de condições bem...",
-   "link": "https://canaltech.com.br/carros/ram-derruba-precos-e-rampage-sai-mais-em-conta-que-toyota-hilux/",
-   "fonte": "Canaltech",
-   "categoria": "tecnologia",
-   "data": "2026-11-16T17:00:00-03:00"
-  },
-  {
-   "titulo": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-   "resumo": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "titulo": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "resumo": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-16T16:57:13-03:00"
+   "data": "2026-11-17T15:21:24-03:00"
   },
   {
-   "titulo": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-   "resumo": "Article URL: https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda Comments URL: https://news.ycombinator.com/item?id=50521045 Points: 549 # Comments: 419",
-   "link": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-   "fonte": "Hacker News",
+   "titulo": "Building the Agent Host Protocol for sessions that continue across devices",
+   "resumo": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+   "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+   "fonte": "GitHub Blog",
    "categoria": "dev",
-   "data": "2026-11-16T15:31:30-03:00"
+   "data": "2026-11-17T15:20:40-03:00"
   },
   {
-   "titulo": "Microsoft explica “apagão” que derrubou o Outlook (não foi hacker)",
-   "resumo": "Microsoft informou que o \"apagão\" recente no Outlook e em outros serviços foi causado por uma falha em uma atualização de software aplicada em julho. Microsoft explica “apagão” que derrubou o Outlook (não foi hacker)",
-   "link": "https://tecnoblog.net/noticias/microsoft-explica-apagao-que-derrubou-o-outlook-nao-foi-hacker/",
+   "titulo": "Hacker que vazou GTA 6 usou Fire TV Stick para invadir a Rockstar",
+   "resumo": "Integrante do grupo Lapsus$ confessou ataque de 2022 à Rockstar Games. Sentença será definida em 23 de novembro. Hacker que vazou GTA 6 usou Fire TV Stick para invadir a Rockstar",
+   "link": "https://tecnoblog.net/noticias/hacker-que-vazou-gta-6-usou-fire-tv-stick-para-invadir-a-rockstar/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-16T15:20:57-03:00"
+   "data": "2026-11-17T15:08:33-03:00"
   },
   {
-   "titulo": "Software is breaking down at a systemic level",
-   "resumo": "Article URL: https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/ Comments URL: https://news.ycombinator.com/item?id=50520866 Points: 272 # Comments: 166",
-   "link": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "titulo": "Tor releases emergency update amid ongoing DDoS attack",
+   "resumo": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-11-17T15:04:15-03:00"
+  },
+  {
+   "titulo": "Apple Services Down",
+   "resumo": "Article URL: https://developer.apple.com/system-status/ Comments URL: https://news.ycombinator.com/item?id=50535238 Points: 432 # Comments: 239",
+   "link": "https://developer.apple.com/system-status/",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-11-16T15:17:17-03:00"
+   "data": "2026-11-17T14:47:14-03:00"
   },
   {
-   "titulo": "Apagão da Microsoft leva à contaminação por gás cloro; entenda",
-   "resumo": "Falha no dosador elevou o nível de cloro na piscina de um hotel na Alemanha. Alerta enviado por e-mail não chegou aos funcionários durante a pane do Outlook. Apagão da Microsoft leva à contaminação por gás cloro; entenda",
-   "link": "https://tecnoblog.net/noticias/apagao-da-microsoft-leva-a-contaminacao-por-gas-cloro-entenda/",
+   "titulo": "GPT‑6.2 Astra and Sol",
+   "resumo": "Article URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ Comments URL: https://news.ycombinator.com/item?id=50535230 Points: 724 # Comments: 444",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "fonte": "Hacker News",
+   "categoria": "dev",
+   "data": "2026-11-17T14:46:43-03:00"
+  },
+  {
+   "titulo": "Meta lança Achados, app para comprar e vender itens no Brasil",
+   "resumo": "Aplicativo reúne anúncios do Facebook Marketplace, Grupos e Instagram. Novidade estreia apenas no Android. Meta lança Achados, app para comprar e vender itens no Brasil",
+   "link": "https://tecnoblog.net/noticias/meta-lanca-achados-app-para-comprar-e-vender-itens-no-brasil/",
    "fonte": "Tecnoblog",
    "categoria": "tecnologia",
-   "data": "2026-11-16T14:49:24-03:00"
+   "data": "2026-11-17T14:44:06-03:00"
   },
   {
-   "titulo": "Grazing sheep in fields with solar arrays",
-   "resumo": "Article URL: https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains Comments URL: https://news.ycombinator.com/item?id=50520182 Points: 158 # Comments: 127",
-   "link": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-   "fonte": "Hacker News",
-   "categoria": "dev",
-   "data": "2026-11-16T14:27:46-03:00"
+   "titulo": "Como bloquear no TikTok: passo a passo do app ou PC",
+   "resumo": "Ao bloquear alguém no TikTok, a pessoa não poderá encontrar seu perfil nas buscas, enviar mensagens ou interagir com suas publicações Como bloquear no TikTok: passo a passo do app ou PC",
+   "link": "https://tecnoblog.net/responde/como-bloquear-no-tiktok-passo-a-passo-do-app-ou-pc/",
+   "fonte": "Tecnoblog",
+   "categoria": "tecnologia",
+   "data": "2026-11-17T14:28:06-03:00"
   },
   {
-   "titulo": "Jiff 1.0: A datetime library for Rust",
-   "resumo": "Article URL: https://burntsushi.net/jiff/ Comments URL: https://news.ycombinator.com/item?id=50519744 Points: 244 # Comments: 52",
-   "link": "https://burntsushi.net/jiff/",
-   "fonte": "Hacker News",
-   "categoria": "dev",
-   "data": "2026-11-16T13:53:39-03:00"
-  },
-  {
-   "titulo": "Microsoft says months-old bug caused global Microsoft 365 outage",
-   "resumo": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+   "titulo": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+   "resumo": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+   "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-16T13:43:24-03:00"
+   "data": "2026-11-17T13:00:00-03:00"
   },
   {
-   "titulo": "Frame – 31.5\" color ePaper display",
-   "resumo": "Article URL: https://trmnl.com/blog/introducing-frame Comments URL: https://news.ycombinator.com/item?id=50519354 Points: 208 # Comments: 128",
-   "link": "https://trmnl.com/blog/introducing-frame",
+   "titulo": "NSA Internal Network Down",
+   "resumo": "Article URL: https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/ Comments URL: https://news.ycombinator.com/item?id=50533089 Points: 318 # Comments: 186",
+   "link": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
    "fonte": "Hacker News",
    "categoria": "dev",
-   "data": "2026-11-16T13:23:22-03:00"
+   "data": "2026-11-17T12:50:48-03:00"
   },
   {
-   "titulo": "Fandango says hackers stole payment card details from checkout pages",
-   "resumo": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+   "titulo": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "resumo": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw...",
+   "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T12:17:36-03:00"
+  },
+  {
+   "titulo": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+   "resumo": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the...",
+   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T12:17:28-03:00"
+  },
+  {
+   "titulo": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+   "resumo": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
    "fonte": "BleepingComputer",
    "categoria": "seguranca",
-   "data": "2026-11-16T12:44:21-03:00"
+   "data": "2026-11-17T12:01:11-03:00"
   },
   {
-   "titulo": "Nvidia was in trouble before the Jensen Huang mess",
-   "resumo": "Article URL: https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/ Comments URL: https://news.ycombinator.com/item?id=50518567 Points: 206 # Comments: 202",
-   "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "fonte": "Hacker News",
+   "titulo": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+   "resumo": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used...",
+   "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T09:25:06-03:00"
+  },
+  {
+   "titulo": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "resumo": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who...",
+   "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T09:14:36-03:00"
+  },
+  {
+   "titulo": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+   "resumo": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity...",
+   "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T08:20:18-03:00"
+  },
+  {
+   "titulo": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+   "resumo": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+   "fonte": "BleepingComputer",
+   "categoria": "seguranca",
+   "data": "2026-11-17T08:19:51-03:00"
+  },
+  {
+   "titulo": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+   "resumo": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased...",
+   "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T08:07:31-03:00"
+  },
+  {
+   "titulo": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+   "resumo": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the...",
+   "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+   "fonte": "The Hacker News",
+   "categoria": "seguranca",
+   "data": "2026-11-17T04:12:13-03:00"
+  },
+  {
+   "titulo": "Spring Office Hours Podcast: S5E30 - What’s New in IntelliJ IDEA and AIR with Anton Arhipov",
+   "resumo": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. This week, Dan and DaShaun are joined by Anton Arhipov from JetBrains to talk about what’s new in IntelliJ IDEA and AIR. They look at the latest features for Java and Spring...",
+   "link": "https://spring.io/blog/2026/11/16/spring-office-hours-podcast-S5E30",
+   "fonte": "Spring Blog",
    "categoria": "dev",
-   "data": "2026-11-16T12:24:09-03:00"
-  },
-  {
-   "titulo": "7 Tips For Complying with CJIS Password and MFA Requirements",
-   "resumo": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block...",
-   "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-   "fonte": "BleepingComputer",
-   "categoria": "seguranca",
-   "data": "2026-11-16T12:01:11-03:00"
-  },
-  {
-   "titulo": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-   "resumo": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage...",
-   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T11:00:00-03:00"
-  },
-  {
-   "titulo": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "resumo": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making...",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T10:27:20-03:00"
-  },
-  {
-   "titulo": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-   "resumo": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest...",
-   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T09:34:21-03:00"
-  },
-  {
-   "titulo": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-   "resumo": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory...",
-   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T09:33:18-03:00"
-  },
-  {
-   "titulo": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-   "resumo": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a...",
-   "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T06:32:57-03:00"
-  },
-  {
-   "titulo": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-   "resumo": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team...",
-   "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T04:34:21-03:00"
-  },
-  {
-   "titulo": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-   "resumo": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it...",
-   "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-16T03:53:34-03:00"
-  },
-  {
-   "titulo": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-   "resumo": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and...",
-   "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-   "fonte": "The Hacker News",
-   "categoria": "seguranca",
-   "data": "2026-11-15T08:27:31-03:00"
+   "data": "2026-11-15T21:00:00-03:00"
   }
  ],
- "fontes_com_erro": [
-  {
-   "fonte": "CISA",
-   "motivo": "ValueError"
-  }
- ]
+ "fontes_com_erro": []
 }
